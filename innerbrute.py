@@ -73,21 +73,20 @@ for client_version in client_versions:
         headers = host["headers"].copy()
 
         for i in range(0, 4):
-            try:
-                while true:
+            while True:
+                try:
                     response = requests.post("https://" + host["domain"] + "/youtubei/v1/player?key=" + host["key"], data=data, headers=host["headers"], timeout=5)
-
-
-                    if response.status_code != 400 and response.status_code != 404 and response.status_code != 502:
-                        print("ClientId: " + str(client_name_id) + " ClientVersion: " + str(client_version) + " @ " + host["domain"] +"Response Code: " + str(response.status_code))
-                        sys.exit(111)
-                    if response.status_code != 502:
+    
+                    if response.status_code == 400 or response.status_code == 404:
                         break
-                    else:
+                    else if response.status_code == 502:
                         print("code 502")
                         continue
-            except Exception as ex:
-                if i == 3:
-                    print("request failed: "+"ClientId: " + str(client_name_id) + " ClientVersion: " + str(client_version) + " @ " + host["domain"])
-                time.sleep(0.5)
-                print(ex)
+                    else:
+                        print("ClientId: " + str(client_name_id) + " ClientVersion: " + str(client_version) + " @ " + host["domain"] +"Response Code: " + str(response.status_code))
+                        sys.exit(111)
+                except Exception as ex:
+                    print("request failed")
+                    time.sleep(0.5)
+                    print(ex)
+                    continue
