@@ -78,11 +78,8 @@ for client_version in client_versions:
                     response = requests.post("https://" + host["domain"] + "/youtubei/v1/player?key=" + host["key"], data=data, headers=host["headers"], timeout=5)
 
 
-                    if response.status_code != 400 and response.status_code != 404:
+                    if response.status_code != 400 and response.status_code != 404 and response.status_code != 502:
                         print("ClientId: " + str(client_name_id) + " ClientVersion: " + str(client_version) + " @ " + host["domain"] +"Response Code: " + str(response.status_code))
-                        out = open("responses/" + try_id + ".json", "w", encoding="utf-8")
-                        out.write(response.text)
-                        out.close()
                         sys.exit(111)
                     if response.status_code != 502:
                         break
