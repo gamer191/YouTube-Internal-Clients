@@ -81,7 +81,7 @@ for client_name_id in [1,4,6,9,11,12,17,20,22,24,25,32,34,35,36,37,40,44,45,46,4
                         out = open("responses/" + try_id + ".json", "w", encoding="utf-8")
                         out.write(response.text)
                         out.close()
-
+                        sys.exit(1)
                     break
                 except Exception as ex:
                     if i == 3:
