@@ -66,9 +66,7 @@ for client_name_id in [1,4,6,9,11,12,17,20,22,24,25,32,34,35,36,37,40,44,45,46,4
         for i, host in enumerate(innertube_hosts):
 
             try_id = str(client_name_id) + "_" + client_version + "_" + str(len(innertube_hosts) - i) + "_" + host["domain"] + "_" + host["key"]
-
-            print("Try ClientId: " + str(client_name_id) + " ClientVersion: " + str(client_version) + " @ " + host["domain"] + " Failed Requests: " + str(requests_failed))
-
+            
             data = data_template.replace("%videoId%", host["video_id"]).replace('%clientName%', str(client_name_id)).replace('%clientVersion%', client_version)
 
             headers = host["headers"].copy()
