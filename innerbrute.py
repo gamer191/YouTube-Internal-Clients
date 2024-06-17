@@ -1,5 +1,6 @@
 import requests
 import os
+import sys
 import time
 
 client_versions = open("payloads/client_versions.txt", "r").readlines()
@@ -57,34 +58,34 @@ if not os.path.exists('responses'):
 
 requests_failed = 0
 
-for client_name_id in [1,4,6,9,11,12,17,20,22,24,25,32,34,35,36,37,40,44,45,46,47,48,49,50,51,52,53,54,73,78,79,81,82,83,86,91,96,97,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,"UNKNOWN_INTERFACE"]:
-    for client_version in client_versions:
-        client_version = client_version.replace("\n", "").replace("\r", "")
-        if client_version == "":
-            continue
+client_name_id = sys.argv[1]
+for client_version in client_versions:
+    client_version = client_version.replace("\n", "").replace("\r", "")
+    if client_version == "":
+        continue
 
-        for i, host in enumerate(innertube_hosts):
+    for i, host in enumerate(innertube_hosts):
 
-            try_id = str(client_name_id) + "_" + client_version + "_" + str(len(innertube_hosts) - i) + "_" + host["domain"] + "_" + host["key"]
-            
-            data = data_template.replace("%videoId%", host["video_id"]).replace('%clientName%', str(client_name_id)).replace('%clientVersion%', client_version)
+        try_id = str(client_name_id) + "_" + client_version + "_" + str(len(innertube_hosts) - i) + "_" + host["domain"] + "_" + host["key"]
+        
+        data = data_template.replace("%videoId%", host["video_id"]).replace('%clientName%', str(client_name_id)).replace('%clientVersion%', client_version)
 
-            headers = host["headers"].copy()
+        headers = host["headers"].copy()
 
-            for i in range(0, 4):
-                try:
-                    response = requests.post("https://" + host["domain"] + "/youtubei/v1/player?key=" + host["key"], data=data, headers=host["headers"], timeout=5)
+        for i in range(0, 4):
+            try:
+                response = requests.post("https://" + host["domain"] + "/youtubei/v1/player?key=" + host["key"], data=data, headers=host["headers"], timeout=5)
 
 
-                    if response.status_code != 400 and response.status_code != 404:
-                        print("ClientId: " + str(client_name_id) + " ClientVersion: " + str(client_version) + " @ " + host["domain"] +"Response Code: " + str(response.status_code))
-                        out = open("responses/" + try_id + ".json", "w", encoding="utf-8")
-                        out.write(response.text)
-                        out.close()
-                        sys.exit(1)
-                    break
-                except Exception as ex:
-                    if i == 3:
-                        print("request failed")
-                    time.sleep(0.5)
-                    print(ex)
+                if response.status_code != 400 and response.status_code != 404:
+                    print("ClientId: " + str(client_name_id) + " ClientVersion: " + str(client_version) + " @ " + host["domain"] +"Response Code: " + str(response.status_code))
+                    out = open("responses/" + try_id + ".json", "w", encoding="utf-8")
+                    out.write(response.text)
+                    out.close()
+                    sys.exit(1)
+                break
+            except Exception as ex:
+                if i == 3:
+                    print("request failed: "+"ClientId: " + str(client_name_id) + " ClientVersion: " + str(client_version) + " @ " + host["domain"])
+                time.sleep(0.5)
+                print(ex)
