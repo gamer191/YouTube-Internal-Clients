@@ -79,7 +79,7 @@ for client_version in client_versions:
     
                     if response.status_code == 400 or response.status_code == 404:
                         break
-                    else if response.status_code == 502:
+                    elif response.status_code == 502:
                         print("code 502")
                         continue
                     else:
