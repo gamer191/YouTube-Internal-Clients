@@ -57,7 +57,7 @@ if not os.path.exists('responses'):
 
 requests_failed = 0
 
-for client_name_id in ["WEB"]:
+for client_name_id in ["1"]:
     for client_version in client_versions:
         client_version = client_version.replace("\n", "").replace("\r", "")
         if client_version == "":
