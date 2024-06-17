@@ -82,7 +82,7 @@ for client_version in client_versions:
                     out = open("responses/" + try_id + ".json", "w", encoding="utf-8")
                     out.write(response.text)
                     out.close()
-                    sys.exit(1)
+                    sys.exit(111)
                 break
             except Exception as ex:
                 if i == 3:
