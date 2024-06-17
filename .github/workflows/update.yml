@@ -5,12 +5,13 @@ on:
 
 jobs:
   bruteforce:
+    strategy:
+      fail-fast: false
+      matrix:
+        client: [1,4,6,9,11,12,17,20,22,24,25,32,34,35,36,37,40,44,45,46,47,48,49,50,51,52,53,54,73,78,79,81,82,83,86,91,96,97,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,"UNKNOWN_INTERFACE"]
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
         uses: actions/checkout@v3
       - name: Update responses folder
-        run: python innerbrute.py 
-      - uses: EndBug/add-and-commit@v9
-        with:
-          message: 'Update responses folder'
+        run: python innerbrute.py ${{ matrix.client }}
