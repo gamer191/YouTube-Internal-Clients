@@ -84,7 +84,7 @@ for client_version in client_versions:
                         continue
                     else:
                         print("ClientId: " + str(client_name_id) + " ClientVersion: " + str(client_version) + " @ " + host["domain"] +"Response Code: " + str(response.status_code))
-                        sys.exit(111)
+                        sys.exit(response.status_code)
                 except Exception as ex:
                     print("request failed")
                     time.sleep(0.5)
