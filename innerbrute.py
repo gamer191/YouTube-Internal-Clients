@@ -4,7 +4,7 @@ import sys
 import time
 
 client_versions = open('payloads/client_versions.txt', 'r').readlines()
-data_template =  open('payloads/post_data.txt', 'r').read()
+data_template = open('payloads/post_data.txt', 'r').read()
 
 innertube_hosts = [
     {
