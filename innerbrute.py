@@ -82,9 +82,12 @@ for counter,client_version in enumerate(client_versions, start=1):
                     elif response.status_code == 502:
                         print("code 502")
                         continue
-                    else:
-                        print("::notice ::" + "Counter: " + str(counter) + "ClientId: " + str(client_name_id) + " ClientVersion: " + str(client_version) + " @ " + host["domain"] +"Response Code: " + str(response.status_code))
-                        sys.exit(int(str(counter) + str(1234) + str(response.status_code)))
+                    elif response.status_code == 200:
+                        print("::notice ::" + "ClientId: " + str(client_name_id) + " ClientVersion: " + str(client_version) + " @ " + host["domain"])
+                        break
+                    else
+                        print("ClientId: " + str(client_name_id) + " ClientVersion: " + str(client_version) + " @ " + host["domain"] +"Response Code: " + str(response.status_code))
+                        sys.exit(192)
                 except Exception as ex:
                     print("request failed")
                     time.sleep(0.5)
