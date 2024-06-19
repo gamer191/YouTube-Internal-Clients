@@ -83,8 +83,5 @@ for client_version in client_versions:
                     break
                 if response.status_code != 502:
                     sys.exit(192)
-            except Exception as ex:
-                print('request failed')
+            except:
                 time.sleep(0.5)
-                print(ex)
-                continue
