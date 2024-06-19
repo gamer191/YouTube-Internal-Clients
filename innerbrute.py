@@ -59,7 +59,7 @@ if not os.path.exists('responses'):
 requests_failed = 0
 
 client_name_id = sys.argv[1]
-for counter,client_version in enumerate(client_versions, start=1):
+for client_version in client_versions:
     client_version = client_version.replace('\n', '').replace('\r', '')
     if client_version == '':
         continue
