@@ -72,23 +72,22 @@ for client_version in client_versions:
 
         headers = host['headers'].copy()
 
-        for i in range(0, 4):
-            while True:
-                try:
-                    response = requests.post("https://" + host["domain"] + "/youtubei/v1/player?key=" + host["key"], data=data, headers=host["headers"], timeout=5)
+        while True:
+            try:
+                response = requests.post("https://" + host["domain"] + "/youtubei/v1/player?key=" + host["key"], data=data, headers=host["headers"], timeout=5)
 
-                    print('ClientId: ' + str(client_name_id) + ' ClientVersion: ' + str(client_version) + ' @ ' + host['domain'] +'Response Code: ' + str(response.status_code))
-                    if response.status_code == 400 or response.status_code == 404:
-                        break
-                    if response.status_code == 502:
-                        continue
-                    if response.status_code == 200:
-                        print('::notice ::' + 'ClientId: ' + str(client_name_id) + ' ClientVersion: ' + str(client_version) + ' @ ' + host['domain'])
-                        break
-                    else:
-                        sys.exit(192)
-                except Exception as ex:
-                    print('request failed')
-                    time.sleep(0.5)
-                    print(ex)
+                print('ClientId: ' + str(client_name_id) + ' ClientVersion: ' + str(client_version) + ' @ ' + host['domain'] +'Response Code: ' + str(response.status_code))
+                if response.status_code == 400 or response.status_code == 404:
+                    break
+                if response.status_code == 502:
                     continue
+                if response.status_code == 200:
+                    print('::notice ::' + 'ClientId: ' + str(client_name_id) + ' ClientVersion: ' + str(client_version) + ' @ ' + host['domain'])
+                    break
+                else:
+                    sys.exit(192)
+            except Exception as ex:
+                print('request failed')
+                time.sleep(0.5)
+                print(ex)
+                continue
