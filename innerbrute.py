@@ -84,7 +84,7 @@ for counter,client_version in enumerate(client_versions, start=1):
                         continue
                     else:
                         print("Counter: " + str(counter) + "ClientId: " + str(client_name_id) + " ClientVersion: " + str(client_version) + " @ " + host["domain"] +"Response Code: " + str(response.status_code))
-                        sys.exit(int(counter) + "1234" + int(response.status_code))
+                        sys.exit(int(str(counter) + str(1234) + str(response.status_code)))
                 except Exception as ex:
                     print("request failed")
                     time.sleep(0.5)
