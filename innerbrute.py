@@ -1,7 +1,8 @@
 import os
-import requests
 import sys
 import time
+
+import requests
 
 client_versions = open('payloads/client_versions.txt', 'r').readlines()
 data_template = open('payloads/post_data.txt', 'r').read()
