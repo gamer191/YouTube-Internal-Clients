@@ -76,17 +76,16 @@ for counter,client_version in enumerate(client_versions, start=1):
             while True:
                 try:
                     response = requests.post("https://" + host["domain"] + "/youtubei/v1/player?key=" + host["key"], data=data, headers=host["headers"], timeout=5)
-    
+
+                    print("ClientId: " + str(client_name_id) + " ClientVersion: " + str(client_version) + " @ " + host["domain"] +"Response Code: " + str(response.status_code))
                     if response.status_code == 400 or response.status_code == 404:
                         break
                     elif response.status_code == 502:
-                        print("code 502")
                         continue
                     elif response.status_code == 200:
                         print("::notice ::" + "ClientId: " + str(client_name_id) + " ClientVersion: " + str(client_version) + " @ " + host["domain"])
                         break
                     else:
-                        print("ClientId: " + str(client_name_id) + " ClientVersion: " + str(client_version) + " @ " + host["domain"] +"Response Code: " + str(response.status_code))
                         sys.exit(192)
                 except Exception as ex:
                     print("request failed")
