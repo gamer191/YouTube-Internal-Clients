@@ -49,9 +49,9 @@ innertube_hosts = [
             'Origin': 'https://music.youtube.com',
             'Referer': 'https://music.youtube.com/',
             'Accept-Language': 'de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.52'
-        }
-    }
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.52',
+        },
+    },
 ]
 
 if not os.path.exists('responses'):
@@ -65,9 +65,7 @@ for client_version in client_versions:
     if client_version == '':
         continue
 
-    for i, host in enumerate(innertube_hosts):
-
-        try_id = str(client_name_id) + '_' + client_version + '_' + str(len(innertube_hosts) - i) + '_' + host['domain'] + '_' + host['key']
+    for host in innertube_hosts:
         
         data = data_template.replace('%videoId%', host['video_id']).replace('%clientName%', str(client_name_id)).replace('%clientVersion%', client_version)
 
@@ -75,7 +73,7 @@ for client_version in client_versions:
 
         while True:
             try:
-                response = requests.post("https://" + host["domain"] + "/youtubei/v1/player?key=" + host["key"], data=data, headers=host["headers"], timeout=5)
+                response = requests.post('https://' + host['domain'] + '/youtubei/v1/player?key=' + host['key'], data=data, headers=host['headers'], timeout=5)
 
                 print('ClientId: ' + str(client_name_id) + ' ClientVersion: ' + str(client_version) + ' @ ' + host['domain'] +'Response Code: ' + str(response.status_code))
                 if response.status_code == 400 or response.status_code == 404:
