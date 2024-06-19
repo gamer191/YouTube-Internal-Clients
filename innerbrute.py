@@ -74,14 +74,14 @@ for client_version in client_versions:
         while True:
             try:
                 response = requests.post('https://' + host['domain'] + '/youtubei/v1/player?key=' + host['key'], data=data, headers=host['headers'], timeout=5)
-
-                print('ClientId: ' + str(client_name_id) + ' ClientVersion: ' + str(client_version) + ' @ ' + host['domain'] +'Response Code: ' + str(response.status_code))
-                if response.status_code in [400, 404]:
-                    break
-                if response.status_code == 200:
-                    print('::notice ::' + 'ClientId: ' + str(client_name_id) + ' ClientVersion: ' + str(client_version) + ' @ ' + host['domain'])
-                    break
-                if response.status_code != 502:
-                    sys.exit(192)
-            except:
+            except Exception:
                 time.sleep(0.5)
+                continue
+            print('ClientId: ' + str(client_name_id) + ' ClientVersion: ' + str(client_version) + ' @ ' + host['domain'] +'Response Code: ' + str(response.status_code))
+            if response.status_code in {400, 404}:
+                break
+            if response.status_code == 200:
+                print('::notice ::' + 'ClientId: ' + str(client_name_id) + ' ClientVersion: ' + str(client_version) + ' @ ' + host['domain'])
+                break
+            if response.status_code != 502:
+                sys.exit(192)
