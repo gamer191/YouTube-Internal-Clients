@@ -81,7 +81,7 @@ for client_version in client_versions:
             if response.status_code in {400, 404}:
                 break
             if response.status_code == 200:
-                open("payloads/known_client_versions.txt", "a").write("\r\n" + str(client_version))
+                open(client_name_id, "a").write("\r\n" + str(client_version) + " host: " + str(host['domain']))
                 break
             if response.status_code != 502:
                 sys.exit(192)
