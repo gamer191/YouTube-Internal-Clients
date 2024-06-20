@@ -77,11 +77,12 @@ for client_version in client_versions:
             except Exception:
                 time.sleep(0.5)
                 continue
-            print('ClientId: ' + str(client_name_id) + ' ClientVersion: ' + str(client_version) + ' @ ' + host['domain'] +'Response Code: ' + str(response.status_code))
             if response.status_code in {400, 404}:
                 break
+            print('ClientId: ' + str(client_name_id) + ' ClientVersion: ' + str(client_version) + ' @ ' + host['domain'] +'Response Code: ' + str(response.status_code))
             if response.status_code == 200:
                 open("payloads/known_client_versions.txt", "a").write("\r\n" + str(client_version))
                 break
             if response.status_code != 502:
                 sys.exit(192)
+    print(client_version)
