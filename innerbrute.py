@@ -65,7 +65,7 @@ for client_version in client_versions:
     if client_version == '':
         continue
 
-    for host in innertube_hosts:
+    for count,host in enumerate(innertube_hosts):
         
         data = data_template.replace('%videoId%', host['video_id']).replace('%clientName%', str(client_name_id)).replace('%clientVersion%', client_version)
 
@@ -78,6 +78,8 @@ for client_version in client_versions:
                 time.sleep(0.5)
                 continue
             if response.status_code in {400, 404}:
+                if count = "1"
+                    print('ClientId: ' + str(client_name_id) + ' ClientVersion: ' + str(client_version) + ' @ ' + host['domain'] +'Response Code: ' + str(response.status_code))
                 break
             print('ClientId: ' + str(client_name_id) + ' ClientVersion: ' + str(client_version) + ' @ ' + host['domain'] +'Response Code: ' + str(response.status_code))
             if response.status_code == 200:
@@ -85,4 +87,3 @@ for client_version in client_versions:
                 break
             if response.status_code != 502:
                 sys.exit(192)
-    print(client_version)
