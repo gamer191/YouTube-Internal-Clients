@@ -9,11 +9,13 @@ jobs:
       fail-fast: false
       max-parallel: 1
       matrix:
-        client: [2,3,5,7,14,15,18,19,21,23,26,27,28,29,33,39,41,43,55,56,57,59,62,63,64,65,67,74,75,76,85,88,93,98]
+        client: [3,5,7,14,15,18,19,21,23,26,27,28,29,33,39,41,43,55,56,57,59,62,63,64,65,67,74,75,76,85,88,93,98]
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          ref: 'main'
       - name: Update responses folder
         run: python innerbrute.py ${{ matrix.client }}
       - uses: EndBug/add-and-commit@v9
