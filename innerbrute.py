@@ -82,6 +82,6 @@ for client_version in client_versions:
                 break
             if response.status_code == 200:
                 print('::notice ::' + 'ClientId: ' + str(client_name_id) + ' ClientVersion: ' + str(client_version) + ' @ ' + host['domain'])
-                sys.exit(192)
+                break
             if response.status_code != 502:
                 sys.exit(192)
