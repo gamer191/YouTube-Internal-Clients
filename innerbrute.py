@@ -78,7 +78,7 @@ for client_version in client_versions:
                 time.sleep(0.5)
                 continue
             if response.status_code in {400, 404}:
-                if count == "1"
+                if count == "1":
                     print('ClientId: ' + str(client_name_id) + ' ClientVersion: ' + str(client_version) + ' @ ' + host['domain'] +'Response Code: ' + str(response.status_code))
                 break
             print('ClientId: ' + str(client_name_id) + ' ClientVersion: ' + str(client_version) + ' @ ' + host['domain'] +'Response Code: ' + str(response.status_code))
