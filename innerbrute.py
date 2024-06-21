@@ -7,6 +7,10 @@ import requests
 client_number = sys.argv[1]
 client_versions = open(f'Clients/{client_number.zfill(3)}.txt', 'r').readlines()
 data_template = open('payloads/post_data.txt', 'r').read()
+if client_number in [3,10,14,18,21,23,28,29,30,38,55,63,74]
+    user_agent = 'com.google.android.youtube/17.10.35 (Linux; U; Android 12; GB) gzip'
+else
+    user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.52'
 
 innertube_hosts = [
     {
@@ -18,7 +22,7 @@ innertube_hosts = [
             'Origin': 'https://www.youtube.com',
             'Referer': 'https://www.youtube.com/',
             'Accept-Language': 'de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.52',
+            'User-Agent': user_agent,
         },
     },
     {
@@ -30,7 +34,7 @@ innertube_hosts = [
             'Origin': 'https://www.youtubekids.com',
             'Referer': 'https://www.youtubekids.com/',
             'Accept-Language': 'de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.52',
+            'User-Agent': user_agent,
         },
     },
     {
@@ -42,12 +46,12 @@ innertube_hosts = [
             'Origin': 'https://music.youtube.com',
             'Referer': 'https://music.youtube.com/',
             'Accept-Language': 'de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.52',
+            'User-Agent': user_agent,
         },
     },
 ]
 
-response_directory = f'{client_number} responses'
+response_directory = f'responses/{client_number.zfill(3)}'
 if not os.path.exists(response_directory):
     os.makedirs(response_directory)
 
