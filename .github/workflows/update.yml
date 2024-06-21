@@ -8,7 +8,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        client: [3,10,14,18,21,23,28,29,30,38,55,63,74]
+        client: [3]
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
@@ -16,7 +16,7 @@ jobs:
         with:
           ref: 'main'
       - name: Update responses folder
-        run: python innerbrute.py ${{ matrix.client }}
+        run: torsocks python innerbrute.py ${{ matrix.client }}
       - uses: EndBug/add-and-commit@v9
         with:
           message: 'Add clients for ${{ matrix.client }}'
