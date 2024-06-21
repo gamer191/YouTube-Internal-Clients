@@ -5,11 +5,12 @@ import time
 import requests
 
 client_number = sys.argv[1]
-client_versions = open(f'Clients/{client_number}.txt', 'r').readlines()
+client_versions = open(f'Clients/{client_number.zfill(3)}.txt', 'r').readlines()
 data_template = open('payloads/post_data.txt', 'r').read()
 
 innertube_hosts = [
     {
+        'api': 'www.youtube.com',
         'video_id': 'vJz8QzO1VzQ',
         'domain': 'www.youtube.com',
         'key': 'AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8',
@@ -21,6 +22,7 @@ innertube_hosts = [
         },
     },
     {
+        'api': 'youtube kids',
         'video_id': 'pckuS--UlV4',
         'domain': 'www.youtubekids.com',
         'key': 'AIzaSyBbZV_fZ3an51sF-mvs5w37OqqbsTOzwtU',
@@ -32,6 +34,7 @@ innertube_hosts = [
         },
     },
     {
+        'api': 'youtube music',
         'video_id': 'RY607kB2QiU',
         'domain': 'music.youtube.com',
         'key': 'AIzaSyC9XL3ZjWddXya6X74dJoCTL-WEYFDNX30',
@@ -43,6 +46,7 @@ innertube_hosts = [
         },
     },
     {
+        'api': 'youtube music 2',
         'video_id': 'zv9NimPx3Es',
         'domain': 'music.youtube.com',
         'key': 'AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8',
@@ -55,10 +59,9 @@ innertube_hosts = [
     },
 ]
 
-if not os.path.exists('responses'):
-    os.makedirs('responses')
-
-requests_failed = 0
+response_directory = f'{client_number} responses'
+if not os.path.exists(response_directory):
+    os.makedirs(response_directory)
 
 for client_version in client_versions:
     client_version = client_version.replace('\n', '').replace('\r', '')
@@ -77,11 +80,11 @@ for client_version in client_versions:
             except Exception:
                 time.sleep(0.5)
                 continue
-            print(f'ClientId: {client_number} ClientVersion: {client_version} @ {host['domain']}Response Code: {response.status_code})
-            if response.status_code in {400, 404}:
-                break
+            print(f'ClientId: {client_number} ClientVersion: {client_version} @ {host["api"]}Response Code: {response.status_code}')
             if response.status_code == 200:
-                open(client_number, 'a').write(f'{client_version} host: {host["domain"]}\r\n')
+                out = open(f'{response_directory}/{client_version} {host["api"]}.json', 'w', encoding='utf-8')
+                out.write(response.text)
+                out.close()
                 break
             if response.status_code != 502:
                 sys.exit(192)
