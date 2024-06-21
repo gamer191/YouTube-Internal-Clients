@@ -45,18 +45,6 @@ innertube_hosts = [
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.52',
         },
     },
-    {
-        'api': 'youtube music 2',
-        'video_id': 'zv9NimPx3Es',
-        'domain': 'music.youtube.com',
-        'key': 'AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8',
-        'headers': {
-            'Origin': 'https://music.youtube.com',
-            'Referer': 'https://music.youtube.com/',
-            'Accept-Language': 'de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.52',
-        },
-    },
 ]
 
 response_directory = f'{client_number} responses'
