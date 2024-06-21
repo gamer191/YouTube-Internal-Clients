@@ -18,7 +18,7 @@ jobs:
       - name: install torsocks
         run: sudo apt install torsocks
       - name: Update responses folder
-        run: torsocks python innerbrute.py ${{ matrix.client }}
+        run: torsocks --debug python innerbrute.py ${{ matrix.client }}
       - uses: EndBug/add-and-commit@v9
         with:
           message: 'Add clients for ${{ matrix.client }}'
