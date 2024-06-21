@@ -4,7 +4,8 @@ import time
 
 import requests
 
-client_versions = open('payloads/client_versions.txt', 'r').readlines()
+client_number = sys.argv[1]
+client_versions = open(f'Clients/{client_number}.txt', 'r').readlines()
 data_template = open('payloads/post_data.txt', 'r').read()
 
 innertube_hosts = [
@@ -59,7 +60,6 @@ if not os.path.exists('responses'):
 
 requests_failed = 0
 
-client_name_id = sys.argv[1]
 for client_version in client_versions:
     client_version = client_version.replace('\n', '').replace('\r', '')
     if client_version == '':
@@ -67,21 +67,21 @@ for client_version in client_versions:
 
     for host in innertube_hosts:
         
-        data = data_template.replace('%videoId%', host['video_id']).replace('%clientName%', str(client_name_id)).replace('%clientVersion%', client_version)
+        data = data_template.replace('%videoId%', host['video_id']).replace('%clientName%', str(client_number)).replace('%clientVersion%', client_version)
 
         headers = host['headers'].copy()
 
         while True:
             try:
-                response = requests.post('https://' + host['domain'] + '/youtubei/v1/player?key=' + host['key'], data=data, headers=host['headers'], timeout=5)
+                response = requests.post(f'https://{host["domain"]}/youtubei/v1/player?key={host["key"]}', data=data, headers=host['headers'], timeout=5)
             except Exception:
                 time.sleep(0.5)
                 continue
-            print('ClientId: ' + str(client_name_id) + ' ClientVersion: ' + str(client_version) + ' @ ' + host['domain'] +'Response Code: ' + str(response.status_code))
+            print(f'ClientId: {client_number} ClientVersion: {client_version} @ {host['domain']}Response Code: {response.status_code})
             if response.status_code in {400, 404}:
                 break
             if response.status_code == 200:
-                open(client_name_id, "a").write("\r\n" + str(client_version) + " host: " + str(host['domain']))
+                open(client_number, 'a').write(f'{client_version} host: {host["domain"]}\r\n')
                 break
             if response.status_code != 502:
                 sys.exit(192)
