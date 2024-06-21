@@ -7,9 +7,9 @@ import requests
 client_number = sys.argv[1]
 client_versions = open(f'Clients/{client_number.zfill(3)}.txt', 'r').readlines()
 data_template = open('payloads/post_data.txt', 'r').read()
-if client_number in [3,10,14,18,21,23,28,29,30,38,55,63,74]
+if client_number in [3,10,14,18,21,23,28,29,30,38,55,63,74]:
     user_agent = 'com.google.android.youtube/17.10.35 (Linux; U; Android 12; GB) gzip'
-else
+else:
     user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.52'
 
 innertube_hosts = [
