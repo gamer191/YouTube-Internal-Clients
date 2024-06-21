@@ -4,7 +4,7 @@ import time
 
 import requests
 
-client_number = sys.argv[1]
+client_number = int(sys.argv[1])
 client_versions = open(f'Clients/{client_number.zfill(3)}.txt', 'r').readlines()
 data_template = open('payloads/post_data.txt', 'r').read()
 
