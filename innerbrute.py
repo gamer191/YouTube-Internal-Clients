@@ -21,7 +21,7 @@ else:
 
 innertube_hosts = [
     {
-        'number': '1'
+        'number': '1',
         'api': 'www.youtube.com',
         'video_id': 'vJz8QzO1VzQ',
         'domain': 'www.youtube.com',
@@ -34,7 +34,7 @@ innertube_hosts = [
         },
     },
     {
-        'number': '2'
+        'number': '2',
         'api': 'youtube kids',
         'video_id': 'pckuS--UlV4',
         'domain': 'www.youtubekids.com',
@@ -47,7 +47,7 @@ innertube_hosts = [
         },
     },
     {
-        'number': '3'
+        'number': '3',
         'api': 'youtube music',
         'video_id': 'RY607kB2QiU',
         'domain': 'music.youtube.com',
