@@ -71,8 +71,6 @@ for client_version in client_versions:
             break
         data = data_template.replace('%videoId%', host['video_id']).replace('%clientName%', str(client_number)).replace('%clientVersion%', client_version)
 
-        headers = host['headers'].copy()
-
         while True:
             try:
                 response = requests.post(f'https://{host["domain"]}/youtubei/v1/player?key={host["key"]}', data=data, headers=host['headers'], timeout=5)
