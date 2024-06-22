@@ -24,6 +24,7 @@ for client_version in client_versions:
     
     innertube_hosts = [
         {
+            'number': '1'
             'api': 'www.youtube.com',
             'video_id': 'vJz8QzO1VzQ',
             'domain': 'www.youtube.com',
@@ -36,6 +37,7 @@ for client_version in client_versions:
             },
         },
         {
+            'number': '2'
             'api': 'youtube kids',
             'video_id': 'pckuS--UlV4',
             'domain': 'www.youtubekids.com',
@@ -48,6 +50,7 @@ for client_version in client_versions:
             },
         },
         {
+            'number': '3'
             'api': 'youtube music',
             'video_id': 'RY607kB2QiU',
             'domain': 'music.youtube.com',
@@ -62,7 +65,8 @@ for client_version in client_versions:
     ]
     
     for host in innertube_hosts:
-        
+        if client_number in [18,19] and host["api"] in ['1','3']
+            break
         data = data_template.replace('%videoId%', host['video_id']).replace('%clientName%', str(client_number)).replace('%clientVersion%', client_version)
 
         headers = host['headers'].copy()
