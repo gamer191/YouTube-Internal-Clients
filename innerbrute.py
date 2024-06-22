@@ -1,4 +1,5 @@
 import os
+import shutil
 import sys
 import time
 
@@ -9,8 +10,9 @@ client_versions = open(f'Clients/{client_number:03}.txt', 'r').readlines()
 data_template = open('payloads/post_data.txt', 'r').read()
 
 response_directory = f'responses/{client_number:03}'
-if not os.path.exists(response_directory):
-    os.makedirs(response_directory)
+if os.path.exists(response_directory):
+    shutil.rmtree(response_directory)
+os.makedirs(response_directory)
 
 for client_version in client_versions:
     client_version = client_version.replace('\n', '').replace('\r', '')
