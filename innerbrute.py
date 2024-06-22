@@ -14,58 +14,57 @@ if os.path.exists(response_directory):
     shutil.rmtree(response_directory)
 os.makedirs(response_directory)
 
-if client_number in [3,10,14,18,21,23,28,29,30,38,55,63,74]:
-    user_agent = f'com.google.android.youtube/{client_version} (Linux; U; Android 12; GB) gzip'
-else:
-    user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.52'
-
-innertube_hosts = [
-    {
-        'number': '1',
-        'api': 'www.youtube.com',
-        'video_id': 'vJz8QzO1VzQ',
-        'domain': 'www.youtube.com',
-        'key': 'AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8',
-        'headers': {
-            'Origin': 'https://www.youtube.com',
-            'Referer': 'https://www.youtube.com/',
-            'Accept-Language': 'de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
-            'User-Agent': user_agent,
-        },
-    },
-    {
-        'number': '2',
-        'api': 'youtube kids',
-        'video_id': 'pckuS--UlV4',
-        'domain': 'www.youtubekids.com',
-        'key': 'AIzaSyBbZV_fZ3an51sF-mvs5w37OqqbsTOzwtU',
-        'headers': {
-            'Origin': 'https://www.youtubekids.com',
-            'Referer': 'https://www.youtubekids.com/',
-            'Accept-Language': 'de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
-            'User-Agent': user_agent,
-        },
-    },
-    {
-        'number': '3',
-        'api': 'youtube music',
-        'video_id': 'RY607kB2QiU',
-        'domain': 'music.youtube.com',
-        'key': 'AIzaSyC9XL3ZjWddXya6X74dJoCTL-WEYFDNX30',
-        'headers': {
-            'Origin': 'https://music.youtube.com',
-            'Referer': 'https://music.youtube.com/',
-            'Accept-Language': 'de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
-            'User-Agent': user_agent,
-        },
-    },
-]
 
 for client_version in client_versions:
     client_version = client_version.replace('\n', '').replace('\r', '')
     if client_version == '':
         continue
-    
+    if client_number in [3,10,14,18,21,23,28,29,30,38,55,63,74]:
+        user_agent = f'com.google.android.youtube/{client_version} (Linux; U; Android 12; GB) gzip'
+    else:
+        user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.52'
+
+    innertube_hosts = [
+        {
+            'number': '1',
+            'api': 'www.youtube.com',
+            'video_id': 'vJz8QzO1VzQ',
+            'domain': 'www.youtube.com',
+            'key': 'AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8',
+            'headers': {
+                'Origin': 'https://www.youtube.com',
+                'Referer': 'https://www.youtube.com/',
+                'Accept-Language': 'de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+                'User-Agent': user_agent,
+            },
+        },
+        {
+            'number': '2',
+            'api': 'youtube kids',
+            'video_id': 'pckuS--UlV4',
+            'domain': 'www.youtubekids.com',
+            'key': 'AIzaSyBbZV_fZ3an51sF-mvs5w37OqqbsTOzwtU',
+            'headers': {
+                'Origin': 'https://www.youtubekids.com',
+                'Referer': 'https://www.youtubekids.com/',
+                'Accept-Language': 'de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+                'User-Agent': user_agent,
+            },
+        },
+        {
+            'number': '3',
+            'api': 'youtube music',
+            'video_id': 'RY607kB2QiU',
+            'domain': 'music.youtube.com',
+            'key': 'AIzaSyC9XL3ZjWddXya6X74dJoCTL-WEYFDNX30',
+            'headers': {
+                'Origin': 'https://music.youtube.com',
+                'Referer': 'https://music.youtube.com/',
+                'Accept-Language': 'de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+                'User-Agent': user_agent,
+            },
+        },
+    ]
     for host in innertube_hosts:
         if client_number in [18,19] and host["api"] in ['1','3']:
             break
