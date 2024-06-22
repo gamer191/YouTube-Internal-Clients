@@ -14,15 +14,15 @@ if os.path.exists(response_directory):
     shutil.rmtree(response_directory)
 os.makedirs(response_directory)
 
+if client_number in [3,10,14,18,21,23,28,29,30,38,55,63,74]:
+    user_agent = f'com.google.android.youtube/{client_version} (Linux; U; Android 12; GB) gzip'
+else:
+    user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.52'
+
 for client_version in client_versions:
     client_version = client_version.replace('\n', '').replace('\r', '')
     if client_version == '':
         continue
-    
-    if client_number in [3,10,14,18,21,23,28,29,30,38,55,63,74]:
-        user_agent = f'com.google.android.youtube/{client_version} (Linux; U; Android 12; GB) gzip'
-    else:
-        user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.52'
     
     innertube_hosts = [
         {
