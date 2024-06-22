@@ -66,7 +66,7 @@ for client_version in client_versions:
         },
     ]
     for host in innertube_hosts:
-        if client_number in [18,19] and host["api"] in ['1','3']:
+        if client_number in [18,19] and host["number"] in ['1','3']:
             break
         data = data_template.replace('%videoId%', host['video_id']).replace('%clientName%', str(client_number)).replace('%clientVersion%', client_version)
 
