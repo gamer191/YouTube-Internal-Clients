@@ -21,6 +21,8 @@ for client_version in client_versions:
         continue
     if client_number in [3,10,14,18,21,23,28,29,30,38,55,63,74]:
         user_agent = f'com.google.android.youtube/{client_version} (Linux; U; Android 12; GB) gzip'
+    elif client_number in [5,15,16,19,26,33,39,64,68,101]:
+        user_agent = f'com.google.ios.youtube/{client_version} (iPhone6,2; U; CPU iOS 12_5_6 like Mac OS X; en_AU)'
     else:
         user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.52'
 
