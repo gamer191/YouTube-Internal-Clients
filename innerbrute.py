@@ -13,7 +13,7 @@ headers = {
             'Accept-Language': 'de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.52',
         }
-
+count=0
 requestset = set({})
 for client_version in client_versions:
             while True:
@@ -23,7 +23,8 @@ for client_version in client_versions:
                                     break
                         requestset.add(grequests.post('https://www.youtube.com/youtubei/v1/player?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8', data=data_template.replace('%videoId%', 'vJz8QzO1VzQ').replace('%clientName%', str(client_number)).replace('%clientVersion%', client_version), headers=headers, timeout=5))
                         print(client_version)
-                        if client_version.count('.') != 0:
+                        if count != 200:
+                                    count=count+1
                                     break
                         for statuscode in grequests.map(requestset):
                                     print(statuscode)
