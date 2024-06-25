@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Download repository
-        run: curl https://github.com/gamer191/YouTube-Internal-Clients/archive/refs/heads/forced-brute.zip -o forcedbrute.zip
+        run: curl https://github.com/gamer191/YouTube-Internal-Clients/archive/refs/heads/forced-brute.zip -L -o forcedbrute.zip
       - run: unzip forcedbrute.zip&&cd forcedbrute
       - name: Update responses folder
         run: python innerbrute.py ${{ matrix.client }}
