@@ -25,7 +25,7 @@ for client_version in client_versions:
                         for statuscode in grequests.map(requestset):
                                     if statuscode.status_code not in [400,404]:
                                                 print(statuscode.text)
-                                                print(statuscode.request)
+                                                print(statuscode.request.body)
                                                 sys.exit(111)
                         requestset = set({})
 print("requesttime")
