@@ -23,7 +23,7 @@ for client_version in client_versions:
             if client_version.count('.') == 1:
                         print(client_version)
                         for statuscode in grequests.map(requestset):
-                            if status_code not in [400,404]:
+                            if statuscode.status_code not in [400,404]:
                                 sys.exit(111)
                         requestset = set({})
 print("requesttime")
