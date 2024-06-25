@@ -27,7 +27,7 @@ jobs:
         id: commit2
         if: steps.commit.outcome == 'failure'
         continue-on-error: true
-        run: git push
+        run: git pull --rebase&&git push
       - name: re-commit
         if: steps.commit2.outcome == 'failure'
-        run: git push
+        run: git pull --rebase&&git push
