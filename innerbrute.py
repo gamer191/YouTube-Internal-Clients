@@ -33,8 +33,8 @@ for client_version in client_versions:
             except Exception:
                 print('exception')
                 continue
-            print(f'ClientVersion: {client_version} Response Code: {response.status_code}')
             if response.status_code in {400, 404}:
                 break
             if response.status_code != 502:
+                print(f'ClientVersion: {client_version} Response Code: {response.status_code}')
                 sys.exit(192)
