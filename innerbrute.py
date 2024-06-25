@@ -19,7 +19,7 @@ for client_version in client_versions:
     client_version = client_version.replace('\n', '').replace('\r', '')
     if client_version == '':
         continue
-    if client_number in [3,10,14,18,21,23,28,29,30,38,55,63,74]:
+    if client_number in [3,10,14,18,21,23,28,29,30,38,55,63,74,91]:
         user_agent = f'com.google.android.youtube/{client_version} (Linux; U; Android 12; GB) gzip'
     elif client_number in [5,15,16,19,26,33,39,64,68,101]:
         user_agent = f'com.google.ios.youtube/{client_version} (iPhone6,2; U; CPU iOS 12_5_6 like Mac OS X; en_AU)'
