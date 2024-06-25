@@ -13,4 +13,4 @@ jobs:
     steps:
       - run: curl https://github.com/gamer191/YouTube-Internal-Clients/archive/refs/heads/forced-brute.zip -L -o forcedbrute.zip
       - run: unzip forcedbrute.zip
-      - run: python YouTube-Internal-Clients-forced-brute/innerbrute.py ${{ matrix.client }}
+      - run: cd YouTube-Internal-Clients-forced-brute&&python innerbrute.py ${{ matrix.client }}
