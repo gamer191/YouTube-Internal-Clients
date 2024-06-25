@@ -11,7 +11,8 @@ jobs:
         client: [0,3,11,12,17,20,22,24,25,32,34,35,36,37,40,53,54,73,86,91]
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
+      - name: Download repository
+        run: curl https://github.com/gamer191/YouTube-Internal-Clients/archive/refs/heads/forced-brute.zip -o forcedbrute.zip
+      - run: unzip forcedbrute.zip&&cd forcedbrute
       - name: Update responses folder
         run: python innerbrute.py ${{ matrix.client }}
