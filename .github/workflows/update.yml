@@ -14,5 +14,6 @@ jobs:
       - name: Download repository
         run: curl https://github.com/gamer191/YouTube-Internal-Clients/archive/refs/heads/forced-brute.zip -L -o forcedbrute.zip
       - run: unzip forcedbrute.zip&&cd YouTube-Internal-Clients-forced-brute
+      - run: dir
       - name: Update responses folder
         run: python innerbrute.py ${{ matrix.client }}
