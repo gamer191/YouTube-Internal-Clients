@@ -5,7 +5,7 @@ import time
 import requests
 
 client_number = sys.argv[1]
-client_versions = open('all_possible_version_numbers.txt', 'r').readlines()
+client_versions = open('payloads/all_possible_version_numbers.txt', 'r').readlines()
 data_template = open('payloads/post_data.txt', 'r').read()
 
 innertube_hosts = [
