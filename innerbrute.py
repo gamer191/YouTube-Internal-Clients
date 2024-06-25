@@ -26,11 +26,11 @@ for client_version in client_versions:
                         if client_version.count('.') != 0:
                                     break
                         for statuscode in grequests.map(requestset):
+                                    print(statuscode)
                                     if statuscode.status_code == 502:
                                                 redo=1
                                                 break
                                     if statuscode.status_code not in [400,404]:
-                                                print(statuscode)
                                                 print(statuscode.text)
                                                 print(statuscode.request.body)
                                                 sys.exit(111)
