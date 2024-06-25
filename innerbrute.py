@@ -23,6 +23,8 @@ for client_version in client_versions:
             requestset.add(grequests.post('https://www.youtube.com/youtubei/v1/player?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8', data=data_template.replace('%videoId%', 'vJz8QzO1VzQ').replace('%clientName%', str(client_number)).replace('%clientVersion%', client_version), headers=headers, timeout=5))
             if client_version.count('.') == 1:
                         print(client_version)
+                        print(grequests.map(requestset))
+                        requestset = {}
 print("requesttime")
 print(grequests.map(requestset))
 
