@@ -59,7 +59,7 @@ for client_version in client_versions:
             except Exception:
                 time.sleep(0.5)
                 continue
-            print(f'ClientId: {client_number} ClientVersion: {client_version} @ {host["domain"]}Response Code: {response.status_code})
+            print(f'ClientVersion: {client_version} @ {host["domain"]} Response Code: {response.status_code}')
             if response.status_code in {400, 404}:
                 break
             if response.status_code != 502:
