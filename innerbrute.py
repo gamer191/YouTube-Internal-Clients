@@ -33,7 +33,7 @@ for client_version in client_versions:
             except Exception:
                 print('exception')
                 continue
-            print(f'clientVersion: {client_version} Count {client_version.count('.')} Truthy {client_version.count('.') == 1}')
+            print(f'clientVersion: {client_version} Count {client_version.count(".")} Truthy {client_version.count(".") == 1}')
             if client_version.count('.') == 1:
                 print(f'ClientVersion: {client_version} Response Code: {response.status_code}')
             if response.status_code in {400, 404}:
