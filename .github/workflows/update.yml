@@ -24,8 +24,10 @@ jobs:
           message: 'Add clients for ${{ matrix.client }}'
           pull: '--rebase --autostash'
       - name: re-commit
+        id: commit2
         if: steps.commit.outcome == 'failure'
-        uses: EndBug/add-and-commit@v9
-        with:
-          message: 'Add clients for ${{ matrix.client }}'
-          pull: '--rebase --autostash'
+        continue-on-error: true
+        run: git push
+      - name: re-commit
+        if: steps.commit2.outcome == 'failure'
+        run: git push
