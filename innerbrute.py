@@ -36,6 +36,7 @@ for client_version in client_versions:
                                                 print(statuscode.request.body)
                                                 sys.exit(111)
                         requestset = set({})
+                        count=0
                         if redo == 0:
                                     break
 print("requesttime")
