@@ -39,5 +39,5 @@ jobs:
         continue-on-error: true
         run: git pull --rebase&&git push
       - name: re-commit
-        if: steps.commit2.outcome == 'failure'
+        if: steps.commit4.outcome == 'failure'
         run: git pull --rebase&&git push
