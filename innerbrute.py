@@ -1,4 +1,3 @@
-import os
 import sys
 import time
 
@@ -30,7 +29,7 @@ for client_version in client_versions:
 
         while True:
             try:
-                response = requests.post(f'https://www.youtube.com/youtubei/v1/player?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8', data=data, headers=host['headers'], timeout=5)
+                response = requests.post('https://www.youtube.com/youtubei/v1/player?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8', data=data, headers=host['headers'], timeout=5)
             except Exception:
                 time.sleep(0.5)
                 continue
