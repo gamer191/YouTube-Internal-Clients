@@ -31,7 +31,7 @@ for client_version in client_versions:
             try:
                 response = requests.post('https://www.youtube.com/youtubei/v1/player?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8', data=data, headers=host['headers'], timeout=5)
             except Exception:
-                time.sleep(0.5)
+                print('exception')
                 continue
             print(f'ClientVersion: {client_version} Response Code: {response.status_code}')
             if response.status_code in {400, 404}:
