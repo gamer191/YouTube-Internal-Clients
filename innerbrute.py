@@ -16,18 +16,27 @@ headers = {
 
 requestset = set({})
 for client_version in client_versions:
-            client_version = client_version.replace('\n', '').replace('\r', '')
-            if client_version == '':
-                        continue
-            requestset.add(grequests.post('https://www.youtube.com/youtubei/v1/player?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8', data=data_template.replace('%videoId%', 'vJz8QzO1VzQ').replace('%clientName%', str(client_number)).replace('%clientVersion%', client_version), headers=headers, timeout=5))
-            if client_version.count('.') == 1:
+            while True:
+                        redo=0
+                        client_version = client_version.replace('\n', '').replace('\r', '')
+                        if client_version == '':
+                                    break
+                        requestset.add(grequests.post('https://www.youtube.com/youtubei/v1/player?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8', data=data_template.replace('%videoId%', 'vJz8QzO1VzQ').replace('%clientName%', str(client_number)).replace('%clientVersion%', client_version), headers=headers, timeout=5))
+                        if client_version.count('.') != 0:
+                                    break
                         print(client_version)
                         for statuscode in grequests.map(requestset):
+                                    if statuscode.status_code == 502:
+                                                redo=1
+                                                break
                                     if statuscode.status_code not in [400,404]:
+                                                print(statuscode)
                                                 print(statuscode.text)
                                                 print(statuscode.request.body)
                                                 sys.exit(111)
                         requestset = set({})
+                        if redo == 0:
+                                    break
 print("requesttime")
 print(grequests.map(requestset))
 
