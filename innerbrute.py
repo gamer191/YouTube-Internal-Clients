@@ -15,7 +15,7 @@ headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.52',
         }
 
-requestset = {}
+requestset = set({})
 for client_version in client_versions:
             client_version = client_version.replace('\n', '').replace('\r', '')
             if client_version == '':
@@ -24,7 +24,7 @@ for client_version in client_versions:
             if client_version.count('.') == 1:
                         print(client_version)
                         print(grequests.map(requestset))
-                        requestset = {}
+                        requestset = set({})
 print("requesttime")
 print(grequests.map(requestset))
 
