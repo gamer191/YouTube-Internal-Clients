@@ -1,6 +1,7 @@
 import sys
 import time
 
+import grequests
 import requests
 
 client_number = sys.argv[1]
@@ -18,25 +19,5 @@ innertube_hosts = [
     },
 ]
 
-for client_version in client_versions:
-    client_version = client_version.replace('\n', '').replace('\r', '')
-    if client_version == '':
-        continue
+grequests.map(grequests.post('https://www.youtube.com/youtubei/v1/player?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8', data=data_template.replace('%videoId%', 'vJz8QzO1VzQ').replace('%clientName%', str(client_number)).replace('%clientVersion%', client_version), headers=host['headers'], timeout=5) for client_version in client_versions)
 
-    for host in innertube_hosts:
-        
-        data = data_template.replace('%videoId%', 'vJz8QzO1VzQ').replace('%clientName%', str(client_number)).replace('%clientVersion%', client_version)
-
-        while True:
-            try:
-                response = requests.post('https://www.youtube.com/youtubei/v1/player?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8', data=data, headers=host['headers'], timeout=5)
-            except Exception:
-                print('exception')
-                continue
-            if client_version.count('.') == 1:
-                print(f'ClientVersion: {client_version}')
-            if response.status_code in {400, 404}:
-                break
-            if response.status_code != 502:
-                print(f'ClientVersion: {client_version} Response Code: {response.status_code}')
-                sys.exit(192)
