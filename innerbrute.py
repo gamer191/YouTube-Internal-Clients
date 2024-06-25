@@ -24,5 +24,5 @@ for client_version in client_versions:
             if client_version.count('.') == 1:
                         print(client_version)
 print("requesttime")
-print(grequests.map(requestlist))
+print(grequests.map(requestset))
 
