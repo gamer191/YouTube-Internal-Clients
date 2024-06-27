@@ -66,6 +66,32 @@ for client_version in client_versions:
                 'User-Agent': user_agent,
             },
         },
+        {
+            'number': '4',
+            'api': 'Google Drive 1',
+            'video_id': 'vJz8QzO1VzQ',
+            'domain': 'clients6.google.com',
+            'key': 'AIzaSyD_InbmSFufIEps5UAt2NmB_3LvBH3Sz_8',
+            'headers': {
+                'Origin': 'https://clients6.google.com',
+                'Referer': 'https://clients6.google.com/',
+                'Accept-Language': 'de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+                'User-Agent': user_agent,
+            },
+        },
+        {
+            'number': '5',
+            'api': 'Google Drive 2',
+            'video_id': 'vJz8QzO1VzQ',
+            'domain': 'video.google.com',
+            'key': 'AIzaSyD_InbmSFufIEps5UAt2NmB_3LvBH3Sz_8',
+            'headers': {
+                'Origin': 'https://youtube.googleapis.com',
+                'Referer': 'https://youtube.googleapis.com/',
+                'Accept-Language': 'de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+                'User-Agent': user_agent,
+            },
+        },
     ]
     for host in innertube_hosts:
         data = data_template.replace('%videoId%', host['video_id']).replace('%clientName%', str(client_number)).replace('%clientVersion%', client_version)
