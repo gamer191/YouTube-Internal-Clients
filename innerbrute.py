@@ -97,5 +97,3 @@ for client_version in client_versions:
                 out.write(response.text)
                 out.close()
                 break
-            if response.status_code != 502:
-                sys.exit(192)
