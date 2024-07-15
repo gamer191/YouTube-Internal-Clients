@@ -27,17 +27,17 @@ jobs:
         id: commit2
         if: steps.commit.outcome == 'failure'
         continue-on-error: true
-        run: git pull --rebase&&git push
+        run: (git pull --rebase&&git push)||(git pull --rebase&&git push)
       - name: re-commit
         id: commit3
         if: steps.commit2.outcome == 'failure'
         continue-on-error: true
-        run: git pull --rebase&&git push
+        run: (git pull --rebase&&git push)||(git pull --rebase&&git push)
       - name: re-commit
         id: commit4
         if: steps.commit3.outcome == 'failure'
         continue-on-error: true
-        run: git pull --rebase&&git push
+        run: (git pull --rebase&&git push)||(git pull --rebase&&git push)
       - name: re-commit
         if: steps.commit4.outcome == 'failure'
-        run: git pull --rebase&&git push
+        run: (git pull --rebase&&git push)||(git pull --rebase&&git push)
