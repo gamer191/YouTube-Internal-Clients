@@ -30,7 +30,7 @@ for client_version in client_versions:
         {
             'number': '1',
             'api': 'www.youtube.com',
-            'video_id': 'Z-7oADTqthQ',
+            'video_id': 'vJz8QzO1VzQ',
             'domain': 'www.youtube.com',
             'key': 'AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8',
             'headers': {
@@ -40,45 +40,45 @@ for client_version in client_versions:
                 'User-Agent': user_agent,
             },
         },
-        #{
-        #    'number': '2',
-        #    'api': 'youtube kids',
-        #    'video_id': 'pckuS--UlV4',
-        #    'domain': 'www.youtubekids.com',
-        #    'key': 'AIzaSyBbZV_fZ3an51sF-mvs5w37OqqbsTOzwtU',
-        #    'headers': {
-        #        'Origin': 'https://www.youtubekids.com',
-        #        'Referer': 'https://www.youtubekids.com/',
-        #        'Accept-Language': 'de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
-        #        'User-Agent': user_agent,
-        #    },
-        #},
-        #{
-        #    'number': '3',
-        #    'api': 'youtube music',
-        #    'video_id': 'RY607kB2QiU',
-        #    'domain': 'music.youtube.com',
-        #    'key': 'AIzaSyC9XL3ZjWddXya6X74dJoCTL-WEYFDNX30',
-        #    'headers': {
-        #        'Origin': 'https://music.youtube.com',
-        #        'Referer': 'https://music.youtube.com/',
-        #        'Accept-Language': 'de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
-        #        'User-Agent': user_agent,
-        #    },
-        #},
-        #{
-        #    'number': '4',
-        #    'api': 'Google Drive',
-        #    'video_id': 'vJz8QzO1VzQ',
-        #    'domain': 'clients6.google.com',
-        #    'key': 'AIzaSyD_InbmSFufIEps5UAt2NmB_3LvBH3Sz_8',
-        #    'headers': {
-        #        'Origin': 'https://clients6.google.com',
-        #        'Referer': 'https://clients6.google.com/',
-        #        'Accept-Language': 'de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
-        #        'User-Agent': user_agent,
-        #    },
-        #},
+        {
+            'number': '2',
+            'api': 'youtube kids',
+            'video_id': 'pckuS--UlV4',
+            'domain': 'www.youtubekids.com',
+            'key': 'AIzaSyBbZV_fZ3an51sF-mvs5w37OqqbsTOzwtU',
+            'headers': {
+                'Origin': 'https://www.youtubekids.com',
+                'Referer': 'https://www.youtubekids.com/',
+                'Accept-Language': 'de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+                'User-Agent': user_agent,
+            },
+        },
+        {
+            'number': '3',
+            'api': 'youtube music',
+            'video_id': 'RY607kB2QiU',
+            'domain': 'music.youtube.com',
+            'key': 'AIzaSyC9XL3ZjWddXya6X74dJoCTL-WEYFDNX30',
+            'headers': {
+                'Origin': 'https://music.youtube.com',
+                'Referer': 'https://music.youtube.com/',
+                'Accept-Language': 'de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+                'User-Agent': user_agent,
+            },
+        },
+        {
+            'number': '4',
+            'api': 'Google Drive',
+            'video_id': 'vJz8QzO1VzQ',
+            'domain': 'clients6.google.com',
+            'key': 'AIzaSyD_InbmSFufIEps5UAt2NmB_3LvBH3Sz_8',
+            'headers': {
+                'Origin': 'https://clients6.google.com',
+                'Referer': 'https://clients6.google.com/',
+                'Accept-Language': 'de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+                'User-Agent': user_agent,
+            },
+        },
     ]
     for host in innertube_hosts:
         data = data_template.replace('%videoId%', host['video_id']).replace('%clientName%', str(client_number)).replace('%clientVersion%', client_version)
