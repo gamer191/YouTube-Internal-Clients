@@ -1,10 +1,14 @@
 {
   "responseContext": {
-    "visitorData": "CgtVT1hhSjJhdGU0QSj-nM-0BjIKCgJVUxIEGgAgaQ%3D%3D",
+    "visitorData": "CgtKN3pCd0RSVE1MQSiMjNO0BjIKCgJVUxIEGgAgUw%3D%3D",
     "serviceTrackingParams": [
       {
         "service": "GFEEDBACK",
         "params": [
+          {
+            "key": "is_alc_surface",
+            "value": "false"
+          },
           {
             "key": "is_viewed_live",
             "value": "False"
@@ -14,16 +18,12 @@
             "value": "0"
           },
           {
-            "key": "is_alc_surface",
-            "value": "false"
-          },
-          {
             "key": "logged_in",
             "value": "0"
           },
           {
             "key": "e",
-            "value": "23804281,23946420,23966208,23998056,24004644,24077241,24181174,24208765,24241378,24290971,24374533,24439361,24456089,24466624,24468724,24499532,24542367,24548627,24548629,24552798,24566687,24690004,39325413,39326848,39326915,51009781,51010235,51016856,51017346,51020570,51025415,51030103,51033765,51037342,51037349,51041512,51043775,51050361,51053689,51057844,51057857,51060353,51063643,51064835,51081334,51091058,51091331,51092042,51098297,51098299,51105630,51111738,51113658,51113661,51115184,51116067,51118932,51124104,51129058,51129209,51133103,51134506,51139379,51144925,51145330,51148688,51148974,51148985,51149607,51152050,51153492,51157411,51157841,51158514,51160545,51162170,51163637,51165467,51165568,51169117,51172670,51172684,51172695,51172698,51172709,51172716,51172721,51172728,51173143,51175733,51176511,51177012,51178312,51178327,51178348,51178355,51178768,51178982,51183508,51183909,51184022,51186528,51187241,51188415,51189509,51189518,51189826,51190059,51190071,51190080,51190085,51190202,51190213,51190216,51190227,51190652,51191448,51195231,51197685,51197690,51197699,51197708,51197960,51198104,51199193,51200020,51200046,51200249,51200260,51200293,51200302,51200568,51201331,51201352,51201363,51201374,51201381,51201428,51201435,51201442,51201449,51201814,51202231,51202414,51204329,51204938,51207182,51207193,51207196,51207209,51209087,51212464,51212553,51212567,51213808,51217165,51217504,51219303,51219384,51219800,51220801,51221011,51221152,51221348,51222697,51223962,51224922,51225437,51226344,51226858,51226865,51227776,51227902,51228202,51228769,51228778,51228783,51228798,51228807,51228816,51230391,51230478,51230491,51231974,51232142,51232639,51232710,51236663,51237841,51239329,51240876,51240890"
+            "value": "23804281,23885487,23946420,23966208,23998056,24004644,24077241,24181174,24208765,24241378,24290971,24374533,24378828,24425063,24439361,24445497,24456089,24457856,24468724,24542367,24548627,24548629,24566687,39325413,39326848,51009781,51010235,51016856,51017346,51020570,51025415,51030101,51033765,51037346,51037353,51041512,51043554,51050361,51053689,51057842,51057857,51057863,51060353,51063643,51064835,51081334,51091058,51091331,51098297,51098299,51111738,51113658,51113661,51115184,51116067,51117319,51118932,51124104,51129210,51133103,51139379,51144925,51145330,51148688,51148974,51148981,51149607,51152050,51152829,51157411,51157841,51158514,51159332,51160545,51162170,51163637,51165467,51165568,51168202,51169038,51172672,51172684,51172691,51172700,51172705,51172714,51172721,51172726,51175733,51176511,51178314,51178337,51178342,51178351,51178982,51180286,51183909,51184022,51186528,51187241,51187250,51188419,51189509,51189518,51189826,51190059,51190071,51190082,51190089,51190202,51190211,51190216,51190229,51190652,51190722,51193591,51195231,51195411,51195454,51196181,51197687,51197692,51197699,51197704,51197960,51199193,51200020,51200253,51200256,51200291,51200300,51200569,51201350,51201363,51201372,51201383,51201426,51201435,51201440,51201451,51201814,51202231,51204329,51207178,51207191,51207202,51207215,51207302,51209088,51212458,51212464,51212553,51212567,51213807,51213888,51216161,51217273,51217504,51217767,51219303,51219454,51219771,51219800,51220797,51221011,51221152,51221348,51223961,51224748,51224922,51225437,51226342,51227772,51227903,51228202,51228352,51228771,51228774,51228785,51228798,51228807,51228816,51230396,51230478,51230491,51232143,51232639,51234053,51235147,51240876,51240888"
           }
         ]
       },
@@ -44,7 +44,7 @@
           },
           {
             "key": "GetPlayer_rid",
-            "value": "0xb59765bdc8d57db8"
+            "value": "0x303473f6366fa112"
           }
         ]
       },
@@ -86,30 +86,231 @@
     "formats": [
       {
         "itag": 18,
-        "url": "https://rr1---sn-p5qlsndr.googlevideo.com/videoplayback?expire=1720984286&ei=fs6TZsj_L62IkucPyeqHqAo&ip=20.49.63.248&id=o-AMzmkHqfQYtZYGFVOm-QjUEia-nQ6m5-KT3vbwNX_Dfl&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=gB&mm=31%2C29&mn=sn-p5qlsndr%2Csn-p5qs7nsr&ms=au%2Crdu&mv=m&mvi=1&pl=17&initcwndbps=2298750&bui=AXc671L2ptSD7U2a-t9EZr491GwdAGqElSjSiNVkyeHk8pWUXPvTTFr3fOs3aZhc-dqNdso5BcvXGXyv&spc=NO7bAeiBQcR34a2Wycu4_x3KSNwfZBiRRZ4THNeJZCG9imFqLr6I&vprv=1&svpuc=1&mime=video%2Fmp4&ns=AzmWS9s_b9VQFmZizo6Wvv8Q&rqh=1&gir=yes&clen=30955211&ratebypass=yes&dur=341.611&lmt=1720939872288717&mt=1720962307&fvip=1&c=WEB_CREATOR&sefc=1&txp=4438434&n=Cmgj9RUjTtumB3vQoyo&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRQIhAKfvb5x3zfds-e_G78tu2TMwW21VcyHl7RNBKW800ZNTAiB08FEaxvuLvQ-wx2rAcGJXbj8GA6zbdh14YDSKRDZrmg%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhAI1C7ZS1cc3OPQwJfl3cllS8CmrMH7NIxmOo6FGnBxItAiAl9IO4V4AQqPEfG7VC9y1021vbpC-YE0AOhtuFMWfiXg%3D%3D",
+        "url": "https://rr5---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1721047660&ei=DMaUZrzuIqm0kucPleSr8As&ip=20.161.78.36&id=o-AF0hQlGnRPxmqvp-fSYNIItsEHtvJTQFweeSxrYUNxTk&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1J&mm=31%2C26&mn=sn-p5qddn7k%2Csn-5uaeznyz&ms=au%2Conr&mv=m&mvi=5&pl=16&initcwndbps=5536250&bui=AXc671INg9g0rtjkoECKvhbeK2aBfL1WbbK7FEEWgZ3lcv0MygAkD0RWysFrOuA1RSbqFpiOU8S4daCi&spc=NO7bATcHYAZ0t9t6is2BiRtEYPs7E_9dldS9DFlpduCmJqUXEKLyW6o&vprv=1&svpuc=1&mime=video%2Fmp4&ns=HNHkVOXeSqynVPL1I69Ua3MQ&rqh=1&cnr=14&ratebypass=yes&dur=1344.040&lmt=1700006236404977&mt=1721025661&fvip=3&c=WEB_CREATOR&sefc=1&txp=5438434&n=lkUsXC7bu4xeQV2p9-r&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Ccnr%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRgIhAMHFR_4mIVBoBGWy9RKeDBPv4KpNQeQGDuaL2iSu3UZOAiEA_9-eYZ3kKrGGT7kVMHxImtcbqLwgrUjjoNF9VnY5Brg%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhANdCEBOKQcboDadeDIixOVkKq6_RudcptxwiqWYgAFBuAiBxYEKzBf9wD3JmJ5NIUtwASbcqtbOPZdgggFqfkRz-OQ%3D%3D",
         "mimeType": "video/mp4; codecs=\"avc1.42001E, mp4a.40.2\"",
-        "bitrate": 725031,
+        "bitrate": 474361,
         "width": 640,
         "height": 360,
-        "lastModified": "1720939872288717",
-        "contentLength": "30955211",
+        "lastModified": "1700006236404977",
         "quality": "medium",
-        "fps": 25,
+        "fps": 30,
         "qualityLabel": "360p",
         "projectionType": "RECTANGULAR",
-        "averageBitrate": 724923,
         "audioQuality": "AUDIO_QUALITY_LOW",
-        "approxDurationMs": "341611",
+        "approxDurationMs": "1344040",
         "audioSampleRate": "44100",
         "audioChannels": 2
       }
     ],
     "adaptiveFormats": [
       {
-        "itag": 137,
-        "url": "https://rr1---sn-p5qlsndr.googlevideo.com/videoplayback?expire=1720984286&ei=fs6TZsj_L62IkucPyeqHqAo&ip=20.49.63.248&id=o-AMzmkHqfQYtZYGFVOm-QjUEia-nQ6m5-KT3vbwNX_Dfl&itag=137&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=gB&mm=31%2C29&mn=sn-p5qlsndr%2Csn-p5qs7nsr&ms=au%2Crdu&mv=m&mvi=1&pl=17&initcwndbps=2298750&bui=AXc671LqS0w0xgxPuj0COKkKCMupKiPhzV85b9y3Iq57k6Pa5ddy4Ri29DdESCTd-C33S0gZeA98bQDW&spc=NO7bAeiBQcR34a2Wycu4_x3KSNwfZBiRRZ4THNeJZCG9imFqLr6I&vprv=1&svpuc=1&mime=video%2Fmp4&ns=JPRjtKPKkMTKdwL7xl329ZMQ&rqh=1&gir=yes&clen=159533111&dur=341.560&lmt=1720943921379958&mt=1720962307&fvip=1&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=4432434&n=gU0TWlJkrj8u9KzDHKX&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRAIgVdcg922uLCxu0T2CnhPJyssGHv_cgn_y15ANOfnSpKECICtKHPJ7AtKPgvNsgWUjxwF_WkGVDlam_37KzAP4i8ca&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhAI1C7ZS1cc3OPQwJfl3cllS8CmrMH7NIxmOo6FGnBxItAiAl9IO4V4AQqPEfG7VC9y1021vbpC-YE0AOhtuFMWfiXg%3D%3D",
-        "mimeType": "video/mp4; codecs=\"avc1.640028\"",
-        "bitrate": 4337835,
+        "itag": 702,
+        "url": "https://rr5---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1721047660&ei=DMaUZrzuIqm0kucPleSr8As&ip=20.161.78.36&id=o-AF0hQlGnRPxmqvp-fSYNIItsEHtvJTQFweeSxrYUNxTk&itag=702&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C694%2C695%2C696%2C697%2C698%2C699%2C700%2C701%2C702&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1J&mm=31%2C26&mn=sn-p5qddn7k%2Csn-5uaeznyz&ms=au%2Conr&mv=m&mvi=5&pl=16&initcwndbps=5536250&bui=AXc671I-f-8uq7d3Riwz94zFLMKjDbgx73iZ34x2Z052IIWH2Zchy7Fk_dAnNd1DgAiY1TTCv9QRHDfZ&spc=NO7bATcEYAZ0t9t6is2BiRtEYPs7E_9dldS9DFlpduCmJqUXEKLy&vprv=1&svpuc=1&mime=video%2Fmp4&ns=R5WIa7Fb8zAB1bBtvnBD8XYQ&rqh=1&gir=yes&clen=9289698962&dur=1343.983&lmt=1674811463473682&mt=1721025661&fvip=3&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=5432434&n=2PJVtPMoupQGdrBPDm-&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIhANljkg28YtKkuBUh2Jf_1wL-dMOEQGNRG2EBQQppY7rYAiA2e2ITfZNHNy-6yBDM0wlaK0wxHPib8JhzZcw7TgGOrw%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhANdCEBOKQcboDadeDIixOVkKq6_RudcptxwiqWYgAFBuAiBxYEKzBf9wD3JmJ5NIUtwASbcqtbOPZdgggFqfkRz-OQ%3D%3D",
+        "mimeType": "video/mp4; codecs=\"av01.0.17M.10.0.110.09.16.09.0\"",
+        "bitrate": 73418923,
+        "width": 7680,
+        "height": 4320,
+        "initRange": {
+          "start": "0",
+          "end": "732"
+        },
+        "indexRange": {
+          "start": "733",
+          "end": "4100"
+        },
+        "lastModified": "1674811463473682",
+        "contentLength": "9289698962",
+        "quality": "highres",
+        "fps": 60,
+        "qualityLabel": "4320p60 HDR",
+        "projectionType": "RECTANGULAR",
+        "averageBitrate": 55296526,
+        "colorInfo": {
+          "primaries": "COLOR_PRIMARIES_BT2020",
+          "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_SMPTEST2084",
+          "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT2020_NCL"
+        },
+        "approxDurationMs": "1343983"
+      },
+      {
+        "itag": 315,
+        "url": "https://rr5---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1721047660&ei=DMaUZrzuIqm0kucPleSr8As&ip=20.161.78.36&id=o-AF0hQlGnRPxmqvp-fSYNIItsEHtvJTQFweeSxrYUNxTk&itag=315&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C694%2C695%2C696%2C697%2C698%2C699%2C700%2C701%2C702&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1J&mm=31%2C26&mn=sn-p5qddn7k%2Csn-5uaeznyz&ms=au%2Conr&mv=m&mvi=5&pl=16&initcwndbps=5536250&bui=AXc671I-f-8uq7d3Riwz94zFLMKjDbgx73iZ34x2Z052IIWH2Zchy7Fk_dAnNd1DgAiY1TTCv9QRHDfZ&spc=NO7bATcEYAZ0t9t6is2BiRtEYPs7E_9dldS9DFlpduCmJqUXEKLy&vprv=1&svpuc=1&mime=video%2Fwebm&ns=R5WIa7Fb8zAB1bBtvnBD8XYQ&rqh=1&gir=yes&clen=4249609206&dur=1343.983&lmt=1648545775063548&mt=1721025661&fvip=3&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=5432232&n=2PJVtPMoupQGdrBPDm-&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIhAJk0_9PiqPCUzVvLq-GKERL9y1J3nm4D2UXl1_zanuCSAiAJv8ISQOF28vvpa-5aCkLgH92FGmPRGceTQgzrKD7r7w%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhANdCEBOKQcboDadeDIixOVkKq6_RudcptxwiqWYgAFBuAiBxYEKzBf9wD3JmJ5NIUtwASbcqtbOPZdgggFqfkRz-OQ%3D%3D",
+        "mimeType": "video/webm; codecs=\"vp9\"",
+        "bitrate": 35265936,
+        "width": 3840,
+        "height": 2160,
+        "initRange": {
+          "start": "0",
+          "end": "219"
+        },
+        "indexRange": {
+          "start": "220",
+          "end": "5211"
+        },
+        "lastModified": "1648545775063548",
+        "contentLength": "4249609206",
+        "quality": "hd2160",
+        "fps": 60,
+        "qualityLabel": "2160p60",
+        "projectionType": "RECTANGULAR",
+        "averageBitrate": 25295612,
+        "colorInfo": {
+          "primaries": "COLOR_PRIMARIES_BT709",
+          "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_BT709",
+          "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT709"
+        },
+        "approxDurationMs": "1343983"
+      },
+      {
+        "itag": 337,
+        "url": "https://rr5---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1721047660&ei=DMaUZrzuIqm0kucPleSr8As&ip=20.161.78.36&id=o-AF0hQlGnRPxmqvp-fSYNIItsEHtvJTQFweeSxrYUNxTk&itag=337&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C694%2C695%2C696%2C697%2C698%2C699%2C700%2C701%2C702&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1J&mm=31%2C26&mn=sn-p5qddn7k%2Csn-5uaeznyz&ms=au%2Conr&mv=m&mvi=5&pl=16&initcwndbps=5536250&bui=AXc671I-f-8uq7d3Riwz94zFLMKjDbgx73iZ34x2Z052IIWH2Zchy7Fk_dAnNd1DgAiY1TTCv9QRHDfZ&spc=NO7bATcEYAZ0t9t6is2BiRtEYPs7E_9dldS9DFlpduCmJqUXEKLy&vprv=1&svpuc=1&mime=video%2Fwebm&ns=R5WIa7Fb8zAB1bBtvnBD8XYQ&rqh=1&gir=yes&clen=4843277593&dur=1343.983&lmt=1648355274840988&mt=1721025661&fvip=3&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=5411222&n=2PJVtPMoupQGdrBPDm-&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIhAPUfUT7Dj9cv-IUq7VmdIqV7WtlRD7NL1XWGOVeC0fsmAiAno1nl3yjUEpTrvLTGg5W7zlSv3H3eiPAJWe_9obRcfw%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhANdCEBOKQcboDadeDIixOVkKq6_RudcptxwiqWYgAFBuAiBxYEKzBf9wD3JmJ5NIUtwASbcqtbOPZdgggFqfkRz-OQ%3D%3D",
+        "mimeType": "video/webm; codecs=\"vp9.2\"",
+        "bitrate": 30592769,
+        "width": 3840,
+        "height": 2160,
+        "initRange": {
+          "start": "0",
+          "end": "310"
+        },
+        "indexRange": {
+          "start": "311",
+          "end": "5099"
+        },
+        "lastModified": "1648355274840988",
+        "contentLength": "4843277593",
+        "quality": "hd2160",
+        "fps": 60,
+        "qualityLabel": "2160p60 HDR",
+        "projectionType": "RECTANGULAR",
+        "averageBitrate": 28829397,
+        "colorInfo": {
+          "primaries": "COLOR_PRIMARIES_BT2020",
+          "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_SMPTEST2084",
+          "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT2020_NCL"
+        },
+        "approxDurationMs": "1343983"
+      },
+      {
+        "itag": 701,
+        "url": "https://rr5---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1721047660&ei=DMaUZrzuIqm0kucPleSr8As&ip=20.161.78.36&id=o-AF0hQlGnRPxmqvp-fSYNIItsEHtvJTQFweeSxrYUNxTk&itag=701&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C694%2C695%2C696%2C697%2C698%2C699%2C700%2C701%2C702&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1J&mm=31%2C26&mn=sn-p5qddn7k%2Csn-5uaeznyz&ms=au%2Conr&mv=m&mvi=5&pl=16&initcwndbps=5536250&bui=AXc671I-f-8uq7d3Riwz94zFLMKjDbgx73iZ34x2Z052IIWH2Zchy7Fk_dAnNd1DgAiY1TTCv9QRHDfZ&spc=NO7bATcEYAZ0t9t6is2BiRtEYPs7E_9dldS9DFlpduCmJqUXEKLy&vprv=1&svpuc=1&mime=video%2Fmp4&ns=R5WIa7Fb8zAB1bBtvnBD8XYQ&rqh=1&gir=yes&clen=4525393014&dur=1343.983&lmt=1674718335536143&mt=1721025661&fvip=3&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=5432434&n=2PJVtPMoupQGdrBPDm-&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRgIhAIyZ141DUFPorlPWp3RZqfQhIUX2Ek7ybw6nrX81TwFmAiEAoozgnMp27InbTLar2vO6zxpxZR7lsKKrQuG3-tFg7hU%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhANdCEBOKQcboDadeDIixOVkKq6_RudcptxwiqWYgAFBuAiBxYEKzBf9wD3JmJ5NIUtwASbcqtbOPZdgggFqfkRz-OQ%3D%3D",
+        "mimeType": "video/mp4; codecs=\"av01.0.13M.10.0.110.09.16.09.0\"",
+        "bitrate": 34689203,
+        "width": 3840,
+        "height": 2160,
+        "initRange": {
+          "start": "0",
+          "end": "732"
+        },
+        "indexRange": {
+          "start": "733",
+          "end": "4100"
+        },
+        "lastModified": "1674718335536143",
+        "contentLength": "4525393014",
+        "quality": "hd2160",
+        "fps": 60,
+        "qualityLabel": "2160p60 HDR",
+        "projectionType": "RECTANGULAR",
+        "averageBitrate": 26937203,
+        "colorInfo": {
+          "primaries": "COLOR_PRIMARIES_BT2020",
+          "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_SMPTEST2084",
+          "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT2020_NCL"
+        },
+        "approxDurationMs": "1343983"
+      },
+      {
+        "itag": 308,
+        "url": "https://rr5---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1721047660&ei=DMaUZrzuIqm0kucPleSr8As&ip=20.161.78.36&id=o-AF0hQlGnRPxmqvp-fSYNIItsEHtvJTQFweeSxrYUNxTk&itag=308&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C694%2C695%2C696%2C697%2C698%2C699%2C700%2C701%2C702&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1J&mm=31%2C26&mn=sn-p5qddn7k%2Csn-5uaeznyz&ms=au%2Conr&mv=m&mvi=5&pl=16&initcwndbps=5536250&bui=AXc671I-f-8uq7d3Riwz94zFLMKjDbgx73iZ34x2Z052IIWH2Zchy7Fk_dAnNd1DgAiY1TTCv9QRHDfZ&spc=NO7bATcEYAZ0t9t6is2BiRtEYPs7E_9dldS9DFlpduCmJqUXEKLy&vprv=1&svpuc=1&mime=video%2Fwebm&ns=R5WIa7Fb8zAB1bBtvnBD8XYQ&rqh=1&gir=yes&clen=1877159928&dur=1343.983&lmt=1648542244106983&mt=1721025661&fvip=3&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=5432232&n=2PJVtPMoupQGdrBPDm-&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRAIgAPOqNF2M9JepTFGlDxd9n6Plm8nrgkogFFU8D-QJBCcCICUWLUDvH2v2A8WHnD3Ni3mzcUlZzoJTz1Bw5SpTBFR5&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhANdCEBOKQcboDadeDIixOVkKq6_RudcptxwiqWYgAFBuAiBxYEKzBf9wD3JmJ5NIUtwASbcqtbOPZdgggFqfkRz-OQ%3D%3D",
+        "mimeType": "video/webm; codecs=\"vp9\"",
+        "bitrate": 17265071,
+        "width": 2560,
+        "height": 1440,
+        "initRange": {
+          "start": "0",
+          "end": "219"
+        },
+        "indexRange": {
+          "start": "220",
+          "end": "5209"
+        },
+        "lastModified": "1648542244106983",
+        "contentLength": "1877159928",
+        "quality": "hd1440",
+        "fps": 60,
+        "qualityLabel": "1440p60",
+        "projectionType": "RECTANGULAR",
+        "averageBitrate": 11173712,
+        "colorInfo": {
+          "primaries": "COLOR_PRIMARIES_BT709",
+          "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_BT709",
+          "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT709"
+        },
+        "approxDurationMs": "1343983"
+      },
+      {
+        "itag": 336,
+        "url": "https://rr5---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1721047660&ei=DMaUZrzuIqm0kucPleSr8As&ip=20.161.78.36&id=o-AF0hQlGnRPxmqvp-fSYNIItsEHtvJTQFweeSxrYUNxTk&itag=336&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C694%2C695%2C696%2C697%2C698%2C699%2C700%2C701%2C702&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1J&mm=31%2C26&mn=sn-p5qddn7k%2Csn-5uaeznyz&ms=au%2Conr&mv=m&mvi=5&pl=16&initcwndbps=5536250&bui=AXc671I-f-8uq7d3Riwz94zFLMKjDbgx73iZ34x2Z052IIWH2Zchy7Fk_dAnNd1DgAiY1TTCv9QRHDfZ&spc=NO7bATcEYAZ0t9t6is2BiRtEYPs7E_9dldS9DFlpduCmJqUXEKLy&vprv=1&svpuc=1&mime=video%2Fwebm&ns=R5WIa7Fb8zAB1bBtvnBD8XYQ&rqh=1&gir=yes&clen=2704453806&dur=1343.983&lmt=1648348069462349&mt=1721025661&fvip=3&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=5411222&n=2PJVtPMoupQGdrBPDm-&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIhAL99ceRlSbNM3SsFYXzo-06q2Avlm4rCFLpb2sRcnPS2AiAnI3-uCYZOngkPaebh6EePgPEP3OSYnKD8wxv0kxVCSw%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhANdCEBOKQcboDadeDIixOVkKq6_RudcptxwiqWYgAFBuAiBxYEKzBf9wD3JmJ5NIUtwASbcqtbOPZdgggFqfkRz-OQ%3D%3D",
+        "mimeType": "video/webm; codecs=\"vp9.2\"",
+        "bitrate": 17166935,
+        "width": 2560,
+        "height": 1440,
+        "initRange": {
+          "start": "0",
+          "end": "310"
+        },
+        "indexRange": {
+          "start": "311",
+          "end": "5069"
+        },
+        "lastModified": "1648348069462349",
+        "contentLength": "2704453806",
+        "quality": "hd1440",
+        "fps": 60,
+        "qualityLabel": "1440p60 HDR",
+        "projectionType": "RECTANGULAR",
+        "averageBitrate": 16098142,
+        "colorInfo": {
+          "primaries": "COLOR_PRIMARIES_BT2020",
+          "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_SMPTEST2084",
+          "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT2020_NCL"
+        },
+        "approxDurationMs": "1343983"
+      },
+      {
+        "itag": 700,
+        "url": "https://rr5---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1721047660&ei=DMaUZrzuIqm0kucPleSr8As&ip=20.161.78.36&id=o-AF0hQlGnRPxmqvp-fSYNIItsEHtvJTQFweeSxrYUNxTk&itag=700&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C694%2C695%2C696%2C697%2C698%2C699%2C700%2C701%2C702&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1J&mm=31%2C26&mn=sn-p5qddn7k%2Csn-5uaeznyz&ms=au%2Conr&mv=m&mvi=5&pl=16&initcwndbps=5536250&bui=AXc671I-f-8uq7d3Riwz94zFLMKjDbgx73iZ34x2Z052IIWH2Zchy7Fk_dAnNd1DgAiY1TTCv9QRHDfZ&spc=NO7bATcEYAZ0t9t6is2BiRtEYPs7E_9dldS9DFlpduCmJqUXEKLy&vprv=1&svpuc=1&mime=video%2Fmp4&ns=R5WIa7Fb8zAB1bBtvnBD8XYQ&rqh=1&gir=yes&clen=2515687590&dur=1343.983&lmt=1674704721733926&mt=1721025661&fvip=3&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=5432434&n=2PJVtPMoupQGdrBPDm-&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRAIgNDF6xesCCRd4i02mlgQqSYke1-3Bro7ZzWORo_k85tQCIBALvhhxjoBQav_Nhs9Dx0vPhOWy8AiuJMJ3kM9Q-d_k&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhANdCEBOKQcboDadeDIixOVkKq6_RudcptxwiqWYgAFBuAiBxYEKzBf9wD3JmJ5NIUtwASbcqtbOPZdgggFqfkRz-OQ%3D%3D",
+        "mimeType": "video/mp4; codecs=\"av01.0.12M.10.0.110.09.16.09.0\"",
+        "bitrate": 20740480,
+        "width": 2560,
+        "height": 1440,
+        "initRange": {
+          "start": "0",
+          "end": "732"
+        },
+        "indexRange": {
+          "start": "733",
+          "end": "4100"
+        },
+        "lastModified": "1674704721733926",
+        "contentLength": "2515687590",
+        "quality": "hd1440",
+        "fps": 60,
+        "qualityLabel": "1440p60 HDR",
+        "projectionType": "RECTANGULAR",
+        "averageBitrate": 14974520,
+        "colorInfo": {
+          "primaries": "COLOR_PRIMARIES_BT2020",
+          "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_SMPTEST2084",
+          "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT2020_NCL"
+        },
+        "approxDurationMs": "1343983"
+      },
+      {
+        "itag": 299,
+        "url": "https://rr5---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1721047660&ei=DMaUZrzuIqm0kucPleSr8As&ip=20.161.78.36&id=o-AF0hQlGnRPxmqvp-fSYNIItsEHtvJTQFweeSxrYUNxTk&itag=299&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C694%2C695%2C696%2C697%2C698%2C699%2C700%2C701%2C702&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1J&mm=31%2C26&mn=sn-p5qddn7k%2Csn-5uaeznyz&ms=au%2Conr&mv=m&mvi=5&pl=16&initcwndbps=5536250&bui=AXc671I-f-8uq7d3Riwz94zFLMKjDbgx73iZ34x2Z052IIWH2Zchy7Fk_dAnNd1DgAiY1TTCv9QRHDfZ&spc=NO7bATcEYAZ0t9t6is2BiRtEYPs7E_9dldS9DFlpduCmJqUXEKLy&vprv=1&svpuc=1&mime=video%2Fmp4&ns=R5WIa7Fb8zAB1bBtvnBD8XYQ&rqh=1&gir=yes&clen=849001280&dur=1343.983&lmt=1700004449537654&mt=1721025661&fvip=3&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=5432434&n=2PJVtPMoupQGdrBPDm-&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIhAIEvqC_pqF1-SE9VY98zELu3MM8uqhYvTZkbuRakJXX1AiBfjZni__ZDPslo2AxNmoNUuGJCJKu_VwQ3kvp3HDnCsQ%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhANdCEBOKQcboDadeDIixOVkKq6_RudcptxwiqWYgAFBuAiBxYEKzBf9wD3JmJ5NIUtwASbcqtbOPZdgggFqfkRz-OQ%3D%3D",
+        "mimeType": "video/mp4; codecs=\"avc1.64002a\"",
+        "bitrate": 7457349,
         "width": 1920,
         "height": 1080,
         "initRange": {
@@ -118,22 +319,22 @@
         },
         "indexRange": {
           "start": "742",
-          "end": "1589"
+          "end": "4109"
         },
-        "lastModified": "1720943921379958",
-        "contentLength": "159533111",
+        "lastModified": "1700004449537654",
+        "contentLength": "849001280",
         "quality": "hd1080",
-        "fps": 25,
-        "qualityLabel": "1080p",
+        "fps": 60,
+        "qualityLabel": "1080p60",
         "projectionType": "RECTANGULAR",
-        "averageBitrate": 3736575,
-        "approxDurationMs": "341560"
+        "averageBitrate": 5053642,
+        "approxDurationMs": "1343983"
       },
       {
-        "itag": 248,
-        "url": "https://rr1---sn-p5qlsndr.googlevideo.com/videoplayback?expire=1720984286&ei=fs6TZsj_L62IkucPyeqHqAo&ip=20.49.63.248&id=o-AMzmkHqfQYtZYGFVOm-QjUEia-nQ6m5-KT3vbwNX_Dfl&itag=248&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=gB&mm=31%2C29&mn=sn-p5qlsndr%2Csn-p5qs7nsr&ms=au%2Crdu&mv=m&mvi=1&pl=17&initcwndbps=2298750&bui=AXc671LqS0w0xgxPuj0COKkKCMupKiPhzV85b9y3Iq57k6Pa5ddy4Ri29DdESCTd-C33S0gZeA98bQDW&spc=NO7bAeiBQcR34a2Wycu4_x3KSNwfZBiRRZ4THNeJZCG9imFqLr6I&vprv=1&svpuc=1&mime=video%2Fwebm&ns=JPRjtKPKkMTKdwL7xl329ZMQ&rqh=1&gir=yes&clen=76185732&dur=341.560&lmt=1720934825883177&mt=1720962307&fvip=1&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=330F224&n=gU0TWlJkrj8u9KzDHKX&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRgIhAJ5RBBP3DMFkVPqNQgZSozalaiWjoKrtfxWk2sjPKTevAiEAifsSeKuxew98D_C80y1mSLeyP7lzaC11gDYUByvwVC8%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhAI1C7ZS1cc3OPQwJfl3cllS8CmrMH7NIxmOo6FGnBxItAiAl9IO4V4AQqPEfG7VC9y1021vbpC-YE0AOhtuFMWfiXg%3D%3D",
+        "itag": 303,
+        "url": "https://rr5---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1721047660&ei=DMaUZrzuIqm0kucPleSr8As&ip=20.161.78.36&id=o-AF0hQlGnRPxmqvp-fSYNIItsEHtvJTQFweeSxrYUNxTk&itag=303&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C694%2C695%2C696%2C697%2C698%2C699%2C700%2C701%2C702&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1J&mm=31%2C26&mn=sn-p5qddn7k%2Csn-5uaeznyz&ms=au%2Conr&mv=m&mvi=5&pl=16&initcwndbps=5536250&bui=AXc671I-f-8uq7d3Riwz94zFLMKjDbgx73iZ34x2Z052IIWH2Zchy7Fk_dAnNd1DgAiY1TTCv9QRHDfZ&spc=NO7bATcEYAZ0t9t6is2BiRtEYPs7E_9dldS9DFlpduCmJqUXEKLy&vprv=1&svpuc=1&mime=video%2Fwebm&ns=R5WIa7Fb8zAB1bBtvnBD8XYQ&rqh=1&gir=yes&clen=632735545&dur=1343.983&lmt=1648541932756036&mt=1721025661&fvip=3&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=5432232&n=2PJVtPMoupQGdrBPDm-&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRgIhAM1-o-iL9-RexSTUsSYtuuHg9tKZXntDlWOCTv9Ao7pnAiEA4LuHD_9FvisRKDciW2VS_-WTZRzEhEWSeeuxf0dmHBg%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhANdCEBOKQcboDadeDIixOVkKq6_RudcptxwiqWYgAFBuAiBxYEKzBf9wD3JmJ5NIUtwASbcqtbOPZdgggFqfkRz-OQ%3D%3D",
         "mimeType": "video/webm; codecs=\"vp9\"",
-        "bitrate": 2434665,
+        "bitrate": 6422361,
         "width": 1920,
         "height": 1080,
         "initRange": {
@@ -142,27 +343,85 @@
         },
         "indexRange": {
           "start": "220",
-          "end": "1365"
+          "end": "5204"
         },
-        "lastModified": "1720934825883177",
-        "contentLength": "76185732",
+        "lastModified": "1648541932756036",
+        "contentLength": "632735545",
         "quality": "hd1080",
-        "fps": 25,
-        "qualityLabel": "1080p",
+        "fps": 60,
+        "qualityLabel": "1080p60",
         "projectionType": "RECTANGULAR",
-        "averageBitrate": 1784418,
+        "averageBitrate": 3766330,
         "colorInfo": {
           "primaries": "COLOR_PRIMARIES_BT709",
           "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_BT709",
           "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT709"
         },
-        "approxDurationMs": "341560"
+        "approxDurationMs": "1343983"
+      },
+      {
+        "itag": 335,
+        "url": "https://rr5---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1721047660&ei=DMaUZrzuIqm0kucPleSr8As&ip=20.161.78.36&id=o-AF0hQlGnRPxmqvp-fSYNIItsEHtvJTQFweeSxrYUNxTk&itag=335&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C694%2C695%2C696%2C697%2C698%2C699%2C700%2C701%2C702&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1J&mm=31%2C26&mn=sn-p5qddn7k%2Csn-5uaeznyz&ms=au%2Conr&mv=m&mvi=5&pl=16&initcwndbps=5536250&bui=AXc671I-f-8uq7d3Riwz94zFLMKjDbgx73iZ34x2Z052IIWH2Zchy7Fk_dAnNd1DgAiY1TTCv9QRHDfZ&spc=NO7bATcEYAZ0t9t6is2BiRtEYPs7E_9dldS9DFlpduCmJqUXEKLy&vprv=1&svpuc=1&mime=video%2Fwebm&ns=R5WIa7Fb8zAB1bBtvnBD8XYQ&rqh=1&gir=yes&clen=1132517620&dur=1343.983&lmt=1648335445859646&mt=1721025661&fvip=3&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=5411222&n=2PJVtPMoupQGdrBPDm-&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRgIhAJ9wt5CC13NYZEJ6UXtVlxZvtq3Z7z6STq2i-_3vPI3ZAiEAopu6Ls4mauklhwvwNYig-CjkZukj8LInJaG3qaYEiRQ%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhANdCEBOKQcboDadeDIixOVkKq6_RudcptxwiqWYgAFBuAiBxYEKzBf9wD3JmJ5NIUtwASbcqtbOPZdgggFqfkRz-OQ%3D%3D",
+        "mimeType": "video/webm; codecs=\"vp9.2\"",
+        "bitrate": 7045735,
+        "width": 1920,
+        "height": 1080,
+        "initRange": {
+          "start": "0",
+          "end": "310"
+        },
+        "indexRange": {
+          "start": "311",
+          "end": "5067"
+        },
+        "lastModified": "1648335445859646",
+        "contentLength": "1132517620",
+        "quality": "hd1080",
+        "fps": 60,
+        "qualityLabel": "1080p60 HDR",
+        "projectionType": "RECTANGULAR",
+        "averageBitrate": 6741261,
+        "colorInfo": {
+          "primaries": "COLOR_PRIMARIES_BT2020",
+          "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_SMPTEST2084",
+          "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT2020_NCL"
+        },
+        "approxDurationMs": "1343983"
+      },
+      {
+        "itag": 699,
+        "url": "https://rr5---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1721047660&ei=DMaUZrzuIqm0kucPleSr8As&ip=20.161.78.36&id=o-AF0hQlGnRPxmqvp-fSYNIItsEHtvJTQFweeSxrYUNxTk&itag=699&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C694%2C695%2C696%2C697%2C698%2C699%2C700%2C701%2C702&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1J&mm=31%2C26&mn=sn-p5qddn7k%2Csn-5uaeznyz&ms=au%2Conr&mv=m&mvi=5&pl=16&initcwndbps=5536250&bui=AXc671I-f-8uq7d3Riwz94zFLMKjDbgx73iZ34x2Z052IIWH2Zchy7Fk_dAnNd1DgAiY1TTCv9QRHDfZ&spc=NO7bATcEYAZ0t9t6is2BiRtEYPs7E_9dldS9DFlpduCmJqUXEKLy&vprv=1&svpuc=1&mime=video%2Fmp4&ns=R5WIa7Fb8zAB1bBtvnBD8XYQ&rqh=1&gir=yes&clen=909277838&dur=1343.983&lmt=1674715656034553&mt=1721025661&fvip=3&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=5432434&n=2PJVtPMoupQGdrBPDm-&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIhAKC8ng0iXps-7Ko6E3oM8o6OsvkiX2UWowZbVruq5jCRAiB5iEfxe5V4Nh4nMOF-LiWpK4q7Zc28x4rYy0QIZLDEZw%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhANdCEBOKQcboDadeDIixOVkKq6_RudcptxwiqWYgAFBuAiBxYEKzBf9wD3JmJ5NIUtwASbcqtbOPZdgggFqfkRz-OQ%3D%3D",
+        "mimeType": "video/mp4; codecs=\"av01.0.09M.10.0.110.09.16.09.0\"",
+        "bitrate": 8651331,
+        "width": 1920,
+        "height": 1080,
+        "initRange": {
+          "start": "0",
+          "end": "731"
+        },
+        "indexRange": {
+          "start": "732",
+          "end": "4099"
+        },
+        "lastModified": "1674715656034553",
+        "contentLength": "909277838",
+        "quality": "hd1080",
+        "fps": 60,
+        "qualityLabel": "1080p60 HDR",
+        "projectionType": "RECTANGULAR",
+        "averageBitrate": 5412436,
+        "colorInfo": {
+          "primaries": "COLOR_PRIMARIES_BT2020",
+          "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_SMPTEST2084",
+          "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT2020_NCL"
+        },
+        "approxDurationMs": "1343983"
       },
       {
         "itag": 136,
-        "url": "https://rr1---sn-p5qlsndr.googlevideo.com/videoplayback?expire=1720984286&ei=fs6TZsj_L62IkucPyeqHqAo&ip=20.49.63.248&id=o-AMzmkHqfQYtZYGFVOm-QjUEia-nQ6m5-KT3vbwNX_Dfl&itag=136&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=gB&mm=31%2C29&mn=sn-p5qlsndr%2Csn-p5qs7nsr&ms=au%2Crdu&mv=m&mvi=1&pl=17&initcwndbps=2298750&bui=AXc671LqS0w0xgxPuj0COKkKCMupKiPhzV85b9y3Iq57k6Pa5ddy4Ri29DdESCTd-C33S0gZeA98bQDW&spc=NO7bAeiBQcR34a2Wycu4_x3KSNwfZBiRRZ4THNeJZCG9imFqLr6I&vprv=1&svpuc=1&mime=video%2Fmp4&ns=JPRjtKPKkMTKdwL7xl329ZMQ&rqh=1&gir=yes&clen=47189546&dur=341.560&lmt=1720943350103431&mt=1720962307&fvip=1&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=4432434&n=gU0TWlJkrj8u9KzDHKX&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRgIhAJFTzjHiyCrPOYjHLe7-p5lJuCGzfwIsWTeeBNtp4gCHAiEA4YMMpS0iOH4ScVhysrmJY6R9oVi1BviUXN2ZiI2j8z8%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhAI1C7ZS1cc3OPQwJfl3cllS8CmrMH7NIxmOo6FGnBxItAiAl9IO4V4AQqPEfG7VC9y1021vbpC-YE0AOhtuFMWfiXg%3D%3D",
+        "url": "https://rr5---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1721047660&ei=DMaUZrzuIqm0kucPleSr8As&ip=20.161.78.36&id=o-AF0hQlGnRPxmqvp-fSYNIItsEHtvJTQFweeSxrYUNxTk&itag=136&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C694%2C695%2C696%2C697%2C698%2C699%2C700%2C701%2C702&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1J&mm=31%2C26&mn=sn-p5qddn7k%2Csn-5uaeznyz&ms=au%2Conr&mv=m&mvi=5&pl=16&initcwndbps=5536250&bui=AXc671I-f-8uq7d3Riwz94zFLMKjDbgx73iZ34x2Z052IIWH2Zchy7Fk_dAnNd1DgAiY1TTCv9QRHDfZ&spc=NO7bATcEYAZ0t9t6is2BiRtEYPs7E_9dldS9DFlpduCmJqUXEKLy&vprv=1&svpuc=1&mime=video%2Fmp4&ns=R5WIa7Fb8zAB1bBtvnBD8XYQ&rqh=1&gir=yes&clen=294289111&dur=1343.966&lmt=1700006222356170&mt=1721025661&fvip=3&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=5432434&n=2PJVtPMoupQGdrBPDm-&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRgIhAN6PRSCAzvVcmrBTcnyxQnD59s9cyCediC79zzVTlELhAiEAxh5P66hgZ3_52uLjww1uszoQOa-ZPEucO0GNk6GaA-8%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhANdCEBOKQcboDadeDIixOVkKq6_RudcptxwiqWYgAFBuAiBxYEKzBf9wD3JmJ5NIUtwASbcqtbOPZdgggFqfkRz-OQ%3D%3D",
         "mimeType": "video/mp4; codecs=\"avc1.4d401f\"",
-        "bitrate": 1936178,
+        "bitrate": 2878411,
         "width": 1280,
         "height": 720,
         "initRange": {
@@ -171,22 +430,22 @@
         },
         "indexRange": {
           "start": "740",
-          "end": "1587"
+          "end": "4107"
         },
-        "lastModified": "1720943350103431",
-        "contentLength": "47189546",
+        "lastModified": "1700006222356170",
+        "contentLength": "294289111",
         "quality": "hd720",
-        "fps": 25,
+        "fps": 30,
         "qualityLabel": "720p",
         "projectionType": "RECTANGULAR",
-        "averageBitrate": 1105271,
-        "approxDurationMs": "341560"
+        "averageBitrate": 1751765,
+        "approxDurationMs": "1343966"
       },
       {
         "itag": 247,
-        "url": "https://rr1---sn-p5qlsndr.googlevideo.com/videoplayback?expire=1720984286&ei=fs6TZsj_L62IkucPyeqHqAo&ip=20.49.63.248&id=o-AMzmkHqfQYtZYGFVOm-QjUEia-nQ6m5-KT3vbwNX_Dfl&itag=247&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=gB&mm=31%2C29&mn=sn-p5qlsndr%2Csn-p5qs7nsr&ms=au%2Crdu&mv=m&mvi=1&pl=17&initcwndbps=2298750&bui=AXc671LqS0w0xgxPuj0COKkKCMupKiPhzV85b9y3Iq57k6Pa5ddy4Ri29DdESCTd-C33S0gZeA98bQDW&spc=NO7bAeiBQcR34a2Wycu4_x3KSNwfZBiRRZ4THNeJZCG9imFqLr6I&vprv=1&svpuc=1&mime=video%2Fwebm&ns=JPRjtKPKkMTKdwL7xl329ZMQ&rqh=1&gir=yes&clen=47786081&dur=341.560&lmt=1720934826923157&mt=1720962307&fvip=1&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=330F224&n=gU0TWlJkrj8u9KzDHKX&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRAIgUpcy-jryE5IPRYojbXjxPqnVqBxFSqoALewOown6Nu0CIAdJd7_ZH_eGZS4ZxPDQZTVxSm9FYArKGEwEAMUCimsC&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhAI1C7ZS1cc3OPQwJfl3cllS8CmrMH7NIxmOo6FGnBxItAiAl9IO4V4AQqPEfG7VC9y1021vbpC-YE0AOhtuFMWfiXg%3D%3D",
+        "url": "https://rr5---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1721047660&ei=DMaUZrzuIqm0kucPleSr8As&ip=20.161.78.36&id=o-AF0hQlGnRPxmqvp-fSYNIItsEHtvJTQFweeSxrYUNxTk&itag=247&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C694%2C695%2C696%2C697%2C698%2C699%2C700%2C701%2C702&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1J&mm=31%2C26&mn=sn-p5qddn7k%2Csn-5uaeznyz&ms=au%2Conr&mv=m&mvi=5&pl=16&initcwndbps=5536250&bui=AXc671I-f-8uq7d3Riwz94zFLMKjDbgx73iZ34x2Z052IIWH2Zchy7Fk_dAnNd1DgAiY1TTCv9QRHDfZ&spc=NO7bATcEYAZ0t9t6is2BiRtEYPs7E_9dldS9DFlpduCmJqUXEKLy&vprv=1&svpuc=1&mime=video%2Fwebm&ns=R5WIa7Fb8zAB1bBtvnBD8XYQ&rqh=1&gir=yes&clen=178415448&dur=1343.967&lmt=1648542603609984&mt=1721025661&fvip=3&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=5437232&n=2PJVtPMoupQGdrBPDm-&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRAIgaVH0IEiXg8WTXuTTy5zWAfAo2NzsFFOfarpshInkHjMCIDO2DTlRNFTKyrGVp-m9AnTTKq_hj42xYwhPwHJpARpx&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhANdCEBOKQcboDadeDIixOVkKq6_RudcptxwiqWYgAFBuAiBxYEKzBf9wD3JmJ5NIUtwASbcqtbOPZdgggFqfkRz-OQ%3D%3D",
         "mimeType": "video/webm; codecs=\"vp9\"",
-        "bitrate": 1826606,
+        "bitrate": 2001986,
         "width": 1280,
         "height": 720,
         "initRange": {
@@ -195,27 +454,138 @@
         },
         "indexRange": {
           "start": "220",
-          "end": "1357"
+          "end": "5183"
         },
-        "lastModified": "1720934826923157",
-        "contentLength": "47786081",
+        "lastModified": "1648542603609984",
+        "contentLength": "178415448",
         "quality": "hd720",
-        "fps": 25,
+        "fps": 30,
         "qualityLabel": "720p",
         "projectionType": "RECTANGULAR",
-        "averageBitrate": 1119243,
+        "averageBitrate": 1062022,
         "colorInfo": {
           "primaries": "COLOR_PRIMARIES_BT709",
           "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_BT709",
           "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT709"
         },
-        "approxDurationMs": "341560"
+        "approxDurationMs": "1343967"
+      },
+      {
+        "itag": 298,
+        "url": "https://rr5---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1721047660&ei=DMaUZrzuIqm0kucPleSr8As&ip=20.161.78.36&id=o-AF0hQlGnRPxmqvp-fSYNIItsEHtvJTQFweeSxrYUNxTk&itag=298&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C694%2C695%2C696%2C697%2C698%2C699%2C700%2C701%2C702&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1J&mm=31%2C26&mn=sn-p5qddn7k%2Csn-5uaeznyz&ms=au%2Conr&mv=m&mvi=5&pl=16&initcwndbps=5536250&bui=AXc671I-f-8uq7d3Riwz94zFLMKjDbgx73iZ34x2Z052IIWH2Zchy7Fk_dAnNd1DgAiY1TTCv9QRHDfZ&spc=NO7bATcEYAZ0t9t6is2BiRtEYPs7E_9dldS9DFlpduCmJqUXEKLy&vprv=1&svpuc=1&mime=video%2Fmp4&ns=R5WIa7Fb8zAB1bBtvnBD8XYQ&rqh=1&gir=yes&clen=482761785&dur=1343.983&lmt=1700003053679607&mt=1721025661&fvip=3&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=5432434&n=2PJVtPMoupQGdrBPDm-&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIhANgv-UTa-gqit5SyNXq_1SrE7Nm5FhClzVuo2-Fjz272AiAwKE3ZsPWDlm36jjGetWJe-7K7yi7-j1EgaueYdD8j-A%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhANdCEBOKQcboDadeDIixOVkKq6_RudcptxwiqWYgAFBuAiBxYEKzBf9wD3JmJ5NIUtwASbcqtbOPZdgggFqfkRz-OQ%3D%3D",
+        "mimeType": "video/mp4; codecs=\"avc1.4d4020\"",
+        "bitrate": 4431725,
+        "width": 1280,
+        "height": 720,
+        "initRange": {
+          "start": "0",
+          "end": "739"
+        },
+        "indexRange": {
+          "start": "740",
+          "end": "4107"
+        },
+        "lastModified": "1700003053679607",
+        "contentLength": "482761785",
+        "quality": "hd720",
+        "fps": 60,
+        "qualityLabel": "720p60",
+        "projectionType": "RECTANGULAR",
+        "averageBitrate": 2873618,
+        "approxDurationMs": "1343983"
+      },
+      {
+        "itag": 302,
+        "url": "https://rr5---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1721047660&ei=DMaUZrzuIqm0kucPleSr8As&ip=20.161.78.36&id=o-AF0hQlGnRPxmqvp-fSYNIItsEHtvJTQFweeSxrYUNxTk&itag=302&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C694%2C695%2C696%2C697%2C698%2C699%2C700%2C701%2C702&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1J&mm=31%2C26&mn=sn-p5qddn7k%2Csn-5uaeznyz&ms=au%2Conr&mv=m&mvi=5&pl=16&initcwndbps=5536250&bui=AXc671I-f-8uq7d3Riwz94zFLMKjDbgx73iZ34x2Z052IIWH2Zchy7Fk_dAnNd1DgAiY1TTCv9QRHDfZ&spc=NO7bATcEYAZ0t9t6is2BiRtEYPs7E_9dldS9DFlpduCmJqUXEKLy&vprv=1&svpuc=1&mime=video%2Fwebm&ns=R5WIa7Fb8zAB1bBtvnBD8XYQ&rqh=1&gir=yes&clen=354811534&dur=1343.983&lmt=1648540093345978&mt=1721025661&fvip=3&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=5432232&n=2PJVtPMoupQGdrBPDm-&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRgIhAMP_B550vt7y52jSRp_Fr3Zii_hcO5tYAxpYjKhLwryqAiEAvPYA2L4DU1HKiOMJpe7ol31tCgAL_KoMHzQetK8rHko%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhANdCEBOKQcboDadeDIixOVkKq6_RudcptxwiqWYgAFBuAiBxYEKzBf9wD3JmJ5NIUtwASbcqtbOPZdgggFqfkRz-OQ%3D%3D",
+        "mimeType": "video/webm; codecs=\"vp9\"",
+        "bitrate": 3236778,
+        "width": 1280,
+        "height": 720,
+        "initRange": {
+          "start": "0",
+          "end": "219"
+        },
+        "indexRange": {
+          "start": "220",
+          "end": "5196"
+        },
+        "lastModified": "1648540093345978",
+        "contentLength": "354811534",
+        "quality": "hd720",
+        "fps": 60,
+        "qualityLabel": "720p60",
+        "projectionType": "RECTANGULAR",
+        "averageBitrate": 2112000,
+        "colorInfo": {
+          "primaries": "COLOR_PRIMARIES_BT709",
+          "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_BT709",
+          "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT709"
+        },
+        "approxDurationMs": "1343983"
+      },
+      {
+        "itag": 334,
+        "url": "https://rr5---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1721047660&ei=DMaUZrzuIqm0kucPleSr8As&ip=20.161.78.36&id=o-AF0hQlGnRPxmqvp-fSYNIItsEHtvJTQFweeSxrYUNxTk&itag=334&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C694%2C695%2C696%2C697%2C698%2C699%2C700%2C701%2C702&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1J&mm=31%2C26&mn=sn-p5qddn7k%2Csn-5uaeznyz&ms=au%2Conr&mv=m&mvi=5&pl=16&initcwndbps=5536250&bui=AXc671I-f-8uq7d3Riwz94zFLMKjDbgx73iZ34x2Z052IIWH2Zchy7Fk_dAnNd1DgAiY1TTCv9QRHDfZ&spc=NO7bATcEYAZ0t9t6is2BiRtEYPs7E_9dldS9DFlpduCmJqUXEKLy&vprv=1&svpuc=1&mime=video%2Fwebm&ns=R5WIa7Fb8zAB1bBtvnBD8XYQ&rqh=1&gir=yes&clen=738959352&dur=1343.983&lmt=1648333718986545&mt=1721025661&fvip=3&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=5411222&n=2PJVtPMoupQGdrBPDm-&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIhAI92DWo9Dj5QQoss4nqQ6QvC6pdAYJxIW3uBqFnnL2WDAiBCsvLN9_omSiE-oSX-LK1VT6_KRl5hMNSWAnsRjjY6-A%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhANdCEBOKQcboDadeDIixOVkKq6_RudcptxwiqWYgAFBuAiBxYEKzBf9wD3JmJ5NIUtwASbcqtbOPZdgggFqfkRz-OQ%3D%3D",
+        "mimeType": "video/webm; codecs=\"vp9.2\"",
+        "bitrate": 4681373,
+        "width": 1280,
+        "height": 720,
+        "initRange": {
+          "start": "0",
+          "end": "310"
+        },
+        "indexRange": {
+          "start": "311",
+          "end": "5065"
+        },
+        "lastModified": "1648333718986545",
+        "contentLength": "738959352",
+        "quality": "hd720",
+        "fps": 60,
+        "qualityLabel": "720p60 HDR",
+        "projectionType": "RECTANGULAR",
+        "averageBitrate": 4398623,
+        "colorInfo": {
+          "primaries": "COLOR_PRIMARIES_BT2020",
+          "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_SMPTEST2084",
+          "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT2020_NCL"
+        },
+        "approxDurationMs": "1343983"
+      },
+      {
+        "itag": 698,
+        "url": "https://rr5---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1721047660&ei=DMaUZrzuIqm0kucPleSr8As&ip=20.161.78.36&id=o-AF0hQlGnRPxmqvp-fSYNIItsEHtvJTQFweeSxrYUNxTk&itag=698&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C694%2C695%2C696%2C697%2C698%2C699%2C700%2C701%2C702&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1J&mm=31%2C26&mn=sn-p5qddn7k%2Csn-5uaeznyz&ms=au%2Conr&mv=m&mvi=5&pl=16&initcwndbps=5536250&bui=AXc671I-f-8uq7d3Riwz94zFLMKjDbgx73iZ34x2Z052IIWH2Zchy7Fk_dAnNd1DgAiY1TTCv9QRHDfZ&spc=NO7bATcEYAZ0t9t6is2BiRtEYPs7E_9dldS9DFlpduCmJqUXEKLy&vprv=1&svpuc=1&mime=video%2Fmp4&ns=R5WIa7Fb8zAB1bBtvnBD8XYQ&rqh=1&gir=yes&clen=567396348&dur=1343.983&lmt=1674701906389312&mt=1721025661&fvip=3&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=5432434&n=2PJVtPMoupQGdrBPDm-&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRgIhAJXlzLDj_smTczESas9G1bl4bOD2vl9RcMqMNCdWqxcyAiEAurEdIsRPgcibSTM9yl7nrIEm3bqVQwUaXtt3LmPvQkg%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhANdCEBOKQcboDadeDIixOVkKq6_RudcptxwiqWYgAFBuAiBxYEKzBf9wD3JmJ5NIUtwASbcqtbOPZdgggFqfkRz-OQ%3D%3D",
+        "mimeType": "video/mp4; codecs=\"av01.0.08M.10.0.110.09.16.09.0\"",
+        "bitrate": 6169207,
+        "width": 1280,
+        "height": 720,
+        "initRange": {
+          "start": "0",
+          "end": "731"
+        },
+        "indexRange": {
+          "start": "732",
+          "end": "4099"
+        },
+        "lastModified": "1674701906389312",
+        "contentLength": "567396348",
+        "quality": "hd720",
+        "fps": 60,
+        "qualityLabel": "720p60 HDR",
+        "projectionType": "RECTANGULAR",
+        "averageBitrate": 3377401,
+        "colorInfo": {
+          "primaries": "COLOR_PRIMARIES_BT2020",
+          "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_SMPTEST2084",
+          "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT2020_NCL"
+        },
+        "approxDurationMs": "1343983"
       },
       {
         "itag": 135,
-        "url": "https://rr1---sn-p5qlsndr.googlevideo.com/videoplayback?expire=1720984286&ei=fs6TZsj_L62IkucPyeqHqAo&ip=20.49.63.248&id=o-AMzmkHqfQYtZYGFVOm-QjUEia-nQ6m5-KT3vbwNX_Dfl&itag=135&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=gB&mm=31%2C29&mn=sn-p5qlsndr%2Csn-p5qs7nsr&ms=au%2Crdu&mv=m&mvi=1&pl=17&initcwndbps=2298750&bui=AXc671LqS0w0xgxPuj0COKkKCMupKiPhzV85b9y3Iq57k6Pa5ddy4Ri29DdESCTd-C33S0gZeA98bQDW&spc=NO7bAeiBQcR34a2Wycu4_x3KSNwfZBiRRZ4THNeJZCG9imFqLr6I&vprv=1&svpuc=1&mime=video%2Fmp4&ns=JPRjtKPKkMTKdwL7xl329ZMQ&rqh=1&gir=yes&clen=30546077&dur=341.560&lmt=1720943371700835&mt=1720962307&fvip=1&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=4432434&n=gU0TWlJkrj8u9KzDHKX&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIgMv4NshAnDfusGGje_WvUcnCr3uN9o7FbecMtgBCdgiICIQDzVRF-HWyZEmdFjngASdII4VfwemOs_mIo5sfymSQZkg%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhAI1C7ZS1cc3OPQwJfl3cllS8CmrMH7NIxmOo6FGnBxItAiAl9IO4V4AQqPEfG7VC9y1021vbpC-YE0AOhtuFMWfiXg%3D%3D",
-        "mimeType": "video/mp4; codecs=\"avc1.4d401e\"",
-        "bitrate": 1158884,
+        "url": "https://rr5---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1721047660&ei=DMaUZrzuIqm0kucPleSr8As&ip=20.161.78.36&id=o-AF0hQlGnRPxmqvp-fSYNIItsEHtvJTQFweeSxrYUNxTk&itag=135&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C694%2C695%2C696%2C697%2C698%2C699%2C700%2C701%2C702&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1J&mm=31%2C26&mn=sn-p5qddn7k%2Csn-5uaeznyz&ms=au%2Conr&mv=m&mvi=5&pl=16&initcwndbps=5536250&bui=AXc671I-f-8uq7d3Riwz94zFLMKjDbgx73iZ34x2Z052IIWH2Zchy7Fk_dAnNd1DgAiY1TTCv9QRHDfZ&spc=NO7bATcEYAZ0t9t6is2BiRtEYPs7E_9dldS9DFlpduCmJqUXEKLy&vprv=1&svpuc=1&mime=video%2Fmp4&ns=R5WIa7Fb8zAB1bBtvnBD8XYQ&rqh=1&gir=yes&clen=101318536&dur=1343.966&lmt=1700006164924633&mt=1721025661&fvip=3&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=5432434&n=2PJVtPMoupQGdrBPDm-&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIhAKJpuxeGdE0FOMsAGwtkW32xc-0yOLWkxVR7phss9SGLAiBuQUWTRLqD_mMQ6GiC8eqaBUI11yrY7C_xcKDfi3A_iA%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhANdCEBOKQcboDadeDIixOVkKq6_RudcptxwiqWYgAFBuAiBxYEKzBf9wD3JmJ5NIUtwASbcqtbOPZdgggFqfkRz-OQ%3D%3D",
+        "mimeType": "video/mp4; codecs=\"avc1.4d401f\"",
+        "bitrate": 1166973,
         "width": 854,
         "height": 480,
         "initRange": {
@@ -224,22 +594,22 @@
         },
         "indexRange": {
           "start": "741",
-          "end": "1588"
+          "end": "4108"
         },
-        "lastModified": "1720943371700835",
-        "contentLength": "30546077",
+        "lastModified": "1700006164924633",
+        "contentLength": "101318536",
         "quality": "large",
-        "fps": 25,
+        "fps": 30,
         "qualityLabel": "480p",
         "projectionType": "RECTANGULAR",
-        "averageBitrate": 715448,
-        "approxDurationMs": "341560"
+        "averageBitrate": 603101,
+        "approxDurationMs": "1343966"
       },
       {
         "itag": 244,
-        "url": "https://rr1---sn-p5qlsndr.googlevideo.com/videoplayback?expire=1720984286&ei=fs6TZsj_L62IkucPyeqHqAo&ip=20.49.63.248&id=o-AMzmkHqfQYtZYGFVOm-QjUEia-nQ6m5-KT3vbwNX_Dfl&itag=244&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=gB&mm=31%2C29&mn=sn-p5qlsndr%2Csn-p5qs7nsr&ms=au%2Crdu&mv=m&mvi=1&pl=17&initcwndbps=2298750&bui=AXc671LqS0w0xgxPuj0COKkKCMupKiPhzV85b9y3Iq57k6Pa5ddy4Ri29DdESCTd-C33S0gZeA98bQDW&spc=NO7bAeiBQcR34a2Wycu4_x3KSNwfZBiRRZ4THNeJZCG9imFqLr6I&vprv=1&svpuc=1&mime=video%2Fwebm&ns=JPRjtKPKkMTKdwL7xl329ZMQ&rqh=1&gir=yes&clen=27731603&dur=341.560&lmt=1720934826329445&mt=1720962307&fvip=1&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=330F224&n=gU0TWlJkrj8u9KzDHKX&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRgIhAM0JWclnFi_R0TDS8lSaLXC-omXC-Tb1lGvukKa_XO6WAiEA7cpF0Tg7gb2rURDFLhz7dB9PK9VuWnan0ISX1e0U9Qs%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhAI1C7ZS1cc3OPQwJfl3cllS8CmrMH7NIxmOo6FGnBxItAiAl9IO4V4AQqPEfG7VC9y1021vbpC-YE0AOhtuFMWfiXg%3D%3D",
+        "url": "https://rr5---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1721047660&ei=DMaUZrzuIqm0kucPleSr8As&ip=20.161.78.36&id=o-AF0hQlGnRPxmqvp-fSYNIItsEHtvJTQFweeSxrYUNxTk&itag=244&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C694%2C695%2C696%2C697%2C698%2C699%2C700%2C701%2C702&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1J&mm=31%2C26&mn=sn-p5qddn7k%2Csn-5uaeznyz&ms=au%2Conr&mv=m&mvi=5&pl=16&initcwndbps=5536250&bui=AXc671I-f-8uq7d3Riwz94zFLMKjDbgx73iZ34x2Z052IIWH2Zchy7Fk_dAnNd1DgAiY1TTCv9QRHDfZ&spc=NO7bATcEYAZ0t9t6is2BiRtEYPs7E_9dldS9DFlpduCmJqUXEKLy&vprv=1&svpuc=1&mime=video%2Fwebm&ns=R5WIa7Fb8zAB1bBtvnBD8XYQ&rqh=1&gir=yes&clen=89787826&dur=1343.967&lmt=1648542603635910&mt=1721025661&fvip=3&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=5437232&n=2PJVtPMoupQGdrBPDm-&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIhAOKFYcegHVmM7CIsxExWcA6PodLjtmAGQI5FtO0z65CHAiAdAV2erpMytq2GkqpHZu1chpd7ZxkjysajCMrVnrluJw%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhANdCEBOKQcboDadeDIixOVkKq6_RudcptxwiqWYgAFBuAiBxYEKzBf9wD3JmJ5NIUtwASbcqtbOPZdgggFqfkRz-OQ%3D%3D",
         "mimeType": "video/webm; codecs=\"vp9\"",
-        "bitrate": 1012318,
+        "bitrate": 1032005,
         "width": 854,
         "height": 480,
         "initRange": {
@@ -248,27 +618,85 @@
         },
         "indexRange": {
           "start": "220",
-          "end": "1341"
+          "end": "5156"
         },
-        "lastModified": "1720934826329445",
-        "contentLength": "27731603",
+        "lastModified": "1648542603635910",
+        "contentLength": "89787826",
         "quality": "large",
-        "fps": 25,
+        "fps": 30,
         "qualityLabel": "480p",
         "projectionType": "RECTANGULAR",
-        "averageBitrate": 649528,
+        "averageBitrate": 534464,
         "colorInfo": {
           "primaries": "COLOR_PRIMARIES_BT709",
           "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_BT709",
           "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT709"
         },
-        "approxDurationMs": "341560"
+        "approxDurationMs": "1343967"
+      },
+      {
+        "itag": 333,
+        "url": "https://rr5---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1721047660&ei=DMaUZrzuIqm0kucPleSr8As&ip=20.161.78.36&id=o-AF0hQlGnRPxmqvp-fSYNIItsEHtvJTQFweeSxrYUNxTk&itag=333&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C694%2C695%2C696%2C697%2C698%2C699%2C700%2C701%2C702&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1J&mm=31%2C26&mn=sn-p5qddn7k%2Csn-5uaeznyz&ms=au%2Conr&mv=m&mvi=5&pl=16&initcwndbps=5536250&bui=AXc671I-f-8uq7d3Riwz94zFLMKjDbgx73iZ34x2Z052IIWH2Zchy7Fk_dAnNd1DgAiY1TTCv9QRHDfZ&spc=NO7bATcEYAZ0t9t6is2BiRtEYPs7E_9dldS9DFlpduCmJqUXEKLy&vprv=1&svpuc=1&mime=video%2Fwebm&ns=R5WIa7Fb8zAB1bBtvnBD8XYQ&rqh=1&gir=yes&clen=316434072&dur=1343.983&lmt=1648332851293436&mt=1721025661&fvip=3&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=5411222&n=2PJVtPMoupQGdrBPDm-&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRAIgD0fzPo2XPDx7YS6es-8qLbm4DIz7w45LfZN8DSUZSpECIC4y6hNVEhHIGDyHKU3e2yhmeaXfShTQ-jS9UohUNYGS&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhANdCEBOKQcboDadeDIixOVkKq6_RudcptxwiqWYgAFBuAiBxYEKzBf9wD3JmJ5NIUtwASbcqtbOPZdgggFqfkRz-OQ%3D%3D",
+        "mimeType": "video/webm; codecs=\"vp9.2\"",
+        "bitrate": 2056138,
+        "width": 854,
+        "height": 480,
+        "initRange": {
+          "start": "0",
+          "end": "310"
+        },
+        "indexRange": {
+          "start": "311",
+          "end": "5057"
+        },
+        "lastModified": "1648332851293436",
+        "contentLength": "316434072",
+        "quality": "large",
+        "fps": 60,
+        "qualityLabel": "480p60 HDR",
+        "projectionType": "RECTANGULAR",
+        "averageBitrate": 1883559,
+        "colorInfo": {
+          "primaries": "COLOR_PRIMARIES_BT2020",
+          "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_SMPTEST2084",
+          "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT2020_NCL"
+        },
+        "approxDurationMs": "1343983"
+      },
+      {
+        "itag": 697,
+        "url": "https://rr5---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1721047660&ei=DMaUZrzuIqm0kucPleSr8As&ip=20.161.78.36&id=o-AF0hQlGnRPxmqvp-fSYNIItsEHtvJTQFweeSxrYUNxTk&itag=697&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C694%2C695%2C696%2C697%2C698%2C699%2C700%2C701%2C702&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1J&mm=31%2C26&mn=sn-p5qddn7k%2Csn-5uaeznyz&ms=au%2Conr&mv=m&mvi=5&pl=16&initcwndbps=5536250&bui=AXc671I-f-8uq7d3Riwz94zFLMKjDbgx73iZ34x2Z052IIWH2Zchy7Fk_dAnNd1DgAiY1TTCv9QRHDfZ&spc=NO7bATcEYAZ0t9t6is2BiRtEYPs7E_9dldS9DFlpduCmJqUXEKLy&vprv=1&svpuc=1&mime=video%2Fmp4&ns=R5WIa7Fb8zAB1bBtvnBD8XYQ&rqh=1&gir=yes&clen=204563178&dur=1343.983&lmt=1674702033264158&mt=1721025661&fvip=3&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=5432434&n=2PJVtPMoupQGdrBPDm-&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIge0PS5bCAZvhu3IJGacbfFZ5l0icRrX5KB9hyYlfMw1gCIQDVWmb-lC4woTwYCSORE3mBlEHE3wQjt_1lt2c55TzMMg%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhANdCEBOKQcboDadeDIixOVkKq6_RudcptxwiqWYgAFBuAiBxYEKzBf9wD3JmJ5NIUtwASbcqtbOPZdgggFqfkRz-OQ%3D%3D",
+        "mimeType": "video/mp4; codecs=\"av01.0.05M.10.0.110.09.16.09.0\"",
+        "bitrate": 2174990,
+        "width": 854,
+        "height": 480,
+        "initRange": {
+          "start": "0",
+          "end": "731"
+        },
+        "indexRange": {
+          "start": "732",
+          "end": "4099"
+        },
+        "lastModified": "1674702033264158",
+        "contentLength": "204563178",
+        "quality": "large",
+        "fps": 60,
+        "qualityLabel": "480p60 HDR",
+        "projectionType": "RECTANGULAR",
+        "averageBitrate": 1217653,
+        "colorInfo": {
+          "primaries": "COLOR_PRIMARIES_BT2020",
+          "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_SMPTEST2084",
+          "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT2020_NCL"
+        },
+        "approxDurationMs": "1343983"
       },
       {
         "itag": 134,
-        "url": "https://rr1---sn-p5qlsndr.googlevideo.com/videoplayback?expire=1720984286&ei=fs6TZsj_L62IkucPyeqHqAo&ip=20.49.63.248&id=o-AMzmkHqfQYtZYGFVOm-QjUEia-nQ6m5-KT3vbwNX_Dfl&itag=134&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=gB&mm=31%2C29&mn=sn-p5qlsndr%2Csn-p5qs7nsr&ms=au%2Crdu&mv=m&mvi=1&pl=17&initcwndbps=2298750&bui=AXc671LqS0w0xgxPuj0COKkKCMupKiPhzV85b9y3Iq57k6Pa5ddy4Ri29DdESCTd-C33S0gZeA98bQDW&spc=NO7bAeiBQcR34a2Wycu4_x3KSNwfZBiRRZ4THNeJZCG9imFqLr6I&vprv=1&svpuc=1&mime=video%2Fmp4&ns=JPRjtKPKkMTKdwL7xl329ZMQ&rqh=1&gir=yes&clen=19466132&dur=341.560&lmt=1720943358084477&mt=1720962307&fvip=1&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=4432434&n=gU0TWlJkrj8u9KzDHKX&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRgIhAPkwIEcRjUDkPaOV8gAcYfhFdhm-KbCJWcZAXaVKvT69AiEAs_qEOjQbvx983ICGtE6O6i30XlYQEdbqC4PPLxReLRo%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhAI1C7ZS1cc3OPQwJfl3cllS8CmrMH7NIxmOo6FGnBxItAiAl9IO4V4AQqPEfG7VC9y1021vbpC-YE0AOhtuFMWfiXg%3D%3D",
+        "url": "https://rr5---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1721047660&ei=DMaUZrzuIqm0kucPleSr8As&ip=20.161.78.36&id=o-AF0hQlGnRPxmqvp-fSYNIItsEHtvJTQFweeSxrYUNxTk&itag=134&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C694%2C695%2C696%2C697%2C698%2C699%2C700%2C701%2C702&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1J&mm=31%2C26&mn=sn-p5qddn7k%2Csn-5uaeznyz&ms=au%2Conr&mv=m&mvi=5&pl=16&initcwndbps=5536250&bui=AXc671I-f-8uq7d3Riwz94zFLMKjDbgx73iZ34x2Z052IIWH2Zchy7Fk_dAnNd1DgAiY1TTCv9QRHDfZ&spc=NO7bATcEYAZ0t9t6is2BiRtEYPs7E_9dldS9DFlpduCmJqUXEKLy&vprv=1&svpuc=1&mime=video%2Fmp4&ns=R5WIa7Fb8zAB1bBtvnBD8XYQ&rqh=1&gir=yes&clen=58026489&dur=1343.966&lmt=1700006169686661&mt=1721025661&fvip=3&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=5432434&n=2PJVtPMoupQGdrBPDm-&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRAIgP3HeRTUaVepQmMNMWTO6RYNYFznqShJXnBXTwwetdRACIAiwaItqsGWPojAWgl9zmK8mTmBlkIhWVTmbWqOIbXJZ&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhANdCEBOKQcboDadeDIixOVkKq6_RudcptxwiqWYgAFBuAiBxYEKzBf9wD3JmJ5NIUtwASbcqtbOPZdgggFqfkRz-OQ%3D%3D",
         "mimeType": "video/mp4; codecs=\"avc1.4d401e\"",
-        "bitrate": 633906,
+        "bitrate": 634256,
         "width": 640,
         "height": 360,
         "initRange": {
@@ -277,23 +705,23 @@
         },
         "indexRange": {
           "start": "741",
-          "end": "1588"
+          "end": "4108"
         },
-        "lastModified": "1720943358084477",
-        "contentLength": "19466132",
+        "lastModified": "1700006169686661",
+        "contentLength": "58026489",
         "quality": "medium",
-        "fps": 25,
+        "fps": 30,
         "qualityLabel": "360p",
         "projectionType": "RECTANGULAR",
-        "averageBitrate": 455934,
+        "averageBitrate": 345404,
         "highReplication": true,
-        "approxDurationMs": "341560"
+        "approxDurationMs": "1343966"
       },
       {
         "itag": 243,
-        "url": "https://rr1---sn-p5qlsndr.googlevideo.com/videoplayback?expire=1720984286&ei=fs6TZsj_L62IkucPyeqHqAo&ip=20.49.63.248&id=o-AMzmkHqfQYtZYGFVOm-QjUEia-nQ6m5-KT3vbwNX_Dfl&itag=243&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=gB&mm=31%2C29&mn=sn-p5qlsndr%2Csn-p5qs7nsr&ms=au%2Crdu&mv=m&mvi=1&pl=17&initcwndbps=2298750&bui=AXc671LqS0w0xgxPuj0COKkKCMupKiPhzV85b9y3Iq57k6Pa5ddy4Ri29DdESCTd-C33S0gZeA98bQDW&spc=NO7bAeiBQcR34a2Wycu4_x3KSNwfZBiRRZ4THNeJZCG9imFqLr6I&vprv=1&svpuc=1&mime=video%2Fwebm&ns=JPRjtKPKkMTKdwL7xl329ZMQ&rqh=1&gir=yes&clen=15821726&dur=341.560&lmt=1720934826027448&mt=1720962307&fvip=1&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=330F224&n=gU0TWlJkrj8u9KzDHKX&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIgE0SwSv8XHczq5rDQsYoBnB_fDbSnDqJAwAP7MpIrLdACIQC41_IrKRU8Nl8N2fv4kdo5bxSErgaICrIR7Qb5GN5NYw%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhAI1C7ZS1cc3OPQwJfl3cllS8CmrMH7NIxmOo6FGnBxItAiAl9IO4V4AQqPEfG7VC9y1021vbpC-YE0AOhtuFMWfiXg%3D%3D",
+        "url": "https://rr5---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1721047660&ei=DMaUZrzuIqm0kucPleSr8As&ip=20.161.78.36&id=o-AF0hQlGnRPxmqvp-fSYNIItsEHtvJTQFweeSxrYUNxTk&itag=243&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C694%2C695%2C696%2C697%2C698%2C699%2C700%2C701%2C702&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1J&mm=31%2C26&mn=sn-p5qddn7k%2Csn-5uaeznyz&ms=au%2Conr&mv=m&mvi=5&pl=16&initcwndbps=5536250&bui=AXc671I-f-8uq7d3Riwz94zFLMKjDbgx73iZ34x2Z052IIWH2Zchy7Fk_dAnNd1DgAiY1TTCv9QRHDfZ&spc=NO7bATcEYAZ0t9t6is2BiRtEYPs7E_9dldS9DFlpduCmJqUXEKLy&vprv=1&svpuc=1&mime=video%2Fwebm&ns=R5WIa7Fb8zAB1bBtvnBD8XYQ&rqh=1&gir=yes&clen=59783802&dur=1343.967&lmt=1648542603602884&mt=1721025661&fvip=3&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=5437232&n=2PJVtPMoupQGdrBPDm-&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRAIgAuj0kVU-_tFEDuvfnJPq7pNILI15uh6D1GWLoeXvOFcCIC16X4Rj-MaQUWpnXqPM2Anh3IY5Sx48koJWndk9NxT1&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhANdCEBOKQcboDadeDIixOVkKq6_RudcptxwiqWYgAFBuAiBxYEKzBf9wD3JmJ5NIUtwASbcqtbOPZdgggFqfkRz-OQ%3D%3D",
         "mimeType": "video/webm; codecs=\"vp9\"",
-        "bitrate": 547560,
+        "bitrate": 642344,
         "width": 640,
         "height": 360,
         "initRange": {
@@ -302,27 +730,85 @@
         },
         "indexRange": {
           "start": "220",
-          "end": "1315"
+          "end": "5131"
         },
-        "lastModified": "1720934826027448",
-        "contentLength": "15821726",
+        "lastModified": "1648542603602884",
+        "contentLength": "59783802",
         "quality": "medium",
-        "fps": 25,
+        "fps": 30,
         "qualityLabel": "360p",
         "projectionType": "RECTANGULAR",
-        "averageBitrate": 370575,
+        "averageBitrate": 355864,
         "colorInfo": {
           "primaries": "COLOR_PRIMARIES_BT709",
           "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_BT709",
           "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT709"
         },
-        "approxDurationMs": "341560"
+        "approxDurationMs": "1343967"
+      },
+      {
+        "itag": 332,
+        "url": "https://rr5---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1721047660&ei=DMaUZrzuIqm0kucPleSr8As&ip=20.161.78.36&id=o-AF0hQlGnRPxmqvp-fSYNIItsEHtvJTQFweeSxrYUNxTk&itag=332&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C694%2C695%2C696%2C697%2C698%2C699%2C700%2C701%2C702&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1J&mm=31%2C26&mn=sn-p5qddn7k%2Csn-5uaeznyz&ms=au%2Conr&mv=m&mvi=5&pl=16&initcwndbps=5536250&bui=AXc671I-f-8uq7d3Riwz94zFLMKjDbgx73iZ34x2Z052IIWH2Zchy7Fk_dAnNd1DgAiY1TTCv9QRHDfZ&spc=NO7bATcEYAZ0t9t6is2BiRtEYPs7E_9dldS9DFlpduCmJqUXEKLy&vprv=1&svpuc=1&mime=video%2Fwebm&ns=R5WIa7Fb8zAB1bBtvnBD8XYQ&rqh=1&gir=yes&clen=165263893&dur=1343.983&lmt=1648332709040635&mt=1721025661&fvip=3&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=5411222&n=2PJVtPMoupQGdrBPDm-&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRgIhAJKwBN1K4LC8G4UnotKJN_jktXu4PTFUVg2WVOdYiX8QAiEAj0SJ1uVUaSMNmtmhnGShlm4QAlaRhfiK2yZfn5vmatM%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhANdCEBOKQcboDadeDIixOVkKq6_RudcptxwiqWYgAFBuAiBxYEKzBf9wD3JmJ5NIUtwASbcqtbOPZdgggFqfkRz-OQ%3D%3D",
+        "mimeType": "video/webm; codecs=\"vp9.2\"",
+        "bitrate": 1086127,
+        "width": 640,
+        "height": 360,
+        "initRange": {
+          "start": "0",
+          "end": "309"
+        },
+        "indexRange": {
+          "start": "310",
+          "end": "5042"
+        },
+        "lastModified": "1648332709040635",
+        "contentLength": "165263893",
+        "quality": "medium",
+        "fps": 60,
+        "qualityLabel": "360p60 HDR",
+        "projectionType": "RECTANGULAR",
+        "averageBitrate": 983726,
+        "colorInfo": {
+          "primaries": "COLOR_PRIMARIES_BT2020",
+          "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_SMPTEST2084",
+          "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT2020_NCL"
+        },
+        "approxDurationMs": "1343983"
+      },
+      {
+        "itag": 696,
+        "url": "https://rr5---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1721047660&ei=DMaUZrzuIqm0kucPleSr8As&ip=20.161.78.36&id=o-AF0hQlGnRPxmqvp-fSYNIItsEHtvJTQFweeSxrYUNxTk&itag=696&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C694%2C695%2C696%2C697%2C698%2C699%2C700%2C701%2C702&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1J&mm=31%2C26&mn=sn-p5qddn7k%2Csn-5uaeznyz&ms=au%2Conr&mv=m&mvi=5&pl=16&initcwndbps=5536250&bui=AXc671I-f-8uq7d3Riwz94zFLMKjDbgx73iZ34x2Z052IIWH2Zchy7Fk_dAnNd1DgAiY1TTCv9QRHDfZ&spc=NO7bATcEYAZ0t9t6is2BiRtEYPs7E_9dldS9DFlpduCmJqUXEKLy&vprv=1&svpuc=1&mime=video%2Fmp4&ns=R5WIa7Fb8zAB1bBtvnBD8XYQ&rqh=1&gir=yes&clen=107240431&dur=1343.983&lmt=1674700201633221&mt=1721025661&fvip=3&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=5432434&n=2PJVtPMoupQGdrBPDm-&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIgfJYUzE522MkFpRv6ajt16p0PZwJpdqPHAqr3t60d9VkCIQDpcPwIP2FumFosFL5IIiX2I3E_K4H8GNjDXDQg0rm5_A%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhANdCEBOKQcboDadeDIixOVkKq6_RudcptxwiqWYgAFBuAiBxYEKzBf9wD3JmJ5NIUtwASbcqtbOPZdgggFqfkRz-OQ%3D%3D",
+        "mimeType": "video/mp4; codecs=\"av01.0.04M.10.0.110.09.16.09.0\"",
+        "bitrate": 1118765,
+        "width": 640,
+        "height": 360,
+        "initRange": {
+          "start": "0",
+          "end": "731"
+        },
+        "indexRange": {
+          "start": "732",
+          "end": "4099"
+        },
+        "lastModified": "1674700201633221",
+        "contentLength": "107240431",
+        "quality": "medium",
+        "fps": 60,
+        "qualityLabel": "360p60 HDR",
+        "projectionType": "RECTANGULAR",
+        "averageBitrate": 638343,
+        "colorInfo": {
+          "primaries": "COLOR_PRIMARIES_BT2020",
+          "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_SMPTEST2084",
+          "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT2020_NCL"
+        },
+        "approxDurationMs": "1343983"
       },
       {
         "itag": 133,
-        "url": "https://rr1---sn-p5qlsndr.googlevideo.com/videoplayback?expire=1720984286&ei=fs6TZsj_L62IkucPyeqHqAo&ip=20.49.63.248&id=o-AMzmkHqfQYtZYGFVOm-QjUEia-nQ6m5-KT3vbwNX_Dfl&itag=133&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=gB&mm=31%2C29&mn=sn-p5qlsndr%2Csn-p5qs7nsr&ms=au%2Crdu&mv=m&mvi=1&pl=17&initcwndbps=2298750&bui=AXc671LqS0w0xgxPuj0COKkKCMupKiPhzV85b9y3Iq57k6Pa5ddy4Ri29DdESCTd-C33S0gZeA98bQDW&spc=NO7bAeiBQcR34a2Wycu4_x3KSNwfZBiRRZ4THNeJZCG9imFqLr6I&vprv=1&svpuc=1&mime=video%2Fmp4&ns=JPRjtKPKkMTKdwL7xl329ZMQ&rqh=1&gir=yes&clen=9228526&dur=341.560&lmt=1720943350160995&mt=1720962307&fvip=1&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=4432434&n=gU0TWlJkrj8u9KzDHKX&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIhAJVfvwGUq9IgLyL1z1wQfe2I3nX4YL2XCjEkg6ZRuSxnAiAyL9kj7hXGpe6DH35UpWVCNAqkTRchg4vg4zaMFVo9Ig%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhAI1C7ZS1cc3OPQwJfl3cllS8CmrMH7NIxmOo6FGnBxItAiAl9IO4V4AQqPEfG7VC9y1021vbpC-YE0AOhtuFMWfiXg%3D%3D",
+        "url": "https://rr5---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1721047660&ei=DMaUZrzuIqm0kucPleSr8As&ip=20.161.78.36&id=o-AF0hQlGnRPxmqvp-fSYNIItsEHtvJTQFweeSxrYUNxTk&itag=133&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C694%2C695%2C696%2C697%2C698%2C699%2C700%2C701%2C702&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1J&mm=31%2C26&mn=sn-p5qddn7k%2Csn-5uaeznyz&ms=au%2Conr&mv=m&mvi=5&pl=16&initcwndbps=5536250&bui=AXc671I-f-8uq7d3Riwz94zFLMKjDbgx73iZ34x2Z052IIWH2Zchy7Fk_dAnNd1DgAiY1TTCv9QRHDfZ&spc=NO7bATcEYAZ0t9t6is2BiRtEYPs7E_9dldS9DFlpduCmJqUXEKLy&vprv=1&svpuc=1&mime=video%2Fmp4&ns=R5WIa7Fb8zAB1bBtvnBD8XYQ&rqh=1&gir=yes&clen=25339155&dur=1343.966&lmt=1700006168910220&mt=1721025661&fvip=3&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=5432434&n=2PJVtPMoupQGdrBPDm-&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRgIhAMcR9j4cRdgInpHj3Dms0i7ozlpDG-bJTIWOPrTmquG1AiEAiAEhgOur1g4RlcE6lpys8Pjd0LPt1OuezTpaYYs1PkY%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhANdCEBOKQcboDadeDIixOVkKq6_RudcptxwiqWYgAFBuAiBxYEKzBf9wD3JmJ5NIUtwASbcqtbOPZdgggFqfkRz-OQ%3D%3D",
         "mimeType": "video/mp4; codecs=\"avc1.4d4015\"",
-        "bitrate": 245928,
+        "bitrate": 246543,
         "width": 426,
         "height": 240,
         "initRange": {
@@ -331,22 +817,22 @@
         },
         "indexRange": {
           "start": "740",
-          "end": "1587"
+          "end": "4107"
         },
-        "lastModified": "1720943350160995",
-        "contentLength": "9228526",
+        "lastModified": "1700006168910220",
+        "contentLength": "25339155",
         "quality": "small",
-        "fps": 25,
+        "fps": 30,
         "qualityLabel": "240p",
         "projectionType": "RECTANGULAR",
-        "averageBitrate": 216150,
-        "approxDurationMs": "341560"
+        "averageBitrate": 150832,
+        "approxDurationMs": "1343966"
       },
       {
         "itag": 242,
-        "url": "https://rr1---sn-p5qlsndr.googlevideo.com/videoplayback?expire=1720984286&ei=fs6TZsj_L62IkucPyeqHqAo&ip=20.49.63.248&id=o-AMzmkHqfQYtZYGFVOm-QjUEia-nQ6m5-KT3vbwNX_Dfl&itag=242&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=gB&mm=31%2C29&mn=sn-p5qlsndr%2Csn-p5qs7nsr&ms=au%2Crdu&mv=m&mvi=1&pl=17&initcwndbps=2298750&bui=AXc671LqS0w0xgxPuj0COKkKCMupKiPhzV85b9y3Iq57k6Pa5ddy4Ri29DdESCTd-C33S0gZeA98bQDW&spc=NO7bAeiBQcR34a2Wycu4_x3KSNwfZBiRRZ4THNeJZCG9imFqLr6I&vprv=1&svpuc=1&mime=video%2Fwebm&ns=JPRjtKPKkMTKdwL7xl329ZMQ&rqh=1&gir=yes&clen=9927738&dur=341.560&lmt=1720934826502434&mt=1720962307&fvip=1&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=330F224&n=gU0TWlJkrj8u9KzDHKX&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRAIgVhgUPiy-0zINT5As-hIM1dBtQc3DNHvd455cnm9HGB4CIHp5vNBs-eDeaNl4dImCcyxqH8W2njXdv4mMO6urBGrc&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhAI1C7ZS1cc3OPQwJfl3cllS8CmrMH7NIxmOo6FGnBxItAiAl9IO4V4AQqPEfG7VC9y1021vbpC-YE0AOhtuFMWfiXg%3D%3D",
+        "url": "https://rr5---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1721047660&ei=DMaUZrzuIqm0kucPleSr8As&ip=20.161.78.36&id=o-AF0hQlGnRPxmqvp-fSYNIItsEHtvJTQFweeSxrYUNxTk&itag=242&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C694%2C695%2C696%2C697%2C698%2C699%2C700%2C701%2C702&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1J&mm=31%2C26&mn=sn-p5qddn7k%2Csn-5uaeznyz&ms=au%2Conr&mv=m&mvi=5&pl=16&initcwndbps=5536250&bui=AXc671I-f-8uq7d3Riwz94zFLMKjDbgx73iZ34x2Z052IIWH2Zchy7Fk_dAnNd1DgAiY1TTCv9QRHDfZ&spc=NO7bATcEYAZ0t9t6is2BiRtEYPs7E_9dldS9DFlpduCmJqUXEKLy&vprv=1&svpuc=1&mime=video%2Fwebm&ns=R5WIa7Fb8zAB1bBtvnBD8XYQ&rqh=1&gir=yes&clen=22981910&dur=1343.967&lmt=1648542603626667&mt=1721025661&fvip=3&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=5437232&n=2PJVtPMoupQGdrBPDm-&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRAIgKWuSkjiHBogObp-tZzj1MfbAen7-E6M_2sC1sniSqLkCIE0e4RX7l9c60BLPIGr557KNTnvw08mr2xIVbCtfLR_B&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhANdCEBOKQcboDadeDIixOVkKq6_RudcptxwiqWYgAFBuAiBxYEKzBf9wD3JmJ5NIUtwASbcqtbOPZdgggFqfkRz-OQ%3D%3D",
         "mimeType": "video/webm; codecs=\"vp9\"",
-        "bitrate": 342862,
+        "bitrate": 253296,
         "width": 426,
         "height": 240,
         "initRange": {
@@ -355,27 +841,85 @@
         },
         "indexRange": {
           "start": "219",
-          "end": "1314"
+          "end": "5006"
         },
-        "lastModified": "1720934826502434",
-        "contentLength": "9927738",
+        "lastModified": "1648542603626667",
+        "contentLength": "22981910",
         "quality": "small",
-        "fps": 25,
+        "fps": 30,
         "qualityLabel": "240p",
         "projectionType": "RECTANGULAR",
-        "averageBitrate": 232526,
+        "averageBitrate": 136800,
         "colorInfo": {
           "primaries": "COLOR_PRIMARIES_BT709",
           "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_BT709",
           "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT709"
         },
-        "approxDurationMs": "341560"
+        "approxDurationMs": "1343967"
+      },
+      {
+        "itag": 331,
+        "url": "https://rr5---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1721047660&ei=DMaUZrzuIqm0kucPleSr8As&ip=20.161.78.36&id=o-AF0hQlGnRPxmqvp-fSYNIItsEHtvJTQFweeSxrYUNxTk&itag=331&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C694%2C695%2C696%2C697%2C698%2C699%2C700%2C701%2C702&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1J&mm=31%2C26&mn=sn-p5qddn7k%2Csn-5uaeznyz&ms=au%2Conr&mv=m&mvi=5&pl=16&initcwndbps=5536250&bui=AXc671I-f-8uq7d3Riwz94zFLMKjDbgx73iZ34x2Z052IIWH2Zchy7Fk_dAnNd1DgAiY1TTCv9QRHDfZ&spc=NO7bATcEYAZ0t9t6is2BiRtEYPs7E_9dldS9DFlpduCmJqUXEKLy&vprv=1&svpuc=1&mime=video%2Fwebm&ns=R5WIa7Fb8zAB1bBtvnBD8XYQ&rqh=1&gir=yes&clen=75132339&dur=1343.983&lmt=1648332689739554&mt=1721025661&fvip=3&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=5411222&n=2PJVtPMoupQGdrBPDm-&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRAIgTPmfNAkvmmwjVfbm1CUeLxGWGufNzaJIw-GSZ-PE-PICIHIniFUVrzu6uMwljl0wRSEu-XM6ZXT0jtNgZ9Qv-qkO&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhANdCEBOKQcboDadeDIixOVkKq6_RudcptxwiqWYgAFBuAiBxYEKzBf9wD3JmJ5NIUtwASbcqtbOPZdgggFqfkRz-OQ%3D%3D",
+        "mimeType": "video/webm; codecs=\"vp9.2\"",
+        "bitrate": 524152,
+        "width": 426,
+        "height": 240,
+        "initRange": {
+          "start": "0",
+          "end": "308"
+        },
+        "indexRange": {
+          "start": "309",
+          "end": "5010"
+        },
+        "lastModified": "1648332689739554",
+        "contentLength": "75132339",
+        "quality": "small",
+        "fps": 60,
+        "qualityLabel": "240p60 HDR",
+        "projectionType": "RECTANGULAR",
+        "averageBitrate": 447221,
+        "colorInfo": {
+          "primaries": "COLOR_PRIMARIES_BT2020",
+          "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_SMPTEST2084",
+          "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT2020_NCL"
+        },
+        "approxDurationMs": "1343983"
+      },
+      {
+        "itag": 695,
+        "url": "https://rr5---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1721047660&ei=DMaUZrzuIqm0kucPleSr8As&ip=20.161.78.36&id=o-AF0hQlGnRPxmqvp-fSYNIItsEHtvJTQFweeSxrYUNxTk&itag=695&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C694%2C695%2C696%2C697%2C698%2C699%2C700%2C701%2C702&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1J&mm=31%2C26&mn=sn-p5qddn7k%2Csn-5uaeznyz&ms=au%2Conr&mv=m&mvi=5&pl=16&initcwndbps=5536250&bui=AXc671I-f-8uq7d3Riwz94zFLMKjDbgx73iZ34x2Z052IIWH2Zchy7Fk_dAnNd1DgAiY1TTCv9QRHDfZ&spc=NO7bATcEYAZ0t9t6is2BiRtEYPs7E_9dldS9DFlpduCmJqUXEKLy&vprv=1&svpuc=1&mime=video%2Fmp4&ns=R5WIa7Fb8zAB1bBtvnBD8XYQ&rqh=1&gir=yes&clen=50826423&dur=1343.983&lmt=1674701039406032&mt=1721025661&fvip=3&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=5432434&n=2PJVtPMoupQGdrBPDm-&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIhAKdefUEVqW4mmY55AswCefBbFRDjjMsBgqJcN_-Vefo0AiADjuhhdmB4Yw8WA7ZxdoNxsgVJIbNVpEwMlOXEBl9rkg%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhANdCEBOKQcboDadeDIixOVkKq6_RudcptxwiqWYgAFBuAiBxYEKzBf9wD3JmJ5NIUtwASbcqtbOPZdgggFqfkRz-OQ%3D%3D",
+        "mimeType": "video/mp4; codecs=\"av01.0.01M.10.0.110.09.16.09.0\"",
+        "bitrate": 437449,
+        "width": 426,
+        "height": 240,
+        "initRange": {
+          "start": "0",
+          "end": "731"
+        },
+        "indexRange": {
+          "start": "732",
+          "end": "4099"
+        },
+        "lastModified": "1674701039406032",
+        "contentLength": "50826423",
+        "quality": "small",
+        "fps": 60,
+        "qualityLabel": "240p60 HDR",
+        "projectionType": "RECTANGULAR",
+        "averageBitrate": 302542,
+        "colorInfo": {
+          "primaries": "COLOR_PRIMARIES_BT2020",
+          "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_SMPTEST2084",
+          "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT2020_NCL"
+        },
+        "approxDurationMs": "1343983"
       },
       {
         "itag": 160,
-        "url": "https://rr1---sn-p5qlsndr.googlevideo.com/videoplayback?expire=1720984286&ei=fs6TZsj_L62IkucPyeqHqAo&ip=20.49.63.248&id=o-AMzmkHqfQYtZYGFVOm-QjUEia-nQ6m5-KT3vbwNX_Dfl&itag=160&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=gB&mm=31%2C29&mn=sn-p5qlsndr%2Csn-p5qs7nsr&ms=au%2Crdu&mv=m&mvi=1&pl=17&initcwndbps=2298750&bui=AXc671LqS0w0xgxPuj0COKkKCMupKiPhzV85b9y3Iq57k6Pa5ddy4Ri29DdESCTd-C33S0gZeA98bQDW&spc=NO7bAeiBQcR34a2Wycu4_x3KSNwfZBiRRZ4THNeJZCG9imFqLr6I&vprv=1&svpuc=1&mime=video%2Fmp4&ns=JPRjtKPKkMTKdwL7xl329ZMQ&rqh=1&gir=yes&clen=4127085&dur=341.560&lmt=1720943383651711&mt=1720962307&fvip=1&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=4432434&n=gU0TWlJkrj8u9KzDHKX&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRAIgdxqgIWU4bpi7GD25W3Vv1KaRAnSAEgUxChVcS352sZQCIFOk3iGzbmWaxXhvVZAx-joDiddb4ohSQ8M1kb_qkS4n&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhAI1C7ZS1cc3OPQwJfl3cllS8CmrMH7NIxmOo6FGnBxItAiAl9IO4V4AQqPEfG7VC9y1021vbpC-YE0AOhtuFMWfiXg%3D%3D",
+        "url": "https://rr5---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1721047660&ei=DMaUZrzuIqm0kucPleSr8As&ip=20.161.78.36&id=o-AF0hQlGnRPxmqvp-fSYNIItsEHtvJTQFweeSxrYUNxTk&itag=160&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C694%2C695%2C696%2C697%2C698%2C699%2C700%2C701%2C702&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1J&mm=31%2C26&mn=sn-p5qddn7k%2Csn-5uaeznyz&ms=au%2Conr&mv=m&mvi=5&pl=16&initcwndbps=5536250&bui=AXc671I-f-8uq7d3Riwz94zFLMKjDbgx73iZ34x2Z052IIWH2Zchy7Fk_dAnNd1DgAiY1TTCv9QRHDfZ&spc=NO7bATcEYAZ0t9t6is2BiRtEYPs7E_9dldS9DFlpduCmJqUXEKLy&vprv=1&svpuc=1&mime=video%2Fmp4&ns=R5WIa7Fb8zAB1bBtvnBD8XYQ&rqh=1&gir=yes&clen=10870525&dur=1343.966&lmt=1700006160322829&mt=1721025661&fvip=3&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=5432434&n=2PJVtPMoupQGdrBPDm-&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRgIhAJOllGx95RrhoV1BT6hdZVOtlAM62lOxSn82KK5RyZqxAiEAnta-kHC9nxIPrDyFStdXrE2kta_f9OkTo8nlf0pi3ho%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhANdCEBOKQcboDadeDIixOVkKq6_RudcptxwiqWYgAFBuAiBxYEKzBf9wD3JmJ5NIUtwASbcqtbOPZdgggFqfkRz-OQ%3D%3D",
         "mimeType": "video/mp4; codecs=\"avc1.4d400c\"",
-        "bitrate": 111576,
+        "bitrate": 111530,
         "width": 256,
         "height": 144,
         "initRange": {
@@ -384,22 +928,22 @@
         },
         "indexRange": {
           "start": "739",
-          "end": "1586"
+          "end": "4106"
         },
-        "lastModified": "1720943383651711",
-        "contentLength": "4127085",
+        "lastModified": "1700006160322829",
+        "contentLength": "10870525",
         "quality": "tiny",
-        "fps": 25,
+        "fps": 30,
         "qualityLabel": "144p",
         "projectionType": "RECTANGULAR",
-        "averageBitrate": 96664,
-        "approxDurationMs": "341560"
+        "averageBitrate": 64707,
+        "approxDurationMs": "1343966"
       },
       {
         "itag": 278,
-        "url": "https://rr1---sn-p5qlsndr.googlevideo.com/videoplayback?expire=1720984286&ei=fs6TZsj_L62IkucPyeqHqAo&ip=20.49.63.248&id=o-AMzmkHqfQYtZYGFVOm-QjUEia-nQ6m5-KT3vbwNX_Dfl&itag=278&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=gB&mm=31%2C29&mn=sn-p5qlsndr%2Csn-p5qs7nsr&ms=au%2Crdu&mv=m&mvi=1&pl=17&initcwndbps=2298750&bui=AXc671LqS0w0xgxPuj0COKkKCMupKiPhzV85b9y3Iq57k6Pa5ddy4Ri29DdESCTd-C33S0gZeA98bQDW&spc=NO7bAeiBQcR34a2Wycu4_x3KSNwfZBiRRZ4THNeJZCG9imFqLr6I&vprv=1&svpuc=1&mime=video%2Fwebm&ns=JPRjtKPKkMTKdwL7xl329ZMQ&rqh=1&gir=yes&clen=4845215&dur=341.560&lmt=1720934831532990&mt=1720962307&fvip=1&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=330F224&n=gU0TWlJkrj8u9KzDHKX&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRAIgFjoZZiyVozOZyHeywJzU6zKYTJomxm2EA7vIJREdMoECIDQxsLIBeFLpRL5zR4b644M4_dIwqkNzy5Q1L1dVBj4_&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhAI1C7ZS1cc3OPQwJfl3cllS8CmrMH7NIxmOo6FGnBxItAiAl9IO4V4AQqPEfG7VC9y1021vbpC-YE0AOhtuFMWfiXg%3D%3D",
+        "url": "https://rr5---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1721047660&ei=DMaUZrzuIqm0kucPleSr8As&ip=20.161.78.36&id=o-AF0hQlGnRPxmqvp-fSYNIItsEHtvJTQFweeSxrYUNxTk&itag=278&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C694%2C695%2C696%2C697%2C698%2C699%2C700%2C701%2C702&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1J&mm=31%2C26&mn=sn-p5qddn7k%2Csn-5uaeznyz&ms=au%2Conr&mv=m&mvi=5&pl=16&initcwndbps=5536250&bui=AXc671I-f-8uq7d3Riwz94zFLMKjDbgx73iZ34x2Z052IIWH2Zchy7Fk_dAnNd1DgAiY1TTCv9QRHDfZ&spc=NO7bATcEYAZ0t9t6is2BiRtEYPs7E_9dldS9DFlpduCmJqUXEKLy&vprv=1&svpuc=1&mime=video%2Fwebm&ns=R5WIa7Fb8zAB1bBtvnBD8XYQ&rqh=1&gir=yes&clen=12767719&dur=1343.967&lmt=1648542603596226&mt=1721025661&fvip=3&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=5437232&n=2PJVtPMoupQGdrBPDm-&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRgIhAJrFfQdqFdZYtrlUzFObE8mri0DeZSUNdaq7HqipMlG3AiEAtx3_IfNLv7oDn4HNhHKmSqmQZZy1gx5v6oKCvqv2PfU%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhANdCEBOKQcboDadeDIixOVkKq6_RudcptxwiqWYgAFBuAiBxYEKzBf9wD3JmJ5NIUtwASbcqtbOPZdgggFqfkRz-OQ%3D%3D",
         "mimeType": "video/webm; codecs=\"vp9\"",
-        "bitrate": 149907,
+        "bitrate": 116922,
         "width": 256,
         "height": 144,
         "initRange": {
@@ -408,139 +952,197 @@
         },
         "indexRange": {
           "start": "219",
-          "end": "1313"
+          "end": "4932"
         },
-        "lastModified": "1720934831532990",
-        "contentLength": "4845215",
+        "lastModified": "1648542603596226",
+        "contentLength": "12767719",
         "quality": "tiny",
-        "fps": 25,
+        "fps": 30,
         "qualityLabel": "144p",
         "projectionType": "RECTANGULAR",
-        "averageBitrate": 113484,
+        "averageBitrate": 76000,
         "colorInfo": {
           "primaries": "COLOR_PRIMARIES_BT709",
           "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_BT709",
           "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT709"
         },
-        "approxDurationMs": "341560"
+        "approxDurationMs": "1343967"
+      },
+      {
+        "itag": 330,
+        "url": "https://rr5---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1721047660&ei=DMaUZrzuIqm0kucPleSr8As&ip=20.161.78.36&id=o-AF0hQlGnRPxmqvp-fSYNIItsEHtvJTQFweeSxrYUNxTk&itag=330&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C694%2C695%2C696%2C697%2C698%2C699%2C700%2C701%2C702&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1J&mm=31%2C26&mn=sn-p5qddn7k%2Csn-5uaeznyz&ms=au%2Conr&mv=m&mvi=5&pl=16&initcwndbps=5536250&bui=AXc671I-f-8uq7d3Riwz94zFLMKjDbgx73iZ34x2Z052IIWH2Zchy7Fk_dAnNd1DgAiY1TTCv9QRHDfZ&spc=NO7bATcEYAZ0t9t6is2BiRtEYPs7E_9dldS9DFlpduCmJqUXEKLy&vprv=1&svpuc=1&mime=video%2Fwebm&ns=R5WIa7Fb8zAB1bBtvnBD8XYQ&rqh=1&gir=yes&clen=34818235&dur=1343.983&lmt=1648333127506173&mt=1721025661&fvip=3&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=5411222&n=2PJVtPMoupQGdrBPDm-&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIhAJzL4Re9OFQ91T7SXLaKgB7sq6szxFisjOtAX2yLCct2AiAZGzneqqUjBxULUZLyQ55fwUlTY_y2pZR2mHJYPnHAqA%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhANdCEBOKQcboDadeDIixOVkKq6_RudcptxwiqWYgAFBuAiBxYEKzBf9wD3JmJ5NIUtwASbcqtbOPZdgggFqfkRz-OQ%3D%3D",
+        "mimeType": "video/webm; codecs=\"vp9.2\"",
+        "bitrate": 250041,
+        "width": 256,
+        "height": 144,
+        "initRange": {
+          "start": "0",
+          "end": "308"
+        },
+        "indexRange": {
+          "start": "309",
+          "end": "4940"
+        },
+        "lastModified": "1648333127506173",
+        "contentLength": "34818235",
+        "quality": "tiny",
+        "fps": 60,
+        "qualityLabel": "144p60 HDR",
+        "projectionType": "RECTANGULAR",
+        "averageBitrate": 207254,
+        "colorInfo": {
+          "primaries": "COLOR_PRIMARIES_BT2020",
+          "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_SMPTEST2084",
+          "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT2020_NCL"
+        },
+        "approxDurationMs": "1343983"
+      },
+      {
+        "itag": 694,
+        "url": "https://rr5---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1721047660&ei=DMaUZrzuIqm0kucPleSr8As&ip=20.161.78.36&id=o-AF0hQlGnRPxmqvp-fSYNIItsEHtvJTQFweeSxrYUNxTk&itag=694&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278%2C298%2C299%2C302%2C303%2C308%2C315%2C330%2C331%2C332%2C333%2C334%2C335%2C336%2C337%2C694%2C695%2C696%2C697%2C698%2C699%2C700%2C701%2C702&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1J&mm=31%2C26&mn=sn-p5qddn7k%2Csn-5uaeznyz&ms=au%2Conr&mv=m&mvi=5&pl=16&initcwndbps=5536250&bui=AXc671I-f-8uq7d3Riwz94zFLMKjDbgx73iZ34x2Z052IIWH2Zchy7Fk_dAnNd1DgAiY1TTCv9QRHDfZ&spc=NO7bATcEYAZ0t9t6is2BiRtEYPs7E_9dldS9DFlpduCmJqUXEKLy&vprv=1&svpuc=1&mime=video%2Fmp4&ns=R5WIa7Fb8zAB1bBtvnBD8XYQ&rqh=1&gir=yes&clen=23399231&dur=1343.983&lmt=1674697901304248&mt=1721025661&fvip=3&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=5432434&n=2PJVtPMoupQGdrBPDm-&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRAIgDptXwejLwFP6hHDVE9OuJZFgyob1XH-qzbKqXgoqlYACICq88rMDrPX6FRO5jQBZIm7GfdrTd07M8pMScw1_mNFc&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhANdCEBOKQcboDadeDIixOVkKq6_RudcptxwiqWYgAFBuAiBxYEKzBf9wD3JmJ5NIUtwASbcqtbOPZdgggFqfkRz-OQ%3D%3D",
+        "mimeType": "video/mp4; codecs=\"av01.0.00M.10.0.110.09.16.09.0\"",
+        "bitrate": 193793,
+        "width": 256,
+        "height": 144,
+        "initRange": {
+          "start": "0",
+          "end": "731"
+        },
+        "indexRange": {
+          "start": "732",
+          "end": "4099"
+        },
+        "lastModified": "1674697901304248",
+        "contentLength": "23399231",
+        "quality": "tiny",
+        "fps": 60,
+        "qualityLabel": "144p60 HDR",
+        "projectionType": "RECTANGULAR",
+        "averageBitrate": 139282,
+        "colorInfo": {
+          "primaries": "COLOR_PRIMARIES_BT2020",
+          "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_SMPTEST2084",
+          "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT2020_NCL"
+        },
+        "approxDurationMs": "1343983"
       },
       {
         "itag": 140,
-        "url": "https://rr1---sn-p5qlsndr.googlevideo.com/videoplayback?expire=1720984286&ei=fs6TZsj_L62IkucPyeqHqAo&ip=20.49.63.248&id=o-AMzmkHqfQYtZYGFVOm-QjUEia-nQ6m5-KT3vbwNX_Dfl&itag=140&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=gB&mm=31%2C29&mn=sn-p5qlsndr%2Csn-p5qs7nsr&ms=au%2Crdu&mv=m&mvi=1&pl=17&initcwndbps=2298750&bui=AXc671LqS0w0xgxPuj0COKkKCMupKiPhzV85b9y3Iq57k6Pa5ddy4Ri29DdESCTd-C33S0gZeA98bQDW&spc=NO7bAeiBQcR34a2Wycu4_x3KSNwfZBiRRZ4THNeJZCG9imFqLr6I&vprv=1&svpuc=1&mime=audio%2Fmp4&ns=JPRjtKPKkMTKdwL7xl329ZMQ&rqh=1&gir=yes&clen=5529454&dur=341.611&lmt=1720938013737967&mt=1720962307&fvip=1&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=4432434&n=gU0TWlJkrj8u9KzDHKX&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIgV_UK9arUoHgKeDgV19hrq7dUMT1BAl4RyElmMimtwgYCIQCmZSZ3OLcd_GOTdKGqg4raro5o8CGKICUTLdie6SCDNA%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhAI1C7ZS1cc3OPQwJfl3cllS8CmrMH7NIxmOo6FGnBxItAiAl9IO4V4AQqPEfG7VC9y1021vbpC-YE0AOhtuFMWfiXg%3D%3D",
+        "url": "https://rr5---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1721047660&ei=DMaUZrzuIqm0kucPleSr8As&ip=20.161.78.36&id=o-AF0hQlGnRPxmqvp-fSYNIItsEHtvJTQFweeSxrYUNxTk&itag=140&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1J&mm=31%2C26&mn=sn-p5qddn7k%2Csn-5uaeznyz&ms=au%2Conr&mv=m&mvi=5&pl=16&initcwndbps=5536250&bui=AXc671I-f-8uq7d3Riwz94zFLMKjDbgx73iZ34x2Z052IIWH2Zchy7Fk_dAnNd1DgAiY1TTCv9QRHDfZ&spc=NO7bATcEYAZ0t9t6is2BiRtEYPs7E_9dldS9DFlpduCmJqUXEKLy&vprv=1&svpuc=1&mime=audio%2Fmp4&ns=R5WIa7Fb8zAB1bBtvnBD8XYQ&rqh=1&gir=yes&clen=21752506&dur=1344.040&lmt=1700001067150733&mt=1721025661&fvip=3&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=5432434&n=2PJVtPMoupQGdrBPDm-&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRgIhAKaRQrbl66qoBPwYTv_igFvrEXNNt3kYOvlIlAMXQQD-AiEA3Yrc_ZK8ta5w1qjZNg4A-xQVTEaw01Qei7j2Uk0kzq0%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhANdCEBOKQcboDadeDIixOVkKq6_RudcptxwiqWYgAFBuAiBxYEKzBf9wD3JmJ5NIUtwASbcqtbOPZdgggFqfkRz-OQ%3D%3D",
         "mimeType": "audio/mp4; codecs=\"mp4a.40.2\"",
-        "bitrate": 130817,
+        "bitrate": 131575,
         "initRange": {
           "start": "0",
-          "end": "722"
+          "end": "631"
         },
         "indexRange": {
-          "start": "723",
-          "end": "1174"
+          "start": "632",
+          "end": "2283"
         },
-        "lastModified": "1720938013737967",
-        "contentLength": "5529454",
+        "lastModified": "1700001067150733",
+        "contentLength": "21752506",
         "quality": "tiny",
         "projectionType": "RECTANGULAR",
-        "averageBitrate": 129491,
+        "averageBitrate": 129475,
         "highReplication": true,
         "audioQuality": "AUDIO_QUALITY_MEDIUM",
-        "approxDurationMs": "341611",
+        "approxDurationMs": "1344040",
         "audioSampleRate": "44100",
         "audioChannels": 2,
-        "loudnessDb": -8.190001
+        "loudnessDb": 0.8800001
       },
       {
         "itag": 249,
-        "url": "https://rr1---sn-p5qlsndr.googlevideo.com/videoplayback?expire=1720984286&ei=fs6TZsj_L62IkucPyeqHqAo&ip=20.49.63.248&id=o-AMzmkHqfQYtZYGFVOm-QjUEia-nQ6m5-KT3vbwNX_Dfl&itag=249&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=gB&mm=31%2C29&mn=sn-p5qlsndr%2Csn-p5qs7nsr&ms=au%2Crdu&mv=m&mvi=1&pl=17&initcwndbps=2298750&bui=AXc671LqS0w0xgxPuj0COKkKCMupKiPhzV85b9y3Iq57k6Pa5ddy4Ri29DdESCTd-C33S0gZeA98bQDW&spc=NO7bAeiBQcR34a2Wycu4_x3KSNwfZBiRRZ4THNeJZCG9imFqLr6I&vprv=1&svpuc=1&mime=audio%2Fwebm&ns=JPRjtKPKkMTKdwL7xl329ZMQ&rqh=1&gir=yes&clen=1996859&dur=341.581&lmt=1720938097563040&mt=1720962307&fvip=1&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=4432434&n=gU0TWlJkrj8u9KzDHKX&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRgIhAO2WdoYthq1rCDixr8AMAzZE_R8y26myd6EN0DGc_GEnAiEAhmRWdgdIreAVbE6mtV8fKLClRLtpJTXMWIAQrl1qgvM%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhAI1C7ZS1cc3OPQwJfl3cllS8CmrMH7NIxmOo6FGnBxItAiAl9IO4V4AQqPEfG7VC9y1021vbpC-YE0AOhtuFMWfiXg%3D%3D",
+        "url": "https://rr5---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1721047660&ei=DMaUZrzuIqm0kucPleSr8As&ip=20.161.78.36&id=o-AF0hQlGnRPxmqvp-fSYNIItsEHtvJTQFweeSxrYUNxTk&itag=249&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1J&mm=31%2C26&mn=sn-p5qddn7k%2Csn-5uaeznyz&ms=au%2Conr&mv=m&mvi=5&pl=16&initcwndbps=5536250&bui=AXc671I-f-8uq7d3Riwz94zFLMKjDbgx73iZ34x2Z052IIWH2Zchy7Fk_dAnNd1DgAiY1TTCv9QRHDfZ&spc=NO7bATcEYAZ0t9t6is2BiRtEYPs7E_9dldS9DFlpduCmJqUXEKLy&vprv=1&svpuc=1&mime=audio%2Fwebm&ns=R5WIa7Fb8zAB1bBtvnBD8XYQ&rqh=1&gir=yes&clen=8736139&dur=1344.021&lmt=1648538646431020&mt=1721025661&fvip=3&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=5431232&n=2PJVtPMoupQGdrBPDm-&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIgF5veLfKFmGUYUno9ET7VVeVmMl_aEr3d0oIWQfdvnwACIQD-aLnX7SSh10g3DgoTZrGWMdEfDxBnv24_GK2Vr6fwSQ%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhANdCEBOKQcboDadeDIixOVkKq6_RudcptxwiqWYgAFBuAiBxYEKzBf9wD3JmJ5NIUtwASbcqtbOPZdgggFqfkRz-OQ%3D%3D",
         "mimeType": "audio/webm; codecs=\"opus\"",
-        "bitrate": 51296,
+        "bitrate": 62168,
         "initRange": {
           "start": "0",
           "end": "265"
         },
         "indexRange": {
           "start": "266",
-          "end": "856"
+          "end": "2557"
         },
-        "lastModified": "1720938097563040",
-        "contentLength": "1996859",
+        "lastModified": "1648538646431020",
+        "contentLength": "8736139",
         "quality": "tiny",
         "projectionType": "RECTANGULAR",
-        "averageBitrate": 46767,
+        "averageBitrate": 52000,
         "audioQuality": "AUDIO_QUALITY_LOW",
-        "approxDurationMs": "341581",
+        "approxDurationMs": "1344021",
         "audioSampleRate": "48000",
         "audioChannels": 2,
-        "loudnessDb": -8.190001
+        "loudnessDb": 0.8800001
       },
       {
         "itag": 250,
-        "url": "https://rr1---sn-p5qlsndr.googlevideo.com/videoplayback?expire=1720984286&ei=fs6TZsj_L62IkucPyeqHqAo&ip=20.49.63.248&id=o-AMzmkHqfQYtZYGFVOm-QjUEia-nQ6m5-KT3vbwNX_Dfl&itag=250&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=gB&mm=31%2C29&mn=sn-p5qlsndr%2Csn-p5qs7nsr&ms=au%2Crdu&mv=m&mvi=1&pl=17&initcwndbps=2298750&bui=AXc671LqS0w0xgxPuj0COKkKCMupKiPhzV85b9y3Iq57k6Pa5ddy4Ri29DdESCTd-C33S0gZeA98bQDW&spc=NO7bAeiBQcR34a2Wycu4_x3KSNwfZBiRRZ4THNeJZCG9imFqLr6I&vprv=1&svpuc=1&mime=audio%2Fwebm&ns=JPRjtKPKkMTKdwL7xl329ZMQ&rqh=1&gir=yes&clen=2491719&dur=341.581&lmt=1720938097631828&mt=1720962307&fvip=1&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=4432434&n=gU0TWlJkrj8u9KzDHKX&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRAIgDdO5Ut4U0dTZb_VCiDEY6VVGm_7MZqCGJSXaxG5Pl44CIG2wLiPFkL-SByzMm0Wa20SckCCiV5YdhQ8lzrYonMoc&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhAI1C7ZS1cc3OPQwJfl3cllS8CmrMH7NIxmOo6FGnBxItAiAl9IO4V4AQqPEfG7VC9y1021vbpC-YE0AOhtuFMWfiXg%3D%3D",
+        "url": "https://rr5---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1721047660&ei=DMaUZrzuIqm0kucPleSr8As&ip=20.161.78.36&id=o-AF0hQlGnRPxmqvp-fSYNIItsEHtvJTQFweeSxrYUNxTk&itag=250&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1J&mm=31%2C26&mn=sn-p5qddn7k%2Csn-5uaeznyz&ms=au%2Conr&mv=m&mvi=5&pl=16&initcwndbps=5536250&bui=AXc671I-f-8uq7d3Riwz94zFLMKjDbgx73iZ34x2Z052IIWH2Zchy7Fk_dAnNd1DgAiY1TTCv9QRHDfZ&spc=NO7bATcEYAZ0t9t6is2BiRtEYPs7E_9dldS9DFlpduCmJqUXEKLy&vprv=1&svpuc=1&mime=audio%2Fwebm&ns=R5WIa7Fb8zAB1bBtvnBD8XYQ&rqh=1&gir=yes&clen=11617157&dur=1344.021&lmt=1648538647526780&mt=1721025661&fvip=3&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=5431232&n=2PJVtPMoupQGdrBPDm-&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRAIgHZ8EsBb5w7RuhtTiOsmuIQGEAMF39gIm1c-CHa1qjc0CIA5BGhVeAb27jOfnrXmAsb8HkWn_sJoIX61zPkSsbLLw&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhANdCEBOKQcboDadeDIixOVkKq6_RudcptxwiqWYgAFBuAiBxYEKzBf9wD3JmJ5NIUtwASbcqtbOPZdgggFqfkRz-OQ%3D%3D",
         "mimeType": "audio/webm; codecs=\"opus\"",
-        "bitrate": 66589,
+        "bitrate": 81606,
         "initRange": {
           "start": "0",
           "end": "265"
         },
         "indexRange": {
           "start": "266",
-          "end": "857"
+          "end": "2557"
         },
-        "lastModified": "1720938097631828",
-        "contentLength": "2491719",
+        "lastModified": "1648538647526780",
+        "contentLength": "11617157",
         "quality": "tiny",
         "projectionType": "RECTANGULAR",
-        "averageBitrate": 58357,
+        "averageBitrate": 69148,
         "audioQuality": "AUDIO_QUALITY_LOW",
-        "approxDurationMs": "341581",
+        "approxDurationMs": "1344021",
         "audioSampleRate": "48000",
         "audioChannels": 2,
-        "loudnessDb": -8.190001
+        "loudnessDb": 0.8800001
       },
       {
         "itag": 251,
-        "url": "https://rr1---sn-p5qlsndr.googlevideo.com/videoplayback?expire=1720984286&ei=fs6TZsj_L62IkucPyeqHqAo&ip=20.49.63.248&id=o-AMzmkHqfQYtZYGFVOm-QjUEia-nQ6m5-KT3vbwNX_Dfl&itag=251&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=gB&mm=31%2C29&mn=sn-p5qlsndr%2Csn-p5qs7nsr&ms=au%2Crdu&mv=m&mvi=1&pl=17&initcwndbps=2298750&bui=AXc671LqS0w0xgxPuj0COKkKCMupKiPhzV85b9y3Iq57k6Pa5ddy4Ri29DdESCTd-C33S0gZeA98bQDW&spc=NO7bAeiBQcR34a2Wycu4_x3KSNwfZBiRRZ4THNeJZCG9imFqLr6I&vprv=1&svpuc=1&mime=audio%2Fwebm&ns=JPRjtKPKkMTKdwL7xl329ZMQ&rqh=1&gir=yes&clen=5165562&dur=341.581&lmt=1720938097563549&mt=1720962307&fvip=1&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=4432434&n=gU0TWlJkrj8u9KzDHKX&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIhAMpiI_z7SNpJI28GPB_KsMrqmvipQiXYzc5HKErlljHqAiA4jgaowyrOW4dvv8rdnvT_WwHOmCepKjROSQ-WeLoPhQ%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhAI1C7ZS1cc3OPQwJfl3cllS8CmrMH7NIxmOo6FGnBxItAiAl9IO4V4AQqPEfG7VC9y1021vbpC-YE0AOhtuFMWfiXg%3D%3D",
+        "url": "https://rr5---sn-p5qddn7k.googlevideo.com/videoplayback?expire=1721047660&ei=DMaUZrzuIqm0kucPleSr8As&ip=20.161.78.36&id=o-AF0hQlGnRPxmqvp-fSYNIItsEHtvJTQFweeSxrYUNxTk&itag=251&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&mh=1J&mm=31%2C26&mn=sn-p5qddn7k%2Csn-5uaeznyz&ms=au%2Conr&mv=m&mvi=5&pl=16&initcwndbps=5536250&bui=AXc671I-f-8uq7d3Riwz94zFLMKjDbgx73iZ34x2Z052IIWH2Zchy7Fk_dAnNd1DgAiY1TTCv9QRHDfZ&spc=NO7bATcEYAZ0t9t6is2BiRtEYPs7E_9dldS9DFlpduCmJqUXEKLy&vprv=1&svpuc=1&mime=audio%2Fwebm&ns=R5WIa7Fb8zAB1bBtvnBD8XYQ&rqh=1&gir=yes&clen=22796092&dur=1344.021&lmt=1648538648222517&mt=1721025661&fvip=3&keepalive=yes&c=WEB_CREATOR&sefc=1&txp=5431232&n=2PJVtPMoupQGdrBPDm-&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIgMJJFQcgHudkoLhr5CUq3Zm9mtlgOe3nlXIrftjHa7vsCIQCV5IF6TeJTsr8q104wiBLqBD3DjZ2NO37_aIGsV-Izgg%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHlkHjAwRQIhANdCEBOKQcboDadeDIixOVkKq6_RudcptxwiqWYgAFBuAiBxYEKzBf9wD3JmJ5NIUtwASbcqtbOPZdgggFqfkRz-OQ%3D%3D",
         "mimeType": "audio/webm; codecs=\"opus\"",
-        "bitrate": 139157,
+        "bitrate": 152692,
         "initRange": {
           "start": "0",
           "end": "265"
         },
         "indexRange": {
           "start": "266",
-          "end": "857"
+          "end": "2591"
         },
-        "lastModified": "1720938097563549",
-        "contentLength": "5165562",
+        "lastModified": "1648538648222517",
+        "contentLength": "22796092",
         "quality": "tiny",
         "projectionType": "RECTANGULAR",
-        "averageBitrate": 120980,
+        "averageBitrate": 135688,
         "audioQuality": "AUDIO_QUALITY_MEDIUM",
-        "approxDurationMs": "341581",
+        "approxDurationMs": "1344021",
         "audioSampleRate": "48000",
         "audioChannels": 2,
-        "loudnessDb": -8.190001
+        "loudnessDb": 0.8800001
       }
     ]
   },
   "playbackTracking": {
     "videostatsPlaybackUrl": {
-      "baseUrl": "https://s.youtube.com/api/stats/playback?cl=650823099&docid=Z-7oADTqthQ&ei=fs6TZsj_L62IkucPyeqHqAo&fexp=&ns=yt&plid=AAYdNNmeVlOZV3xH&el=detailpage&len=342&of=NK_yWzy6W6-7pDnbxXEaNQ&vm=CAEQARgEOjJBSHFpSlRJbjByWUlqVTltbXYyUG9IX0dQNFp4LWR5akdhbFdQNE40dkQzNkRKMEhnQWJeQVBta0tESmlNVDVTRjRCMFFOWnliRTBMT0RjLWRpZUlqazBpbUxOdjMxQXMwaGR0MWxpWHlVWWRtc0hKVDBYaWxoMjZuNFBsb2Y4NjNUQmx5OGNwSFZHQS1IaUhydw"
+      "baseUrl": "https://s.youtube.com/api/stats/playback?cl=650823099&docid=vJz8QzO1VzQ&ei=DMaUZrzuIqm0kucPleSr8As&fexp=&ns=yt&plid=AAYdQ5r9iHSe-3Y8&el=detailpage&len=1344&of=3hf9RXI6i7hVCJeU2BYcqw&vm=CAEQARgEOjJBSHFpSlRLdWxxM2FqSjBjSlR3YjRYcUU1Wmh5NlRMZ0kwSFAtdHB3a0JPUGJTVlRsZ2JiQVBta0tESUVWZXJwaldLc3o3UjZ6WlBpZEVscXNZeXZFS0RHNnZRZzN4TnQxcGt5RjZ5cnRGMEY4VWZiQS1vU1NMZTZSd3BSMXU0NGNqMlpDalpwVlNlb0JNTENUVjhTMVE"
     },
     "videostatsDelayplayUrl": {
-      "baseUrl": "https://s.youtube.com/api/stats/delayplay?cl=650823099&docid=Z-7oADTqthQ&ei=fs6TZsj_L62IkucPyeqHqAo&fexp=&ns=yt&plid=AAYdNNmeVlOZV3xH&el=detailpage&len=342&of=NK_yWzy6W6-7pDnbxXEaNQ&vm=CAEQARgEOjJBSHFpSlRJbjByWUlqVTltbXYyUG9IX0dQNFp4LWR5akdhbFdQNE40dkQzNkRKMEhnQWJeQVBta0tESmlNVDVTRjRCMFFOWnliRTBMT0RjLWRpZUlqazBpbUxOdjMxQXMwaGR0MWxpWHlVWWRtc0hKVDBYaWxoMjZuNFBsb2Y4NjNUQmx5OGNwSFZHQS1IaUhydw"
+      "baseUrl": "https://s.youtube.com/api/stats/delayplay?cl=650823099&docid=vJz8QzO1VzQ&ei=DMaUZrzuIqm0kucPleSr8As&fexp=&ns=yt&plid=AAYdQ5r9iHSe-3Y8&el=detailpage&len=1344&of=3hf9RXI6i7hVCJeU2BYcqw&vm=CAEQARgEOjJBSHFpSlRLdWxxM2FqSjBjSlR3YjRYcUU1Wmh5NlRMZ0kwSFAtdHB3a0JPUGJTVlRsZ2JiQVBta0tESUVWZXJwaldLc3o3UjZ6WlBpZEVscXNZeXZFS0RHNnZRZzN4TnQxcGt5RjZ5cnRGMEY4VWZiQS1vU1NMZTZSd3BSMXU0NGNqMlpDalpwVlNlb0JNTENUVjhTMVE"
     },
     "videostatsWatchtimeUrl": {
-      "baseUrl": "https://s.youtube.com/api/stats/watchtime?cl=650823099&docid=Z-7oADTqthQ&ei=fs6TZsj_L62IkucPyeqHqAo&fexp=&ns=yt&plid=AAYdNNmeVlOZV3xH&el=detailpage&len=342&of=NK_yWzy6W6-7pDnbxXEaNQ&vm=CAEQARgEOjJBSHFpSlRJbjByWUlqVTltbXYyUG9IX0dQNFp4LWR5akdhbFdQNE40dkQzNkRKMEhnQWJeQVBta0tESmlNVDVTRjRCMFFOWnliRTBMT0RjLWRpZUlqazBpbUxOdjMxQXMwaGR0MWxpWHlVWWRtc0hKVDBYaWxoMjZuNFBsb2Y4NjNUQmx5OGNwSFZHQS1IaUhydw"
+      "baseUrl": "https://s.youtube.com/api/stats/watchtime?cl=650823099&docid=vJz8QzO1VzQ&ei=DMaUZrzuIqm0kucPleSr8As&fexp=&ns=yt&plid=AAYdQ5r9iHSe-3Y8&el=detailpage&len=1344&of=3hf9RXI6i7hVCJeU2BYcqw&vm=CAEQARgEOjJBSHFpSlRLdWxxM2FqSjBjSlR3YjRYcUU1Wmh5NlRMZ0kwSFAtdHB3a0JPUGJTVlRsZ2JiQVBta0tESUVWZXJwaldLc3o3UjZ6WlBpZEVscXNZeXZFS0RHNnZRZzN4TnQxcGt5RjZ5cnRGMEY4VWZiQS1vU1NMZTZSd3BSMXU0NGNqMlpDalpwVlNlb0JNTENUVjhTMVE"
     },
     "ptrackingUrl": {
-      "baseUrl": "https://www.youtube.com/ptracking?ei=fs6TZsj_L62IkucPyeqHqAo&oid=AGvwKAzySEoywc4aXODIuQ&plid=AAYdNNmeVlOZV3xH&pltype=content&ptchn=DOGExGCsrrt_RrGDgLuMww&ptk=youtube_single&video_id=Z-7oADTqthQ"
+      "baseUrl": "https://www.youtube.com/ptracking?ei=DMaUZrzuIqm0kucPleSr8As&oid=gkyXwgchxFgKNrqDPEAq0Q&plid=AAYdQ5r9iHSe-3Y8&pltype=content&ptchn=dKIA43AzmdTR-84VyDUeyw&ptk=youtube_single&video_id=vJz8QzO1VzQ"
     },
     "qoeUrl": {
-      "baseUrl": "https://s.youtube.com/api/stats/qoe?cl=650823099&docid=Z-7oADTqthQ&ei=fs6TZsj_L62IkucPyeqHqAo&event=streamingstats&fexp=&ns=yt&plid=AAYdNNmeVlOZV3xH"
+      "baseUrl": "https://s.youtube.com/api/stats/qoe?cl=650823099&docid=vJz8QzO1VzQ&ei=DMaUZrzuIqm0kucPleSr8As&event=streamingstats&fexp=&ns=yt&plid=AAYdQ5r9iHSe-3Y8"
     },
     "atrUrl": {
-      "baseUrl": "https://s.youtube.com/api/stats/atr?docid=Z-7oADTqthQ&ei=fs6TZsj_L62IkucPyeqHqAo&len=342&ns=yt&plid=AAYdNNmeVlOZV3xH&ver=2",
+      "baseUrl": "https://s.youtube.com/api/stats/atr?docid=vJz8QzO1VzQ&ei=DMaUZrzuIqm0kucPleSr8As&len=1344&ns=yt&plid=AAYdQ5r9iHSe-3Y8&ver=2",
       "elapsedMediaTimeSeconds": 5
     },
     "videostatsScheduledFlushWalltimeSeconds": [
@@ -548,932 +1150,106 @@
       20,
       30
     ],
-    "videostatsDefaultFlushIntervalSeconds": 40
-  },
-  "captions": {
-    "playerCaptionsTracklistRenderer": {
-      "captionTracks": [
-        {
-          "baseUrl": "https://www.youtube.com/api/timedtext?v=Z-7oADTqthQ&ei=fs6TZsj_L62IkucPyeqHqAo&caps=asr&opi=112496729&xoaf=5&hl=en&ip=0.0.0.0&ipbits=0&expire=1720987886&sparams=ip,ipbits,expire,v,ei,caps,opi,xoaf&signature=8DED4D0C6F0D8F6AD2AF71C7D40876DC05D39DCF.2370D54F01A7C282B79B04A81B5EE6FD4FD91FC4&key=yt8&kind=asr&lang=en",
-          "name": {
-            "simpleText": "English (auto-generated)"
-          },
-          "vssId": "a.en",
-          "languageCode": "en",
-          "kind": "asr",
-          "isTranslatable": true,
-          "trackName": ""
-        }
-      ],
-      "audioTracks": [
-        {
-          "captionTrackIndices": [
-            0
-          ]
-        }
-      ],
-      "translationLanguages": [
-        {
-          "languageCode": "af",
-          "languageName": {
-            "simpleText": "Afrikaans"
-          }
-        },
-        {
-          "languageCode": "ak",
-          "languageName": {
-            "simpleText": "Akan"
-          }
-        },
-        {
-          "languageCode": "sq",
-          "languageName": {
-            "simpleText": "Albanian"
-          }
-        },
-        {
-          "languageCode": "am",
-          "languageName": {
-            "simpleText": "Amharic"
-          }
-        },
-        {
-          "languageCode": "ar",
-          "languageName": {
-            "simpleText": "Arabic"
-          }
-        },
-        {
-          "languageCode": "hy",
-          "languageName": {
-            "simpleText": "Armenian"
-          }
-        },
-        {
-          "languageCode": "as",
-          "languageName": {
-            "simpleText": "Assamese"
-          }
-        },
-        {
-          "languageCode": "ay",
-          "languageName": {
-            "simpleText": "Aymara"
-          }
-        },
-        {
-          "languageCode": "az",
-          "languageName": {
-            "simpleText": "Azerbaijani"
-          }
-        },
-        {
-          "languageCode": "bn",
-          "languageName": {
-            "simpleText": "Bangla"
-          }
-        },
-        {
-          "languageCode": "eu",
-          "languageName": {
-            "simpleText": "Basque"
-          }
-        },
-        {
-          "languageCode": "be",
-          "languageName": {
-            "simpleText": "Belarusian"
-          }
-        },
-        {
-          "languageCode": "bho",
-          "languageName": {
-            "simpleText": "Bhojpuri"
-          }
-        },
-        {
-          "languageCode": "bs",
-          "languageName": {
-            "simpleText": "Bosnian"
-          }
-        },
-        {
-          "languageCode": "bg",
-          "languageName": {
-            "simpleText": "Bulgarian"
-          }
-        },
-        {
-          "languageCode": "my",
-          "languageName": {
-            "simpleText": "Burmese"
-          }
-        },
-        {
-          "languageCode": "ca",
-          "languageName": {
-            "simpleText": "Catalan"
-          }
-        },
-        {
-          "languageCode": "ceb",
-          "languageName": {
-            "simpleText": "Cebuano"
-          }
-        },
-        {
-          "languageCode": "zh-Hans",
-          "languageName": {
-            "simpleText": "Chinese (Simplified)"
-          }
-        },
-        {
-          "languageCode": "zh-Hant",
-          "languageName": {
-            "simpleText": "Chinese (Traditional)"
-          }
-        },
-        {
-          "languageCode": "co",
-          "languageName": {
-            "simpleText": "Corsican"
-          }
-        },
-        {
-          "languageCode": "hr",
-          "languageName": {
-            "simpleText": "Croatian"
-          }
-        },
-        {
-          "languageCode": "cs",
-          "languageName": {
-            "simpleText": "Czech"
-          }
-        },
-        {
-          "languageCode": "da",
-          "languageName": {
-            "simpleText": "Danish"
-          }
-        },
-        {
-          "languageCode": "dv",
-          "languageName": {
-            "simpleText": "Divehi"
-          }
-        },
-        {
-          "languageCode": "nl",
-          "languageName": {
-            "simpleText": "Dutch"
-          }
-        },
-        {
-          "languageCode": "en",
-          "languageName": {
-            "simpleText": "English"
-          }
-        },
-        {
-          "languageCode": "eo",
-          "languageName": {
-            "simpleText": "Esperanto"
-          }
-        },
-        {
-          "languageCode": "et",
-          "languageName": {
-            "simpleText": "Estonian"
-          }
-        },
-        {
-          "languageCode": "ee",
-          "languageName": {
-            "simpleText": "Ewe"
-          }
-        },
-        {
-          "languageCode": "fil",
-          "languageName": {
-            "simpleText": "Filipino"
-          }
-        },
-        {
-          "languageCode": "fi",
-          "languageName": {
-            "simpleText": "Finnish"
-          }
-        },
-        {
-          "languageCode": "fr",
-          "languageName": {
-            "simpleText": "French"
-          }
-        },
-        {
-          "languageCode": "gl",
-          "languageName": {
-            "simpleText": "Galician"
-          }
-        },
-        {
-          "languageCode": "lg",
-          "languageName": {
-            "simpleText": "Ganda"
-          }
-        },
-        {
-          "languageCode": "ka",
-          "languageName": {
-            "simpleText": "Georgian"
-          }
-        },
-        {
-          "languageCode": "de",
-          "languageName": {
-            "simpleText": "German"
-          }
-        },
-        {
-          "languageCode": "el",
-          "languageName": {
-            "simpleText": "Greek"
-          }
-        },
-        {
-          "languageCode": "gn",
-          "languageName": {
-            "simpleText": "Guarani"
-          }
-        },
-        {
-          "languageCode": "gu",
-          "languageName": {
-            "simpleText": "Gujarati"
-          }
-        },
-        {
-          "languageCode": "ht",
-          "languageName": {
-            "simpleText": "Haitian Creole"
-          }
-        },
-        {
-          "languageCode": "ha",
-          "languageName": {
-            "simpleText": "Hausa"
-          }
-        },
-        {
-          "languageCode": "haw",
-          "languageName": {
-            "simpleText": "Hawaiian"
-          }
-        },
-        {
-          "languageCode": "iw",
-          "languageName": {
-            "simpleText": "Hebrew"
-          }
-        },
-        {
-          "languageCode": "hi",
-          "languageName": {
-            "simpleText": "Hindi"
-          }
-        },
-        {
-          "languageCode": "hmn",
-          "languageName": {
-            "simpleText": "Hmong"
-          }
-        },
-        {
-          "languageCode": "hu",
-          "languageName": {
-            "simpleText": "Hungarian"
-          }
-        },
-        {
-          "languageCode": "is",
-          "languageName": {
-            "simpleText": "Icelandic"
-          }
-        },
-        {
-          "languageCode": "ig",
-          "languageName": {
-            "simpleText": "Igbo"
-          }
-        },
-        {
-          "languageCode": "id",
-          "languageName": {
-            "simpleText": "Indonesian"
-          }
-        },
-        {
-          "languageCode": "ga",
-          "languageName": {
-            "simpleText": "Irish"
-          }
-        },
-        {
-          "languageCode": "it",
-          "languageName": {
-            "simpleText": "Italian"
-          }
-        },
-        {
-          "languageCode": "ja",
-          "languageName": {
-            "simpleText": "Japanese"
-          }
-        },
-        {
-          "languageCode": "jv",
-          "languageName": {
-            "simpleText": "Javanese"
-          }
-        },
-        {
-          "languageCode": "kn",
-          "languageName": {
-            "simpleText": "Kannada"
-          }
-        },
-        {
-          "languageCode": "kk",
-          "languageName": {
-            "simpleText": "Kazakh"
-          }
-        },
-        {
-          "languageCode": "km",
-          "languageName": {
-            "simpleText": "Khmer"
-          }
-        },
-        {
-          "languageCode": "rw",
-          "languageName": {
-            "simpleText": "Kinyarwanda"
-          }
-        },
-        {
-          "languageCode": "ko",
-          "languageName": {
-            "simpleText": "Korean"
-          }
-        },
-        {
-          "languageCode": "kri",
-          "languageName": {
-            "simpleText": "Krio"
-          }
-        },
-        {
-          "languageCode": "ku",
-          "languageName": {
-            "simpleText": "Kurdish"
-          }
-        },
-        {
-          "languageCode": "ky",
-          "languageName": {
-            "simpleText": "Kyrgyz"
-          }
-        },
-        {
-          "languageCode": "lo",
-          "languageName": {
-            "simpleText": "Lao"
-          }
-        },
-        {
-          "languageCode": "la",
-          "languageName": {
-            "simpleText": "Latin"
-          }
-        },
-        {
-          "languageCode": "lv",
-          "languageName": {
-            "simpleText": "Latvian"
-          }
-        },
-        {
-          "languageCode": "ln",
-          "languageName": {
-            "simpleText": "Lingala"
-          }
-        },
-        {
-          "languageCode": "lt",
-          "languageName": {
-            "simpleText": "Lithuanian"
-          }
-        },
-        {
-          "languageCode": "lb",
-          "languageName": {
-            "simpleText": "Luxembourgish"
-          }
-        },
-        {
-          "languageCode": "mk",
-          "languageName": {
-            "simpleText": "Macedonian"
-          }
-        },
-        {
-          "languageCode": "mg",
-          "languageName": {
-            "simpleText": "Malagasy"
-          }
-        },
-        {
-          "languageCode": "ms",
-          "languageName": {
-            "simpleText": "Malay"
-          }
-        },
-        {
-          "languageCode": "ml",
-          "languageName": {
-            "simpleText": "Malayalam"
-          }
-        },
-        {
-          "languageCode": "mt",
-          "languageName": {
-            "simpleText": "Maltese"
-          }
-        },
-        {
-          "languageCode": "mi",
-          "languageName": {
-            "simpleText": "Māori"
-          }
-        },
-        {
-          "languageCode": "mr",
-          "languageName": {
-            "simpleText": "Marathi"
-          }
-        },
-        {
-          "languageCode": "mn",
-          "languageName": {
-            "simpleText": "Mongolian"
-          }
-        },
-        {
-          "languageCode": "ne",
-          "languageName": {
-            "simpleText": "Nepali"
-          }
-        },
-        {
-          "languageCode": "nso",
-          "languageName": {
-            "simpleText": "Northern Sotho"
-          }
-        },
-        {
-          "languageCode": "no",
-          "languageName": {
-            "simpleText": "Norwegian"
-          }
-        },
-        {
-          "languageCode": "ny",
-          "languageName": {
-            "simpleText": "Nyanja"
-          }
-        },
-        {
-          "languageCode": "or",
-          "languageName": {
-            "simpleText": "Odia"
-          }
-        },
-        {
-          "languageCode": "om",
-          "languageName": {
-            "simpleText": "Oromo"
-          }
-        },
-        {
-          "languageCode": "ps",
-          "languageName": {
-            "simpleText": "Pashto"
-          }
-        },
-        {
-          "languageCode": "fa",
-          "languageName": {
-            "simpleText": "Persian"
-          }
-        },
-        {
-          "languageCode": "pl",
-          "languageName": {
-            "simpleText": "Polish"
-          }
-        },
-        {
-          "languageCode": "pt",
-          "languageName": {
-            "simpleText": "Portuguese"
-          }
-        },
-        {
-          "languageCode": "pa",
-          "languageName": {
-            "simpleText": "Punjabi"
-          }
-        },
-        {
-          "languageCode": "qu",
-          "languageName": {
-            "simpleText": "Quechua"
-          }
-        },
-        {
-          "languageCode": "ro",
-          "languageName": {
-            "simpleText": "Romanian"
-          }
-        },
-        {
-          "languageCode": "ru",
-          "languageName": {
-            "simpleText": "Russian"
-          }
-        },
-        {
-          "languageCode": "sm",
-          "languageName": {
-            "simpleText": "Samoan"
-          }
-        },
-        {
-          "languageCode": "sa",
-          "languageName": {
-            "simpleText": "Sanskrit"
-          }
-        },
-        {
-          "languageCode": "gd",
-          "languageName": {
-            "simpleText": "Scottish Gaelic"
-          }
-        },
-        {
-          "languageCode": "sr",
-          "languageName": {
-            "simpleText": "Serbian"
-          }
-        },
-        {
-          "languageCode": "sn",
-          "languageName": {
-            "simpleText": "Shona"
-          }
-        },
-        {
-          "languageCode": "sd",
-          "languageName": {
-            "simpleText": "Sindhi"
-          }
-        },
-        {
-          "languageCode": "si",
-          "languageName": {
-            "simpleText": "Sinhala"
-          }
-        },
-        {
-          "languageCode": "sk",
-          "languageName": {
-            "simpleText": "Slovak"
-          }
-        },
-        {
-          "languageCode": "sl",
-          "languageName": {
-            "simpleText": "Slovenian"
-          }
-        },
-        {
-          "languageCode": "so",
-          "languageName": {
-            "simpleText": "Somali"
-          }
-        },
-        {
-          "languageCode": "st",
-          "languageName": {
-            "simpleText": "Southern Sotho"
-          }
-        },
-        {
-          "languageCode": "es",
-          "languageName": {
-            "simpleText": "Spanish"
-          }
-        },
-        {
-          "languageCode": "su",
-          "languageName": {
-            "simpleText": "Sundanese"
-          }
-        },
-        {
-          "languageCode": "sw",
-          "languageName": {
-            "simpleText": "Swahili"
-          }
-        },
-        {
-          "languageCode": "sv",
-          "languageName": {
-            "simpleText": "Swedish"
-          }
-        },
-        {
-          "languageCode": "tg",
-          "languageName": {
-            "simpleText": "Tajik"
-          }
-        },
-        {
-          "languageCode": "ta",
-          "languageName": {
-            "simpleText": "Tamil"
-          }
-        },
-        {
-          "languageCode": "tt",
-          "languageName": {
-            "simpleText": "Tatar"
-          }
-        },
-        {
-          "languageCode": "te",
-          "languageName": {
-            "simpleText": "Telugu"
-          }
-        },
-        {
-          "languageCode": "th",
-          "languageName": {
-            "simpleText": "Thai"
-          }
-        },
-        {
-          "languageCode": "ti",
-          "languageName": {
-            "simpleText": "Tigrinya"
-          }
-        },
-        {
-          "languageCode": "ts",
-          "languageName": {
-            "simpleText": "Tsonga"
-          }
-        },
-        {
-          "languageCode": "tr",
-          "languageName": {
-            "simpleText": "Turkish"
-          }
-        },
-        {
-          "languageCode": "tk",
-          "languageName": {
-            "simpleText": "Turkmen"
-          }
-        },
-        {
-          "languageCode": "uk",
-          "languageName": {
-            "simpleText": "Ukrainian"
-          }
-        },
-        {
-          "languageCode": "ur",
-          "languageName": {
-            "simpleText": "Urdu"
-          }
-        },
-        {
-          "languageCode": "ug",
-          "languageName": {
-            "simpleText": "Uyghur"
-          }
-        },
-        {
-          "languageCode": "uz",
-          "languageName": {
-            "simpleText": "Uzbek"
-          }
-        },
-        {
-          "languageCode": "vi",
-          "languageName": {
-            "simpleText": "Vietnamese"
-          }
-        },
-        {
-          "languageCode": "cy",
-          "languageName": {
-            "simpleText": "Welsh"
-          }
-        },
-        {
-          "languageCode": "fy",
-          "languageName": {
-            "simpleText": "Western Frisian"
-          }
-        },
-        {
-          "languageCode": "xh",
-          "languageName": {
-            "simpleText": "Xhosa"
-          }
-        },
-        {
-          "languageCode": "yi",
-          "languageName": {
-            "simpleText": "Yiddish"
-          }
-        },
-        {
-          "languageCode": "yo",
-          "languageName": {
-            "simpleText": "Yoruba"
-          }
-        },
-        {
-          "languageCode": "zu",
-          "languageName": {
-            "simpleText": "Zulu"
-          }
-        }
-      ],
-      "defaultAudioTrackIndex": 0
+    "videostatsDefaultFlushIntervalSeconds": 40,
+    "youtubeRemarketingUrl": {
+      "baseUrl": "https://www.youtube.com/pagead/viewthroughconversion/962985656/?backend=innertube&cname=62&cver=1_20000101&foc_id=dKIA43AzmdTR-84VyDUeyw&label=followon_view&ptype=no_rmkt&random=1068543925",
+      "elapsedMediaTimeSeconds": 0
     }
   },
   "videoDetails": {
-    "videoId": "Z-7oADTqthQ",
-    "title": "HIGHLIGHTS | ARGENTINA v FRANCE | July Internationals 2024 | Second Test",
-    "lengthSeconds": "342",
+    "videoId": "vJz8QzO1VzQ",
+    "title": "Shades of Black 12K HDR 60fps / Dolby Vision",
+    "lengthSeconds": "1344",
     "keywords": [
-      "Super Rugby Pacific",
-      "Super Rugby",
-      "Super Rugby highlights",
-      "rugby highlights",
-      "australia rugby",
-      "new zealand rugby",
-      "all blacks",
-      "fiji rugby",
-      "fiji",
-      "fiji rugby highlights",
-      "match highlights"
+      "dolby vision",
+      "nature timelapse",
+      "12k hdr 60fps",
+      "4k hdr10 monitor",
+      "wild animals",
+      "dolby audio",
+      "8k hdr demo",
+      "8k hd video",
+      "8k wallpaper",
+      "8k hdr 60fps",
+      "4k hdr 60fps",
+      "8k resolution",
+      "8k hdr 120fps",
+      "12k hdr",
+      "animals",
+      "8k hdr 10 plus",
+      "12k video",
+      "dolby atmos",
+      "hdr 8k 60fps",
+      "8k camera",
+      "8k video ultra hd 120 fps",
+      "8k monitor",
+      "8k hdr",
+      "4k hdr",
+      "miniled",
+      "8k oled",
+      "4k hdr10",
+      "8k video",
+      "8k videos",
+      "lg 8k hdr",
+      "qled 8k hdr",
+      "lg 8k video",
+      "insect",
+      "8k demo",
+      "8k 60fps",
+      "oled",
+      "qled",
+      "tv",
+      "8k tv",
+      "oled tv"
     ],
-    "channelId": "UCDOGExGCsrrt_RrGDgLuMww",
+    "channelId": "UCdKIA43AzmdTR-84VyDUeyw",
     "isOwnerViewing": false,
-    "shortDescription": "HIGHLIGHTS | ARGENTINA v FRANCE | July Internationals 2024 | Second Test\n\nArgentina secured their first win over France in eight years on Saturday, clinching a series draw in Buenos Aires.\n\nSUBSCRIBE FOR MORE INTERNATIONAL RUGBY: https://www.youtube.com/user/SanzarRugby\n \nAll Super Rugby, International, & The Rugby Championship Highlights: https://www.youtube.com/user/SanzarRugby \n \nFollow us @superrugby on all social media.\n\n#ARGvFRA",
+    "shortDescription": "High Quality HDR 12K VIDEO ULTRA HD 120FPS, 60FPS, 30FPS For Your HDR 8K resolution devices. Amazing combination of 12k sensor and one of the sharpest lenses in the world Zeiss Otus set in addition of HDR brings image to life! You can use this collection of Hight Resolution clips in your Tv For The Living Room, Office, Lounge, Waiting Room, Spa, Showroom, Restaurant and more. Play It On Your LG Qled TV, Samsung Oled TV, Smart TV, Sony Device, Samsung Technology, Roku, Apple TV, IPad Pro, Apple XDR, Chromecast, Xbox, Playstation and more.\n\n📹  Note: To view at 8K 60P you will need to use Chrome & opera.\n\n📹  All Videos was shot, edited & color graded by me.\nTHESE 8K VIDEOS ARE FOR TV'S FOR DEMO AND TEST THE QUALITY OF ALL 8K TV'S.\n\n= I have done High color correction,  Color changing, Raw Videos editing, HDR color Setting, merge files & 8K Export file etc.\n\nEditing Video by\nPREETI NAAGAR\n\nThis video created for entertainment informative, educational purposes and Film & Animation.\n( Wild animals , Nature, Timelapse nature, Insect  )\n\n    \nEditing Software\nAdobe premiere pro \n\nALL CREDIT GOES TO YOUTUBE\n\nCopyright\n= All The footage Was Edited And Color Corrected By Me.\n= Video Footage Copyright Under License.\n\nAll other rights reserved.\n\n#12kHDR #DolbyVision #DolbyAtmos",
     "isCrawlable": true,
     "thumbnail": {
       "thumbnails": [
         {
-          "url": "https://i.ytimg.com/vi/Z-7oADTqthQ/default.jpg",
+          "url": "https://i.ytimg.com/vi_webp/vJz8QzO1VzQ/default.webp",
           "width": 120,
           "height": 90
         },
         {
-          "url": "https://i.ytimg.com/vi/Z-7oADTqthQ/mqdefault.jpg",
+          "url": "https://i.ytimg.com/vi_webp/vJz8QzO1VzQ/mqdefault.webp",
           "width": 320,
           "height": 180
         },
         {
-          "url": "https://i.ytimg.com/vi/Z-7oADTqthQ/hqdefault.jpg",
+          "url": "https://i.ytimg.com/vi_webp/vJz8QzO1VzQ/hqdefault.webp",
           "width": 480,
           "height": 360
         },
         {
-          "url": "https://i.ytimg.com/vi/Z-7oADTqthQ/sddefault.jpg",
+          "url": "https://i.ytimg.com/vi_webp/vJz8QzO1VzQ/sddefault.webp",
           "width": 640,
           "height": 480
         },
         {
-          "url": "https://i.ytimg.com/vi/Z-7oADTqthQ/maxresdefault.jpg",
+          "url": "https://i.ytimg.com/vi_webp/vJz8QzO1VzQ/maxresdefault.webp",
           "width": 1920,
           "height": 1080
         }
       ]
     },
     "allowRatings": true,
-    "viewCount": "115864",
-    "author": "SUPER RUGBY PACIFIC & TRC",
+    "viewCount": "3507269",
+    "author": "8K HDR WORLD",
     "isPrivate": false,
     "isUnpluggedCorpus": false,
     "isLiveContent": false
   },
-  "annotations": [
-    {
-      "playerAnnotationsExpandedRenderer": {
-        "featuredChannel": {
-          "startTimeMs": "0",
-          "endTimeMs": "342000",
-          "watermark": {
-            "thumbnails": [
-              {
-                "url": "https://i.ytimg.com/an/DOGExGCsrrt_RrGDgLuMww/featured_channel.jpg?v=62eb3dbf",
-                "width": 40,
-                "height": 40
-              }
-            ]
-          },
-          "trackingParams": "CAEQ8zciEwjItvjMzaaHAxUthOQGHUn1AaU=",
-          "navigationEndpoint": {
-            "clickTrackingParams": "CAEQ8zciEwjItvjMzaaHAxUthOQGHUn1AaUyAml2",
-            "commandMetadata": {
-              "webCommandMetadata": {
-                "url": "/channel/UCDOGExGCsrrt_RrGDgLuMww",
-                "webPageType": "WEB_PAGE_TYPE_CHANNEL",
-                "rootVe": 3611,
-                "apiUrl": "/youtubei/v1/browse"
-              }
-            },
-            "browseEndpoint": {
-              "browseId": "UCDOGExGCsrrt_RrGDgLuMww"
-            }
-          },
-          "channelName": "SUPER RUGBY PACIFIC & TRC",
-          "subscribeButton": {
-            "subscribeButtonRenderer": {
-              "buttonText": {
-                "runs": [
-                  {
-                    "text": "SUBSCRIBE"
-                  }
-                ]
-              },
-              "subscribed": false,
-              "enabled": true,
-              "type": "FREE",
-              "channelId": "UCDOGExGCsrrt_RrGDgLuMww",
-              "showPreferences": false,
-              "subscribedButtonText": {
-                "runs": [
-                  {
-                    "text": "SUBSCRIBED"
-                  }
-                ]
-              },
-              "unsubscribedButtonText": {
-                "runs": [
-                  {
-                    "text": "SUBSCRIBE"
-                  }
-                ]
-              },
-              "trackingParams": "CAIQmysiEwjItvjMzaaHAxUthOQGHUn1AaUyAml2",
-              "unsubscribeButtonText": {
-                "runs": [
-                  {
-                    "text": "UNSUBSCRIBE"
-                  }
-                ]
-              },
-              "signInEndpoint": {
-                "clickTrackingParams": "CAIQmysiEwjItvjMzaaHAxUthOQGHUn1AaU=",
-                "commandMetadata": {
-                  "webCommandMetadata": {
-                    "url": "https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fchannel%252FUCDOGExGCsrrt_RrGDgLuMww%26feature%3Div%26continue_action%3DQUFFLUhqbFpZODFJMndoUDJFT3NfZkdkVWNfU0gwbGNBZ3xBQ3Jtc0trejdLZVowLU5uS24ycU9OaG9zQVhXUDN1SXl4OVJWaWEzdTZlM0ZSUHhBM0U3QTJKbzdmR3V0aWhBVnJwXzhYXzQxR0tLUVlDbTFCbGVoN25BazVIWnpNb2hjamN3eXNaSm5ranlPeVZMNTNCQUhmR1h3QkV2R2tSNklPTV9FXy1wWGp2N2pLTkI3SkhKTl9VajdlQV96VVdsMDF0SDdabmlFY0pZeHV2Ujh6RWcybjZacmhuUVYwRXlKUUI0MUxYV09fSG0%253D&hl=en"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "allowSwipeDismiss": true
-      }
-    }
-  ],
   "playerConfig": {
     "audioConfig": {
-      "loudnessDb": -8.190001,
-      "perceptualLoudnessDb": -22.19,
+      "loudnessDb": 0.8800001,
+      "perceptualLoudnessDb": -13.12,
       "enablePerFormatLoudness": true
     },
     "streamSelectionConfig": {
-      "maxBitrate": "18390000"
+      "maxBitrate": "44290000"
     },
     "mediaCommonConfig": {
       "dynamicReadaheadConfig": {
@@ -1490,18 +1266,18 @@
   },
   "storyboards": {
     "playerStoryboardSpecRenderer": {
-      "spec": "https://i.ytimg.com/sb/Z-7oADTqthQ/storyboard3_L$L/$N.jpg?sqp=-oaymwENSDfyq4qpAwVwAcABBqLzl_8DBgi7xc20Bg==|48#27#100#10#10#0#default#rs$AOn4CLBF3w0XWYEmGbM_zZS35ex8F6NdAQ|80#45#70#10#10#5000#M$M#rs$AOn4CLBPZ7joO5IzF6-vf6-n-0P6aVPtUg|160#90#70#5#5#5000#M$M#rs$AOn4CLBzFH9aLOA9iJUMqcpfkEVBMXF9ZQ",
+      "spec": "https://i.ytimg.com/sb/vJz8QzO1VzQ/storyboard3_L$L/$N.jpg?sqp=-oaymwENSDfyq4qpAwVwAcABBqLzl_8DBgjX_cORBg==|48#27#100#10#10#0#default#rs$AOn4CLBf4n1Yp9Ojygl3YYNXrjeb8Kwl4g|80#45#136#10#10#10000#M$M#rs$AOn4CLBR4Y4MYJR74OBdLZyrpjS7td3FXw|160#90#136#5#5#10000#M$M#rs$AOn4CLC3iYMMekjSW7WNKXBJ3ZtbhLyu_A",
       "recommendedLevel": 2
     }
   },
-  "trackingParams": "CAAQu2kiEwjItvjMzaaHAxUthOQGHUn1AaU=",
+  "trackingParams": "CAAQu2kiEwi8pPXXuaiHAxUpmuQGHRXyCr4=",
   "attestation": {
     "playerAttestationRenderer": {
-      "challenge": "a=6&a2=1&b=kUFEhHOFXoTUYT9t1UdVq1kT75U&c=1720962686&d=62&e=Z-7oADTqthQ&c1a=1&c6a=1&c6b=1&hh=VFfLm2jz9HcjP_WuPtBDiUfqA_WVAUDgDRzp1v0wAJk",
+      "challenge": "a=6&a2=1&b=5PbCqZJ_NP2TaIy-2XP8FrkDE2s&c=1721026060&d=62&e=vJz8QzO1VzQ&c1a=1&c6a=1&c6b=1&hh=XHKtWYa-cmgAwj3OkLOAG0et0uHnYX7rJtG_7nTHI0o",
       "botguardData": {
-        "program": "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",
+        "program": "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",
         "interpreterSafeUrl": {
-          "privateDoNotAccessOrElseTrustedResourceUrlWrappedValue": "//www.google.com/js/th/1-RCIfP0KXOvaDHMtx29SE8GeCv_uGsxfbqOqrjHgEE.js"
+          "privateDoNotAccessOrElseTrustedResourceUrlWrappedValue": "//www.google.com/js/th/PyoWIKkwj4m1wMk2f1-w9rQCk_5J-pQ6HWoFKts5VH8.js"
         },
         "serverEnvironment": 1
       }
