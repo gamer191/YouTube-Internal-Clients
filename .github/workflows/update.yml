@@ -8,7 +8,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        client: [0,3,11,12,17,20,22,24,25,32,34,35,36,37,40,53,54,73,86,91]
+        client: [3,55]
     runs-on: ubuntu-latest
     steps:
       - run: curl https://github.com/gamer191/YouTube-Internal-Clients/archive/refs/heads/forced-brute.zip -L -o forcedbrute.zip
