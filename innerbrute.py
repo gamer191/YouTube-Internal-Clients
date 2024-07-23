@@ -7,15 +7,21 @@ client_number = sys.argv[1]
 client_versions = open('payloads/all_possible_version_numbers.txt', 'r').readlines()
 data_template = open('payloads/post_data.txt', 'r').read()
 
-headers = {
-            'Origin': 'https://www.youtube.com',
-            'Referer': 'https://www.youtube.com/',
-            'Accept-Language': 'de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.52',
-        }
 count=0
 requestset = set({})
 for client_version in client_versions:
+            if client_number in [3,10,14,18,21,23,28,29,30,38,55,63,74,91]:
+                        user_agent = f'com.google.android.youtube/{client_version} (Linux; U; Android 12; GB) gzip'
+            elif client_number in [5,15,16,19,26,33,39,64,68,101]:
+                        user_agent = f'com.google.ios.youtube/{client_version} (iPhone6,2; U; CPU iOS 12_5_6 like Mac OS X; en_AU)'
+            else:
+                        user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.52'
+            headers = {
+                        'Origin': 'https://www.youtube.com',
+                        'Referer': 'https://www.youtube.com/',
+                        'Accept-Language': 'de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+                        'User-Agent': user_agent,
+            }
             while True:
                         redo=0
                         client_version = client_version.replace('\n', '').replace('\r', '')
