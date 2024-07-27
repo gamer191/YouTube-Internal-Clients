@@ -30,7 +30,7 @@ for client_version in client_versions:
         {
             'number': '1',
             'api': 'www.youtube.com',
-            'video_id': 'vJz8QzO1VzQ',
+            'video_id': '3YW3W5RPV-0',
             'domain': 'www.youtube.com',
             'key': 'AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8',
             'headers': {
@@ -43,7 +43,7 @@ for client_version in client_versions:
         {
             'number': '2',
             'api': 'youtube kids',
-            'video_id': 'pckuS--UlV4',
+            'video_id': '3YW3W5RPV-0',
             'domain': 'www.youtubekids.com',
             'key': 'AIzaSyBbZV_fZ3an51sF-mvs5w37OqqbsTOzwtU',
             'headers': {
@@ -56,7 +56,7 @@ for client_version in client_versions:
         {
             'number': '3',
             'api': 'youtube music',
-            'video_id': 'RY607kB2QiU',
+            'video_id': '3YW3W5RPV-0',
             'domain': 'music.youtube.com',
             'key': 'AIzaSyC9XL3ZjWddXya6X74dJoCTL-WEYFDNX30',
             'headers': {
@@ -69,7 +69,7 @@ for client_version in client_versions:
         {
             'number': '4',
             'api': 'Google Drive',
-            'video_id': 'vJz8QzO1VzQ',
+            'video_id': '3YW3W5RPV-0',
             'domain': 'clients6.google.com',
             'key': 'AIzaSyD_InbmSFufIEps5UAt2NmB_3LvBH3Sz_8',
             'headers': {
