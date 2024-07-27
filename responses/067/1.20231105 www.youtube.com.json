@@ -1,17 +1,17 @@
 {
   "responseContext": {
-    "visitorData": "CgtuY0lNbjZDaXFQVSjUjdO0BjIKCgJVUxIEGgAgSQ%3D%3D",
+    "visitorData": "CgtHd1lYdkg3cGNIVSjKupK1BjIKCgJVUxIEGgAgSg%3D%3D",
     "serviceTrackingParams": [
       {
         "service": "GFEEDBACK",
         "params": [
           {
-            "key": "ipcc",
-            "value": "0"
-          },
-          {
             "key": "is_viewed_live",
             "value": "False"
+          },
+          {
+            "key": "ipcc",
+            "value": "0"
           },
           {
             "key": "is_alc_surface",
@@ -23,7 +23,7 @@
           },
           {
             "key": "e",
-            "value": "23804281,23946420,23966208,23998056,24004644,24077241,24181174,24187920,24208765,24241378,24290971,24439361,24445497,24456089,24468724,24542367,24543668,24548627,24548629,24566687,39326848,51009781,51010235,51016856,51017346,51020570,51025415,51030103,51033765,51037342,51037353,51041512,51050361,51053689,51057848,51057857,51060353,51063643,51064835,51065188,51089007,51091331,51098297,51098299,51102410,51105628,51111738,51113658,51113663,51115184,51116067,51117318,51118932,51120722,51124104,51129209,51133103,51139379,51144925,51145330,51148688,51148869,51148974,51148981,51149607,51152050,51152102,51157411,51157838,51158514,51159756,51160545,51162170,51162349,51163639,51165466,51165568,51170249,51172674,51172684,51172693,51172700,51172707,51172714,51172719,51172728,51175732,51176511,51177817,51178316,51178337,51178348,51178351,51178706,51178982,51183910,51184022,51186494,51186528,51187241,51188415,51189505,51189518,51189826,51190039,51190061,51190073,51190082,51190087,51190198,51190213,51190216,51190227,51190652,51195231,51195410,51195454,51196863,51197685,51197690,51197699,51197708,51197960,51198107,51199193,51200020,51200253,51200260,51200295,51200298,51200568,51201350,51201367,51201372,51201381,51201428,51201433,51201444,51201449,51201814,51202232,51204329,51204585,51207182,51207185,51207198,51207209,51209088,51212466,51212555,51212571,51213808,51213888,51216161,51217504,51219303,51219800,51219963,51220795,51221011,51221146,51223961,51224748,51224921,51225437,51226344,51226685,51227263,51227393,51227772,51227903,51228202,51228765,51228778,51228787,51228798,51228807,51228812,51229066,51230122,51230477,51230492,51232142,51232639,51235402,51239330,51240878,51240890"
+            "value": "23804281,23946420,23966208,23998056,24004644,24077241,24181174,24186126,24208765,24241378,24290971,24439361,24456089,24468724,24499534,24542367,24548629,24566687,39326848,39326916,51009781,51010235,51016856,51017346,51020570,51025415,51041512,51043775,51050361,51053689,51060353,51063643,51064835,51065188,51076856,51089007,51091331,51098297,51098299,51102409,51111738,51114643,51115184,51116067,51124104,51133103,51139379,51148688,51149607,51152050,51157411,51157838,51158514,51159756,51160545,51162170,51165467,51165568,51169118,51170247,51176511,51176608,51177818,51178982,51183909,51184022,51185142,51186528,51189826,51190652,51195231,51196863,51199193,51200568,51204329,51204585,51211864,51213807,51217274,51217504,51219800,51221011,51223962,51224747,51227881,51228202,51228349,51228352,51230478,51230492,51231813,51231864,51235402,51236017,51237842,51238486,51238569,51238737,51240941,51241028,51241600,51242448,51243940,51246265,51246799,51248255,51251436,51251508,51251674"
           }
         ]
       },
@@ -44,7 +44,7 @@
           },
           {
             "key": "GetPlayer_rid",
-            "value": "0x0d12ce63c5b40e62"
+            "value": "0xd0668525744b5318"
           }
         ]
       },
@@ -65,19 +65,52 @@
     "maxAgeSeconds": 0
   },
   "playabilityStatus": {
-    "status": "UNPLAYABLE",
-    "reason": "This video is not available",
+    "status": "ERROR",
+    "reason": "This video is unavailable",
     "errorScreen": {
       "playerErrorMessageRenderer": {
+        "subreason": {
+          "runs": [
+            {
+              "text": "Watch on the latest version of YouTube.",
+              "navigationEndpoint": {
+                "clickTrackingParams": "CAAQu2kiEwiXg7yI1caHAxVrheQGHcQ3EDc=",
+                "urlEndpoint": {
+                  "url": "market://details?id=com.google.android.youtube&url=https%3A%2F%Fwww.youtube.com%2Fwatch%3Fv%3D3YW3W5RPV-0",
+                  "target": "TARGET_NEW_WINDOW"
+                }
+              }
+            }
+          ]
+        },
+        "learnMore": {
+          "runs": [
+            {
+              "text": "Learn more",
+              "navigationEndpoint": {
+                "clickTrackingParams": "CAAQu2kiEwiXg7yI1caHAxVrheQGHcQ3EDc=",
+                "urlEndpoint": {
+                  "url": "//support.google.com/youtube/answer/12318250?hl=en",
+                  "target": "TARGET_NEW_WINDOW"
+                }
+              }
+            }
+          ]
+        },
         "reason": {
           "runs": [
             {
-              "text": "This video is not available"
+              "text": "The following content is not available on this app."
             }
           ]
         },
         "thumbnail": {
           "thumbnails": [
+            {
+              "url": "//s.ytimg.com/yts/img/meh7-vflGevej7.png",
+              "width": 140,
+              "height": 100
+            },
             {
               "url": "//s.ytimg.com/yts/img/meh7-vflGevej7.png",
               "width": 140,
@@ -90,153 +123,8 @@
         }
       }
     },
-    "contextParams": "Q0FFU0FnZ0M="
+    "contextParams": "Q0FFU0FnZ0I="
   },
-  "videoDetails": {
-    "videoId": "vJz8QzO1VzQ",
-    "title": "Shades of Black 12K HDR 60fps / Dolby Vision",
-    "lengthSeconds": "1344",
-    "channelId": "UCdKIA43AzmdTR-84VyDUeyw",
-    "isOwnerViewing": false,
-    "isCrawlable": true,
-    "thumbnail": {
-      "thumbnails": [
-        {
-          "url": "https://i.ytimg.com/vi_webp/vJz8QzO1VzQ/mqdefault.webp",
-          "width": 320,
-          "height": 180
-        },
-        {
-          "url": "https://i.ytimg.com/vi/vJz8QzO1VzQ/hqdefault.jpg?sqp=-oaymwEXCJADEOABSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLButg43U1gWVdfkV6I94dpGM3tTDA",
-          "width": 400,
-          "height": 224
-        },
-        {
-          "url": "https://i.ytimg.com/vi/vJz8QzO1VzQ/hq720.jpg?sqp=-oaymwEXCKAGEMIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBK0uALYuE_g1fAXJ6irHNmXgDC8w",
-          "width": 800,
-          "height": 450
-        },
-        {
-          "url": "https://i.ytimg.com/vi_webp/vJz8QzO1VzQ/hq720.webp",
-          "width": 1280,
-          "height": 720
-        }
-      ]
-    },
-    "allowRatings": true,
-    "viewCount": "3507269",
-    "author": "8K HDR WORLD",
-    "isPrivate": false,
-    "isUnpluggedCorpus": false,
-    "isLiveContent": false
-  },
-  "microformat": {
-    "microformatDataRenderer": {
-      "urlCanonical": "https://music.youtube.com/watch?v=vJz8QzO1VzQ",
-      "title": "Shades of Black 12K HDR 60fps / Dolby Vision - YouTube Music",
-      "description": "High Quality HDR 12K VIDEO ULTRA HD 120FPS, 60FPS, 30FPS For Your HDR 8K resolution devices. Amazing combination of 12k sensor and one of the sharpest lenses...",
-      "thumbnail": {
-        "thumbnails": [
-          {
-            "url": "https://i.ytimg.com/vi/vJz8QzO1VzQ/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
-        ]
-      },
-      "siteName": "YouTube Music",
-      "appName": "YouTube Music",
-      "androidPackage": "com.google.android.apps.youtube.music",
-      "iosAppStoreId": "1017492454",
-      "iosAppArguments": "https://music.youtube.com/watch?v=vJz8QzO1VzQ",
-      "ogType": "video.other",
-      "urlApplinksIos": "vnd.youtube.music://music.youtube.com/watch?v=vJz8QzO1VzQ&feature=applinks",
-      "urlApplinksAndroid": "vnd.youtube.music://music.youtube.com/watch?v=vJz8QzO1VzQ&feature=applinks",
-      "urlTwitterIos": "vnd.youtube.music://music.youtube.com/watch?v=vJz8QzO1VzQ&feature=twitter-deep-link",
-      "urlTwitterAndroid": "vnd.youtube.music://music.youtube.com/watch?v=vJz8QzO1VzQ&feature=twitter-deep-link",
-      "twitterCardType": "player",
-      "twitterSiteHandle": "@YouTubeMusic",
-      "schemaDotOrgType": "http://schema.org/VideoObject",
-      "noindex": false,
-      "unlisted": false,
-      "paid": false,
-      "familySafe": false,
-      "tags": [
-        "dolby vision",
-        "nature timelapse",
-        "12k hdr 60fps",
-        "4k hdr10 monitor",
-        "wild animals",
-        "dolby audio",
-        "8k hdr demo",
-        "8k hd video",
-        "8k wallpaper",
-        "8k hdr 60fps",
-        "4k hdr 60fps",
-        "8k resolution",
-        "8k hdr 120fps",
-        "12k hdr",
-        "animals",
-        "8k hdr 10 plus",
-        "12k video",
-        "dolby atmos",
-        "hdr 8k 60fps",
-        "8k camera",
-        "8k video ultra hd 120 fps",
-        "8k monitor",
-        "8k hdr",
-        "4k hdr",
-        "miniled",
-        "8k oled",
-        "4k hdr10",
-        "8k video",
-        "8k videos",
-        "lg 8k hdr",
-        "qled 8k hdr",
-        "lg 8k video",
-        "insect",
-        "8k demo",
-        "8k 60fps",
-        "oled",
-        "qled",
-        "tv",
-        "8k tv",
-        "oled tv"
-      ],
-      "pageOwnerDetails": {
-        "name": "8K HDR WORLD",
-        "externalChannelId": "UCdKIA43AzmdTR-84VyDUeyw",
-        "youtubeProfileUrl": "http://www.youtube.com/@8khdrworld"
-      },
-      "videoDetails": {
-        "externalVideoId": "vJz8QzO1VzQ",
-        "durationSeconds": "1344",
-        "durationIso8601": "PT22M24S"
-      },
-      "linkAlternates": [
-        {
-          "hrefUrl": "android-app://com.google.android.youtube/http/youtube.com/watch?v=vJz8QzO1VzQ"
-        },
-        {
-          "hrefUrl": "ios-app://544007664/http/youtube.com/watch?v=vJz8QzO1VzQ"
-        },
-        {
-          "hrefUrl": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fmusic.youtube.com%2Fwatch%3Fv%3DvJz8QzO1VzQ",
-          "title": "Shades of Black 12K HDR 60fps / Dolby Vision",
-          "alternateType": "application/json+oembed"
-        },
-        {
-          "hrefUrl": "https://www.youtube.com/oembed?format=xml&url=https%3A%2F%2Fmusic.youtube.com%2Fwatch%3Fv%3DvJz8QzO1VzQ",
-          "title": "Shades of Black 12K HDR 60fps / Dolby Vision",
-          "alternateType": "text/xml+oembed"
-        }
-      ],
-      "viewCount": "3507269",
-      "publishDate": "2022-03-17T05:26:34-07:00",
-      "category": "Film & Animation",
-      "uploadDate": "2022-03-17T05:26:34-07:00"
-    }
-  },
-  "trackingParams": "CAAQu2kiEwi88oe3uqiHAxVvmOUHHZodDns=",
+  "trackingParams": "CAAQu2kiEwiXg7yI1caHAxVrheQGHcQ3EDc=",
   "adBreakHeartbeatParams": "Q0FBJTNE"
 }
