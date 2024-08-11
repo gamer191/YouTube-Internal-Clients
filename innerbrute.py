@@ -43,7 +43,7 @@ for client_version in client_versions:
         {
             'number': '2',
             'api': 'youtube kids',
-            'video_id': '3YW3W5RPV-0',
+            'video_id': 'YmpCe68y6SM',
             'domain': 'www.youtubekids.com',
             'key': 'AIzaSyBbZV_fZ3an51sF-mvs5w37OqqbsTOzwtU',
             'headers': {
@@ -69,7 +69,7 @@ for client_version in client_versions:
         {
             'number': '4',
             'api': 'Google Drive',
-            'video_id': '3YW3W5RPV-0',
+            'video_id': 'YmpCe68y6SM',
             'domain': 'clients6.google.com',
             'key': 'AIzaSyD_InbmSFufIEps5UAt2NmB_3LvBH3Sz_8',
             'headers': {
