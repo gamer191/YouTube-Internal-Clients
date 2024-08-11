@@ -92,10 +92,10 @@ for client_version in client_versions:
                 time.sleep(0.5)
                 continue
             print(f'ClientId: {client_number} ClientVersion: {client_version} @ {host["api"]}Response Code: {response.status_code}')
-            if "This helps protect our community" in str(response.text):
+            if ("Sign in to confirm you’re not a bot" in str(response.text)) or ("This helps protect our community" in str(response.text)):
                 print("Bot detected")
                 print(response.text)
-                continue
+                break
             if response.status_code == 200:
                 out = open(f'{response_directory}/{client_version} {host["api"]}.json', 'w', encoding='utf-8')
                 out.write(response.text)
