@@ -8,7 +8,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        client: [18,19,74,76]
+        client: [27,56]
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
