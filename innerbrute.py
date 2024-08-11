@@ -93,6 +93,8 @@ for client_version in client_versions:
                 continue
             print(f'ClientId: {client_number} ClientVersion: {client_version} @ {host["api"]}Response Code: {response.status_code}')
             if "This helps protect our community" in str(response.text):
+                print("Bot detected")
+                print(response.text)
                 continue
             if response.status_code == 200:
                 out = open(f'{response_directory}/{client_version} {host["api"]}.json', 'w', encoding='utf-8')
